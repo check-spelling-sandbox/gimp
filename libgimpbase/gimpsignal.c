@@ -88,7 +88,7 @@ gimp_signal_private (gint                   signum,
    */
   sa.sa_handler = handler;
 
-  /*  Mask all signals while handler runs to avoid re-entrancy
+  /*  Mask all signals while handler runs to avoid reentrancy
    *  problems.
    */
   sigfillset (&sa.sa_mask);
