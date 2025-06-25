@@ -793,7 +793,7 @@ gimp_load_config (Gimp  *gimp,
       /* Playground preferences is shown by default for unstable
        * versions and if the associated CLI option was set. Additionally
        * we want to show it if any of the playground options had been
-       * enabled. Otherwise you might end up getting blocked with a
+       * enabled. Otherwise, you might end up getting blocked with a
        * playground feature and forget where you can even disable it.
        *
        * Also we check this once at start when loading config, and not

@@ -179,7 +179,7 @@ gimp_xml_parser_parse_fd (GimpXmlParser  *parser,
  * This function tries to determine the character encoding from the
  * XML header and converts the content to UTF-8 for you. For this
  * feature to work, the XML header with the encoding attribute must be
- * contained in the first 4096 bytes read. Otherwise UTF-8 encoding
+ * contained in the first 4096 bytes read. Otherwise, UTF-8 encoding
  * will be assumed and parsing may break later if this assumption
  * was wrong.
  *

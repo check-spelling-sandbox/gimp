@@ -670,7 +670,7 @@ film (GimpProcedureConfig *config)
 }
 
 /* Unreasonable values are reset to a default. */
-/* If this is not possible, FALSE is returned. Otherwise TRUE is returned. */
+/* If this is not possible, FALSE is returned. Otherwise, TRUE is returned. */
 static gboolean
 check_filmvals (GimpProcedureConfig  *config,
                 GError              **error)

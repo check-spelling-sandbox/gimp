@@ -234,7 +234,7 @@ gimp_help_set_help_data_with_markup (GtkWidget   *widget,
  *
  * If the widget the user clicked on has a @help_id string attached
  * (see gimp_help_set_help_data()), the corresponding help page will
- * be displayed. Otherwise the help system will ascend the widget hierarchy
+ * be displayed. Otherwise, the help system will ascend the widget hierarchy
  * until it finds an attached @help_id string (which should be the
  * case at least for every window/dialog).
  **/

@@ -1873,7 +1873,7 @@ load_profile (TIFF *tif)
 
 #ifdef TIFFTAG_ICCPROFILE
   /* If TIFFTAG_ICCPROFILE is defined we are dealing with a
-   * libtiff version that can handle ICC profiles. Otherwise just
+   * libtiff version that can handle ICC profiles. Otherwise, just
    * return a NULL profile.
    */
   uint32_t  profile_size;

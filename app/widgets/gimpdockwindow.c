@@ -1271,7 +1271,7 @@ gimp_dock_window_has_toolbox (GimpDockWindow *dock_window)
  * For convenience.
  *
  * Returns: If the toplevel widget for the dock is a GimpDockWindow,
- * return that. Otherwise return %NULL.
+ * return that. Otherwise, return %NULL.
  **/
 GimpDockWindow *
 gimp_dock_window_from_dock (GimpDock *dock)

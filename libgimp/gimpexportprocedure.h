@@ -46,7 +46,7 @@ G_BEGIN_DECLS
  * each time a plug-in export procedure is called.
  *
  * If a MimeType was passed in gimp_export_procedure_new(), then @metadata will be
- * non-%NULL and can be tweaked by the run() function if needed. Otherwise you
+ * non-%NULL and can be tweaked by the run() function if needed. Otherwise, you
  * can let it as-is and it will be stored back into the exported @file according
  * to rules on metadata export shared across formats.
  *

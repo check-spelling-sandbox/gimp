@@ -1156,7 +1156,7 @@ gimp_ui_manager_popup_hidden (GtkMenuShell *popup,
                               gpointer      user_data)
 {
   /* Destroying the popup would happen after we finish all other events related
-   * to this popup. Otherwise the action which might have been activated will
+   * to this popup. Otherwise, the action which might have been activated will
    * not run because it happens after hiding.
    */
   g_idle_add ((GSourceFunc) gimp_ui_manager_popup_destroy, g_object_ref (popup));

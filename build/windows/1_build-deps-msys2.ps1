@@ -68,7 +68,7 @@ function self_build ([string]$dep, [string]$unstable_branch, [string]$stable_pat
       {
         $repo="https://gitlab.gnome.org/GNOME/$dep.git"
         # For tagged jobs (i.e. release or test jobs for upcoming releases), use the
-        # last tag. Otherwise use the default branch's HEAD.
+        # last tag. Otherwise, use the default branch's HEAD.
         if ($CI_COMMIT_TAG)
           {
             $tagprefix="$dep".ToUpper()

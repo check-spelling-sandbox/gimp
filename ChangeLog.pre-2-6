@@ -14652,7 +14652,7 @@
 2007-12-02  Sven Neumann  <sven@gimp.org>
 
 	* plug-ins/jpeg/jpeg-load.c (jpeg_load_resolution): only set the
-	resolution if X_density and Y_density are not zero. Otherwise the
+	resolution if X_density and Y_density are not zero. Otherwise, the
 	default resolution would be used anyway and the user sees an
 	annoying and confusion warning.
 

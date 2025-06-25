@@ -5498,7 +5498,7 @@
 	the size of the frame borders.
 
 	* app/widgets/gimpthumbbox.c: don't set an arbitrary padding but
-	exactly the size of the frame borders. Otherwise we get large
+	exactly the size of the frame borders. Otherwise, we get large
 	thumbnails (scaled down) if we request normal sized ones.
 
 2004-10-07  Kevin Cozens  <kcozens@cvs.gimp.org>

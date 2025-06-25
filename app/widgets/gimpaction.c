@@ -445,7 +445,7 @@ gimp_action_set_visible (GimpAction *action,
 
   /* Only notify when the state actually changed. This is important for
    * handlers such as visibility of menu items in GimpMenuModel which
-   * will assume that the action visibility changed. Otherwise we might
+   * will assume that the action visibility changed. Otherwise, we might
    * remove items by mistake.
    */
   if (priv->visible != visible)

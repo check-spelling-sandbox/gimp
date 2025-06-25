@@ -350,7 +350,7 @@ gimp_drawable_chooser_get_property (GObject    *object,
  *
  * Creates a new #GtkWidget that lets a user choose a drawable which must be of
  * type @drawable_type. @drawable_type of values %G_TYPE_NONE and
- * %GIMP_TYPE_DRAWABLE are equivalent. Otherwise it must be a subtype of
+ * %GIMP_TYPE_DRAWABLE are equivalent. Otherwise, it must be a subtype of
  * %GIMP_TYPE_DRAWABLE.
  *
  * When @drawable is %NULL, initial choice is from context.

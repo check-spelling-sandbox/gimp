@@ -482,7 +482,7 @@ gimp_early_configuration (void)
   /* Language needs to be determined first, before any GimpContext is
    * instantiated (which happens when the Gimp object is created)
    * because its properties need to be properly localized in the
-   * settings language (if different from system language). Otherwise we
+   * settings language (if different from system language). Otherwise, we
    * end up with pieces of GUI always using the system language (cf. bug
    * 787457)
    */

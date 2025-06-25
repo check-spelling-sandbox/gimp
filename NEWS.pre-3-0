@@ -927,7 +927,7 @@ Core:
   - "view-zoom-*" actions are not radio actions anymore.
   - Improve thumbnail loading algorithm:
     1. If there is a GimpThumbnailProcedure, it is run first.
-    2. Otherwise we check if a thumbnail is in the metadata.
+    2. Otherwise, we check if a thumbnail is in the metadata.
     3. As last resort, we just load the full image.
   - Generic inter-process transient window reimplemented using opaque GBytes
     window identifiers instead of guint32. The goal is to have windows created
@@ -1539,7 +1539,7 @@ Core:
     can be assigned as well.
   - If present, the GEGL key "gimp:menu-label" will be used to set the short
     label of the generated action (short labels are typically used in menus since
-    the menu path can serve as context). Otherwise the "title" with appended
+    the menu path can serve as context). Otherwise, the "title" with appended
     "..." is used.
   - GimpAction now have a concept of short vs. long labels, which can be used in
     different places. In particular, in action search, we usually want the long

@@ -221,7 +221,7 @@ endif
 #
 # -- Don't enable these flags project-wide, only files needing them
 # should be built with a given extension, which we do with meson simd
-# module. Otherwise GIMP would end up crashing when run on CPUs which
+# module. Otherwise, GIMP would end up crashing when run on CPUs which
 # don't support all the flags supported by the compiler.
 # See merge request !262 for more details.
 

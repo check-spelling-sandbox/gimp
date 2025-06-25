@@ -156,7 +156,7 @@ create_dialog (GimpProcedure       *procedure,
 
   /*
    * This is to make sure the values from the pcvals will be reflected
-   * in the GUI here. Otherwise they will be set to the defaults.
+   * in the GUI here. Otherwise, they will be set to the defaults.
    * */
   restore_values ();
 

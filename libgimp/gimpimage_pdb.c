@@ -2851,7 +2851,7 @@ gimp_image_get_exported_file (GimpImage *image)
  *
  * This procedure returns the image's name. If the image has a filename
  * or an URI, then the returned name contains the filename's or URI's
- * base name (the last component of the path). Otherwise it is the
+ * base name (the last component of the path). Otherwise, it is the
  * translated string \"Untitled\". The returned name is formatted like
  * the image name in the image window title, it may contain '[]',
  * '(imported)' etc. and should only be used to label user interface

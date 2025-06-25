@@ -1020,7 +1020,7 @@ gimp_gradient_tool_fg_bg_changed (GimpGradientTool *gradient_tool)
 
   if (gimp_gradient_has_fg_bg_segments (gradient_tool->gradient))
     {
-      /* Set a property on the node. Otherwise it will cache and refuse to update */
+      /* Set a property on the node. Otherwise, it will cache and refuse to update */
       gegl_node_set (gradient_tool->render_node,
                      "gradient", gradient_tool->gradient,
                      NULL);
@@ -1040,7 +1040,7 @@ gimp_gradient_tool_gradient_dirty (GimpGradientTool *gradient_tool)
 
   if (! gradient_tool->tentative_gradient)
     {
-      /* Set a property on the node. Otherwise it will cache and refuse to update */
+      /* Set a property on the node. Otherwise, it will cache and refuse to update */
       gegl_node_set (gradient_tool->render_node,
                      "gradient", gradient_tool->gradient,
                      NULL);

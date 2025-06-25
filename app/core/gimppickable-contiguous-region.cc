@@ -407,7 +407,7 @@ gimp_pickable_contiguous_region_by_line_art (GimpPickable  *pickable,
       else /* start_col == 2 */
         {
           /* If you fill over a closure pixel, let's fill on all sides
-           * of the start point. Otherwise we get a very weird result
+           * of the start point. Otherwise, we get a very weird result
            * with only a single pixel filled in the middle of an empty
            * region (since closure pixels are invisible by nature).
            */

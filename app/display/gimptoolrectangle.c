@@ -4121,7 +4121,7 @@ gimp_tool_rectangle_constraint_size_set (GimpToolRectangle *rectangle,
               }
 
             /* Set constraint to the selected layers' dimensions if all
-             * selected layers have the same dimension. Otherwise set to
+             * selected layers have the same dimension. Otherwise, set to
              * image dimensions.
              */
             if (width == 0.0 || height == 0.0)

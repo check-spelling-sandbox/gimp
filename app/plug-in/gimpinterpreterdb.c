@@ -728,7 +728,7 @@ resolve_sh_bang (GimpInterpreterDB  *db,
             {
               /* Shift program name and arguments to the right, if and
                * only if we recorded a specific interpreter for such
-               * script. Otherwise let `env` tool do its job.
+               * script. Otherwise, let `env` tool do its job.
                */
               name = cp;
 
