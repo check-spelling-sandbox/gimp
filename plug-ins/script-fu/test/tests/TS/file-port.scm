@@ -36,7 +36,7 @@
 
 (test! "closing a port a second time throws an error")
 ; FIXME Not tested.  The testing framework doesn't catch, and stops.
-; Note it actually is still a port, but it is not open any more.
+; Note it actually is still a port, but it is not open anymore.
 ;(assert-error `(close-port ,aOutFilePort)
 ;              "Error: not a port")
 

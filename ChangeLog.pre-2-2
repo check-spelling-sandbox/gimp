@@ -505,7 +505,7 @@
 	* app/widgets/gimpcontainertreeview.c
 	(gimp_container_tree_view_clear_items): clear all viewable cell
 	renderers so they don't keep pointers to layers/masks which don't
-	exist any more. Fixes the additional problem in bug #148852 but
+	exist anymore. Fixes the additional problem in bug #148852 but
 	not the bug itself.
 
 2004-12-09  Bill Skaggs <weskaggs@primate.ucdavis.edu>
@@ -4728,7 +4728,7 @@
 	sensitivity logic.
 
 	* app/dialogs/dialogs-constructors.c: changed accordingly. Doesn't
-	include anything from actions/ any more.
+	include anything from actions/ anymore.
 
 2004-10-15  Michael Natterer  <mitch@gimp.org>
 
@@ -5616,7 +5616,7 @@
 	* app/tools/gimptransformoptions.c: removed all set_defaults()
 	utility functions and moved their code to reset(). The change
 	above calls them automatically so there is no need to call them
-	from the GUI constructors any more.
+	from the GUI constructors anymore.
 
 2004-10-06  Michael Natterer  <mitch@gimp.org>
 
@@ -5722,7 +5722,7 @@
 	* tools/pdbgen/pdb/pattern.pdb: cleaned up.
 
 	* tools/pdbgen/pdb/image.pdb: added $deprecated = 1 to deprecated
-	functions even if they are not exported to libgimp any more.
+	functions even if they are not exported to libgimp anymore.
 
 	* app/pdb/procedural_db.h (struct ProcRecord): added member
 	"gboolean deprecated".
@@ -6201,7 +6201,7 @@
 2004-09-30  Michael Natterer  <mitch@gimp.org>
 
 	Cleaned up the DB Browser and Plugin Details code and GUI.  It's
-	not perfect yet but at least they don't look like crap any more.
+	not perfect yet but at least they don't look like crap anymore.
 	Fixes bug #131490.
 
 	* plug-ins/common/plugin-defs.pl
@@ -6793,7 +6793,7 @@
 	* app/dialogs/dialogs-constructors.c (dialogs_navigation_view_new):
 	pass the menu_factory to gimp_navigation_editor_new().
 
-	Removed #includes which are not needed any more.
+	Removed #includes which are not needed anymore.
 
 2004-09-26  DindinX  <dindinx@gimp.org>
 
@@ -16558,7 +16558,7 @@
 
 	Also removes implicit knowledge about the MaskBuf originating from
 	a brush in paint_mask_to_canvas_buf() and _to_canvas_tiles() which
-	don't need to offset the mask by width/2 height/2 any more.
+	don't need to offset the mask by width/2 height/2 anymore.
 
 	Made gimp_paint_core_validate_undo_tiles() and
 	gimp_paint_core_validate_canvas_tiles() protected functions.
@@ -19292,7 +19292,7 @@
 	* app/gui/file-open-menu.c
 	* app/gui/file-save-menu.c
 	* app/gui/tool-options-menu.c: don't use the macros from menus.h
-	any more, they are gone.
+	anymore, they are gone.
 
 	* app/gui/gui-vtable.c
 	* app/gui/plug-in-menus.[ch]: create/destroy the dynamic plug-in

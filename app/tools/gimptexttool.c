@@ -1402,7 +1402,7 @@ gimp_text_tool_proxy_notify (GimpText         *text,
            * apply the changes to text_tool->text directly. Preedit
            * will *always* end by removing the preedit string, and if
            * the preedit was committed, it will insert the resulting
-           * text, which will not trigger this if() any more.
+           * text, which will not trigger this if() anymore.
            */
 
           GList *list = NULL;

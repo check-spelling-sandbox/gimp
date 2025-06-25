@@ -14183,7 +14183,7 @@
 2007-12-12  Michael Natterer  <mitch@gimp.org>
 
 	* app/core/gimplayer-floating-sel.c (floating_sel_to_layer): add
-	missing return value, this is no void function any more.
+	missing return value, this is no void function anymore.
 
 2007-12-12  Sven Neumann  <sven@gimp.org>
 

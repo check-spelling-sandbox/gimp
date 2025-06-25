@@ -796,7 +796,7 @@ Overview of Changes in GIMP 1.3.0
 - Cleaned up the core a lot. The app directory is now broken up into
   subdirectories that define subsystems with defined dependencies.
 - Separated GUI from core functionality in almost all places.
-- The core object system does not depend on GTK+ any more.
+- The core object system does not depend on GTK+ anymore.
 - Rewrote large parts of the user interface in a more generic way.
 - Started to rewrite the text tool (completely broken at the moment)
 - Lots of changes in the tool system. All paint tool PDB wrappers are

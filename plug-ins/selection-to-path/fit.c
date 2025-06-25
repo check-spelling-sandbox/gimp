@@ -646,7 +646,7 @@ find_vectors (unsigned test_index, pixel_outline_type outline,
     *in = Vadd (*in, IPsubtract (O_COORDINATE (outline, i), candidate));
 
 #if 0
-  /* We don't need this code any more, because now we create the pixel
+  /* We don't need this code anymore, because now we create the pixel
      outline from the corners of the pixels, rather than the edges.  */
 
   /* To see why we need this test, consider the following
@@ -675,7 +675,7 @@ find_vectors (unsigned test_index, pixel_outline_type outline,
     *out = Vadd (*out, IPsubtract (O_COORDINATE (outline, i), candidate));
 
 #if 0
-  /* As with the test for the in vector, we don't need this any more.  */
+  /* As with the test for the in vector, we don't need this anymore.  */
   if (magnitude (*out) == 0.0)
     {
       WARNING ("Zero magnitude out");
