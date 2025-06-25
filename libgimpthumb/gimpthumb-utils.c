@@ -194,7 +194,7 @@ gimp_thumb_init (const gchar *creator,
  * "~/Library/Caches/org.freedesktop.thumbnails" on OSX, and a cache
  * folder determined by glib on Windows (currently the common repository
  * for temporary Internet files).
- * The returned string belongs to GIMP and must not be changed nor freed.
+ * The returned string belongs to GIMP and must neither be changed nor freed.
  *
  * Returns: the thumbnails cache directory.
  *

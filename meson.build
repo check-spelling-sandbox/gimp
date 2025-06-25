@@ -313,7 +313,7 @@ if platform_windows and cc.get_id() == 'gcc'
   ])
   if msvc_compat_args == []
     error('''
-      GCC does not support '-fnative-struct' nor '-mms-bitfields'.
+      GCC supports neither '-fnative-struct' nor '-mms-bitfields'.
       Build will be incompatible with GTK DLLs.
     ''')
   endif
