@@ -15,8 +15,8 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-#ifndef __CURSOR_INFO_ACIONS_H__
-#define __CURSOR_INFO_ACIONS_H__
+#ifndef __CURSOR_INFO_ACTIONS_H__
+#define __CURSOR_INFO_ACTIONS_H__
 
 
 void   cursor_info_actions_setup  (GimpActionGroup *group);

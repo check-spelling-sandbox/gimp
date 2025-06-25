@@ -2809,7 +2809,7 @@
 	* app/actions/Makefile.am
 	* app/actions/actions.c
 	* app/actions/text-editor-actions.[ch]
-	* app/actions/text-editor-commands.[ch]: added acions and
+	* app/actions/text-editor-commands.[ch]: added actions and
 	callbacks for the new "text-editor" action group.
 
 	* app/menus/menus.c: register a "<TextEditor>" UI manager.

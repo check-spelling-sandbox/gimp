@@ -15,8 +15,8 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-#ifndef __TEXT_EDITOR_ACIONS_H__
-#define __TEXT_EDITOR_ACIONS_H__
+#ifndef __TEXT_EDITOR_ACTIONS_H__
+#define __TEXT_EDITOR_ACTIONS_H__
 
 
 void   text_editor_actions_setup  (GimpActionGroup *group);
