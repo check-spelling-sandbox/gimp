@@ -1280,7 +1280,7 @@ gimp_color_profile_new_rgb_adobe_internal (void)
 /**
  * gimp_color_profile_new_rgb_adobe:
  *
- * This function creates a profile compatible with AbobeRGB (1998).
+ * This function creates a profile compatible with AdobeRGB (1998).
  *
  * Returns: the AdobeRGB-compatible #GimpColorProfile.
  *
