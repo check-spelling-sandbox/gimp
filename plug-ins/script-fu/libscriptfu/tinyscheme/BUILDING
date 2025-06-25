@@ -7,7 +7,7 @@ a lot of compile-time flags in TinyScheme (preprocessor defines) that can trim
 unwanted features. See next section. 'make all' and 'make clean' function as
 expected.
 
-Autoconfing TinyScheme was once proposed, but the distribution would not be
+Autoconfig TinyScheme was once proposed, but the distribution would not be
 so small anymore. There are few platform dependencies in TinyScheme, and in
 general compiles out of the box.
 
