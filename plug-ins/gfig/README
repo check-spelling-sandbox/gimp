@@ -10,7 +10,7 @@ n sided regular polygons (n >=3)
 Curves (arcs)
 Spirals
 N pointed stars
-Simple Beizer curves
+Simple Bezier curves
 
 An object is constructed as a number of control points and these are used
 to select the object on the drawing area once it has been created.
