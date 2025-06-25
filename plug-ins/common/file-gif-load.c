@@ -1364,7 +1364,7 @@ ReadImage (FILE        *fd,
   if (! alpha_frame && promote_to_rgb)
     {
       /* I don't see how one would easily construct a GIF in which
-         this could happen, but it's a mad mad world. */
+         this could happen, but it's a mad, mad, world. */
       g_set_error (error, GIMP_PLUG_IN_ERROR, 0,
                    _("Can't handle non-alpha RGB frames.\n"
                      "Please file a bug report at "
