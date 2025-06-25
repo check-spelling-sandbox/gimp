@@ -202,7 +202,7 @@ script_fu_add_script (scheme  *sc,
   SFScript    *script;
   pointer      args_error;
 
-  /*  Check metadata args args are present */
+  /*  Check metadata args are present */
   if (sc->vptr->list_length (sc, a) < 7)
     return foreign_error (sc, "script-fu-register: Not enough arguments", 0);
 
@@ -254,7 +254,7 @@ script_fu_add_script_filter (scheme  *sc,
   SFScript    *script;
   pointer      args_error;  /* a foreign_error or NIL. */
 
-  /* Check metadata args args are present.
+  /* Check metadata args are present.
    * Has one more arg than script-fu-register.
    */
   if (sc->vptr->list_length (sc, a) < 8)
@@ -298,7 +298,7 @@ script_fu_add_script_regular (scheme  *sc,
   SFScript    *script;
   pointer      args_error;  /* a foreign_error or NIL. */
 
-  /* Check metadata args args are present.
+  /* Check metadata args are present.
    * Has two less arg than script-fu-register.
    * Last metadata arg is "copyright date"
    */
