@@ -239,7 +239,7 @@ Overview of Changes in GIMP 2.0pre1
 - Replaced old "About" dialog [Simon]
 - Allow removal of text attributes from text layer [Sven]
 - Add optimisation option to png (clear transparent pixels) [Joao]
-- Add POSIX shared memory implementation, and use it on MacOS X [Yosh]
+- Add POSIX shared memory implementation, and use it on Mac OS X [Yosh]
 - Dashed selection and path stroking [Simon]
 - Grey picker in Levels dialog conserves lightness [Bolsh]
 - Created a library for handling thumbnails [Sven]

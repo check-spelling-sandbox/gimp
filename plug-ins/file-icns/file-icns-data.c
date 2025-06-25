@@ -53,7 +53,7 @@ IconType iconTypes[] =
   {"ih32",  48,  48, 32, "h8mk", FALSE},
   {"it32", 128, 128, 32, "t8mk", FALSE},
 
-  /* Post-MacOS 10.0 ICNS formats */
+  /* Post-Mac OS X 10.0 ICNS formats */
   /* PNG, JPEG 2000, or 24-bit RGB */
   {"icp4",   16,   16, 32, "N/A", TRUE},
   {"icp5",   32,   32, 32, "N/A", TRUE},
