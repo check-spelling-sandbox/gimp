@@ -4410,7 +4410,7 @@
 
 	* app/gegl/gimpoperationpointlayermode.c: For blend modes with
 	conditions, fix so that the conditions are per color
-	channel. Acheived by introducing a nice little preprocessor macro.
+	channel. Achieved by introducing a nice little preprocessor macro.
 
 2008-10-26  Martin Nordholts  <martinn@svn.gnome.org>
 
