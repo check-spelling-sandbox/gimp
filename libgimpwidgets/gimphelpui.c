@@ -229,7 +229,7 @@ gimp_help_set_help_data_with_markup (GtkWidget   *widget,
  *
  * This function invokes the context help inspector.
  *
- * The mouse cursor will turn turn into a question mark and the user can
+ * The mouse cursor will turn into a question mark and the user can
  * click on any widget of the application which started the inspector.
  *
  * If the widget the user clicked on has a @help_id string attached
