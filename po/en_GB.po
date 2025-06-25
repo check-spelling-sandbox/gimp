@@ -29963,11 +29963,11 @@ msgstr "Undo History Menu"
 
 #~ msgid ""
 #~ "GIMP 2.10.14 is again mostly a bug fix release, making GIMP rock-solid. "
-#~ "Furthermore many old filters got finally ported to GEGL. Of course it "
+#~ "Furthermore many old filters got finally ported to GEGL. Of course, it "
 #~ "also has a few noteworthy improvements:"
 #~ msgstr ""
 #~ "GIMP 2.10.14 is again mostly a bug fix release, making GIMP rock-solid. "
-#~ "Furthermore many old filters got finally ported to GEGL. Of course it "
+#~ "Furthermore many old filters got finally ported to GEGL. Of course, it "
 #~ "also has a few noteworthy improvements:"
 
 #~ msgid ""
