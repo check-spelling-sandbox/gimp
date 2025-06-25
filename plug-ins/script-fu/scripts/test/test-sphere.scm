@@ -1,4 +1,4 @@
-; This is a a test script to show and test the possibilities of the
+; This is a test script to show and test the possibilities of the
 ; Script-Fu parameter API.
 ;
 ; ----------------------------------------------------------------------

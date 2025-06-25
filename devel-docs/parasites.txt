@@ -2,7 +2,7 @@
 PARASITE REGISTRY
 =================
 
-This document describes parasites in GIMP. 
+This document describes parasites in GIMP.
 
 
 Table of contents
@@ -10,7 +10,7 @@ Table of contents
 Parasite registry
   Table of contents
   Audience
-  
+
 1. Namespace
 
 2. Known prefixes
@@ -105,7 +105,7 @@ Global data follows no strict rules.
 "gimp-brush-pipe-parameters" (IMAGE, PERSISTENT)
 	This is all very preliminary:
 
-	A string, containing parameters describing how an brush pipe
+	A string, containing parameters describing how a brush pipe
 	should be used. The contents is a space-separated list of
 	keywords and values. The keyword and value are separated by a
 	colon.
@@ -185,7 +185,7 @@ Global data follows no strict rules.
         Example: for sRGB images this might contain
         "0.3127 0.329 0.64 0.33 0.3 0.6 0.15 0.06"
          wx     wy    rx   ry   gx  gy  bx   by
- 
+
 "rendering-intent" (IMAGE, PERSISTENT)
 	This specifies the rendering intent of the image. It's a value
         between 0 and 3, again in ascii:
@@ -215,7 +215,7 @@ Global data follows no strict rules.
 
 "icc-profile" (IMAGE, PERSISTENT | UNDOABLE)
 	This contains an ICC profile describing the color space the
-	image was produced in. TIFF images stored in PhotoShop do 
+	image was produced in. TIFF images stored in PhotoShop do
 	oftentimes contain embedded profiles. An experimental color
 	manager exists to use this parasite, and it will be used
 	for interchange between TIFF and PNG (identical profiles)
@@ -227,7 +227,7 @@ Global data follows no strict rules.
         a different character encoding, it must be converted to UTF-8
         for use as a parasite.
 
-"decompose-data" (IMAGE, NONPERSISTENT) 
+"decompose-data" (IMAGE, NONPERSISTENT)
         Starting with GIMP 2.4, this is added to images produced by
         the decompose plug-in, and contains information necessary to
         recompose the original source RGB layer from the resulting
@@ -235,7 +235,7 @@ Global data follows no strict rules.
         "source=2 type=RGBA 4 5 6 7".  This means that layer 2 was
         decomposed in RGBA mode, giving rise to layers 4, 5, 6, and 7.
 
-"print-settings" (IMAGE, NONPERSISTENT) 
+"print-settings" (IMAGE, NONPERSISTENT)
         This parasite is stored by the Print plug-in and holds settings
         done in the Print dialog. It also has a version field so that
         changes to the parasite can be done. GIMP 2.4 used version 0.3.
@@ -243,7 +243,7 @@ Global data follows no strict rules.
         what is stored in ~/.gimp-2.x/print-settings but the parasite
         has some additional image-related fields.
 
-"print-page-setup" (IMAGE, NONPERSISTENT) 
+"print-page-setup" (IMAGE, NONPERSISTENT)
         This parasite is stored by the Print plug-in and holds settings
         done in the Page Setup dialog. The format is GKeyFile as created
         from GtkPageSetup. The content is identical to what is stored in
@@ -286,7 +286,7 @@ choose between the following alternatives (also, having some standard for
 non-persistent data might be fine as well):
 
 - Cook your own binary data format
-  
+
   You can invent your own data format. This means that you will either
   loose totally (consider endian-ness or version-ness issues) or you will
   get yourself into deep trouble to get it "right" in all cases.

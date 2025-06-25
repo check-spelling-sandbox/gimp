@@ -141,7 +141,7 @@ register_drawable_select_procs (GimpPDB *pdb)
                                "gimp-drawables-popup");
   gimp_procedure_set_static_help (procedure,
                                   "Invokes the drawable selection dialog.",
-                                  "Opens a dialog letting a user choose an drawable.",
+                                  "Opens a dialog letting a user choose a drawable.",
                                   NULL);
   gimp_procedure_set_static_attribution (procedure,
                                          "Jehan",
@@ -150,7 +150,7 @@ register_drawable_select_procs (GimpPDB *pdb)
   gimp_procedure_add_argument (procedure,
                                gimp_param_spec_string ("callback",
                                                        "callback",
-                                                       "The callback PDB proc to call when user chooses an drawable",
+                                                       "The callback PDB proc to call when user chooses a drawable",
                                                        FALSE, FALSE, TRUE,
                                                        NULL,
                                                        GIMP_PARAM_READWRITE));

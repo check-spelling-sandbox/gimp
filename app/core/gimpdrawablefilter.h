@@ -43,7 +43,7 @@ struct _GimpDrawableFilterClass
 /*  Drawable Filter functions  */
 
 /*  Successive apply() functions can be called, but eventually MUST be
- *  followed with an commit() or an abort() call, both of which will
+ *  followed with a commit() or an abort() call, both of which will
  *  remove the live filter from the drawable.
  */
 

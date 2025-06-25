@@ -122,7 +122,7 @@ Tue May 26 17:20:26 EDT 1998 Adrian Likins <adrian@gimp.org>
 
 Tue May 26 12:03:07 PDT 1998 Manish Singh <yosh@gimp.org>
 
-	* app/batch.c: do "-" to "_" conversion after an failed pdb
+	* app/batch.c: do "-" to "_" conversion after a failed pdb
 	lookup, just to make sure
 
 	* app/paint_core.c: fix for some uninitialized vars

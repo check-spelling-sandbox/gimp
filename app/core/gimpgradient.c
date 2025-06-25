@@ -460,7 +460,7 @@ gimp_gradient_get_extension (GimpData *data)
  * @blend_color_space: color space to use for blending RGB segments
  * @color:             returns a newly allocated color
  *
- * If you are iterating over an gradient, you should pass the return
+ * If you are iterating over a gradient, you should pass the return
  * value from the last call for @seg.
  *
  * Returns: the gradient segment the color is from

@@ -825,7 +825,7 @@ filters_actions_setup (GimpActionGroup *group)
 
       if (gegl_operation_class_get_key (op_class, "gimp:menu-path") &&
           g_str_has_prefix (op_class->name, "gegl:"))
-        /* We automatically create an help ID from the operation name
+        /* We automatically create a help ID from the operation name
          * for all core GEGL operations with a menu path key.
          */
         entry.help_id = formatted_op_name;

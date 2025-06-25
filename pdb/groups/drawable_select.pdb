@@ -16,13 +16,13 @@
 
 sub drawables_popup {
     $blurb = 'Invokes the drawable selection dialog.';
-    $help  = 'Opens a dialog letting a user choose an drawable.';
+    $help  = 'Opens a dialog letting a user choose a drawable.';
 
     &jehan_pdb_misc('2023');
 
     @inargs = (
       { name => 'callback', type => 'string', non_empty => 1,
-        desc => 'The callback PDB proc to call when user chooses an drawable' },
+        desc => 'The callback PDB proc to call when user chooses a drawable' },
       { name => 'popup_title', type => 'string',
         desc => 'Title of the drawable selection dialog' },
       { name => 'drawable_type', type => 'string', non_empty => 1,

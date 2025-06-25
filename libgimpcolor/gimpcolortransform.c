@@ -159,7 +159,7 @@ gimp_color_transform_finalize (GObject *object)
  * @rendering_intent: the rendering intent
  * @flags:            transform flags
  *
- * This function creates an color transform.
+ * This function creates a color transform.
  *
  * The color transform is determined exclusively by @src_profile and
  * @dest_profile. The color spaces of @src_format and @dest_format are

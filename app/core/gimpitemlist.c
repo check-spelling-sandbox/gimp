@@ -514,7 +514,7 @@ gimp_item_list_item_add (GimpContainer  *container,
 
   if (found)
     {
-      /* Such an item can only have been added back as part of an redo
+      /* Such an item can only have been added back as part of a redo
        * step.
        */
       set->p->items = g_list_prepend (set->p->items, object);

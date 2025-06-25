@@ -127,7 +127,7 @@ action_search_history_and_actions (GimpSearchPopup *popup,
           GList *redundant;
 
           /* A matching action. Check if we have not already added
-           * it as an history action.
+           * it as a history action.
            */
           for (redundant = history_actions; redundant; redundant = g_list_next (redundant))
             if (strcmp (gimp_action_get_name (redundant->data), actions[i]) == 0)

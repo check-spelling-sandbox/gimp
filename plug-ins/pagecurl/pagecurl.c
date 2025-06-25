@@ -340,7 +340,7 @@ pagecurl_run (GimpProcedure        *procedure,
 
 /*****************************************************
  * Functions to locate the current point in the curl.
- *  The following functions assume an curl in the
+ *  The following functions assume a curl in the
  *  lower right corner.
  *  diagb crosses the two tangential points from the
  *  circle with diagl and diagr.

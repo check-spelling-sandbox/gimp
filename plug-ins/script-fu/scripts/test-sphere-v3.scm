@@ -3,7 +3,7 @@
 
 ; v3 >>> Has shebang, is interpreter
 
-; This is a a test script to test Script-Fu parameter API.
+; This is a test script to test Script-Fu parameter API.
 
 ; For GIMP 3: uses GimpImageProcedure, GimpProcedureDialog, GimpConfig
 

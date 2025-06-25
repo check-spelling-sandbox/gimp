@@ -550,7 +550,7 @@ gimp_main (GType  plug_in_type,
  * gimp_get_plug_in:
  *
  * This function returns the plug-in's #GimpPlugIn instance, which is
- * a a singleton that can exist exactly once per running plug-in.
+ * a singleton that can exist exactly once per running plug-in.
  *
  * Returns: (transfer none) (nullable): The plug-in's #GimpPlugIn singleton.
  *

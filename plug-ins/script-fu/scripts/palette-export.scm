@@ -136,7 +136,7 @@
                         (string->list str)))
   )
 
-; A function that receives the a file-name, and filters out all the
+; A function that receives a file-name, and filters out all the
 ; character that shouldn't appear in file names. Then, it makes sure
 ; the remaining name isn't only white-spaces. If it's only
 ; white-spaces, the function returns false. Otherwise, it returns the

@@ -464,7 +464,7 @@ gimp_histogram_editor_layer_changed (GimpImage           *image,
 
       layers = gimp_image_get_selected_layers (image);
       /*
-       * TODO: right now, we only support making an histogram for a single
+       * TODO: right now, we only support making a histogram for a single
        * layer. In future, it would be nice to have the ability to make the
        * histogram for:
        * - all individual pixels of selected layers;

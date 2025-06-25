@@ -659,7 +659,7 @@ gimp_help_get_locales (Gimp *gimp)
       /* Apparently some systems (i.e. Windows) would return a value as
        * IETF language tag, which is a different format from POSIX
        * locale; especially it would separate the lang and the region
-       * with an hyphen instead of an underscore.
+       * with a hyphen instead of an underscore.
        * Actually the difference is much deeper, and IETF language tags
        * can have extended language subtags, a script subtag, variants,
        * moreover using different codes.

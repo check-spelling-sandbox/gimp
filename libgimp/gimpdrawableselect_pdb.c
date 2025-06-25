@@ -38,7 +38,7 @@
 
 /**
  * gimp_drawables_popup:
- * @callback: The callback PDB proc to call when user chooses an drawable.
+ * @callback: The callback PDB proc to call when user chooses a drawable.
  * @popup_title: Title of the drawable selection dialog.
  * @drawable_type: The name of the GIMP_TYPE_DRAWABLE subtype.
  * @initial_drawable: (nullable): The drawable to set as the initial choice.
@@ -46,7 +46,7 @@
  *
  * Invokes the drawable selection dialog.
  *
- * Opens a dialog letting a user choose an drawable.
+ * Opens a dialog letting a user choose a drawable.
  *
  * Returns: TRUE on success.
  **/
