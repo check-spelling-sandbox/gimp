@@ -1316,7 +1316,7 @@ gimp_item_get_parasite (GimpItem    *item,
  *
  * List all parasites.
  *
- * Returns a list of all parasites currently attached the an item.
+ * Returns a list of all parasites currently attached to an item.
  *
  * Returns: (array zero-terminated=1) (transfer full):
  *          The names of currently attached parasites.

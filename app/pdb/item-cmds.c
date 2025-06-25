@@ -2054,7 +2054,7 @@ register_item_procs (GimpPDB *pdb)
                                "gimp-item-get-parasite-list");
   gimp_procedure_set_static_help (procedure,
                                   "List all parasites.",
-                                  "Returns a list of all parasites currently attached the an item.",
+                                  "Returns a list of all parasites currently attached to an item.",
                                   NULL);
   gimp_procedure_set_static_attribution (procedure,
                                          "Marc Lehmann",

@@ -1029,7 +1029,7 @@ CODE
 
 sub item_get_parasite_list {
     $blurb = 'List all parasites.';
-    $help  = 'Returns a list of all parasites currently attached the an item.';
+    $help  = 'Returns a list of all parasites currently attached to an item.';
 
     &marc_pdb_misc('1999', '2.8');
 
@@ -1057,7 +1057,7 @@ CODE
               "core/gimplist.h"
               "core/gimpselection.h"
               "text/gimptextlayer.h"
-              "vectors/gimppath.h" 
+              "vectors/gimppath.h"
               "gimppdb-utils.h"
               "gimppdbcontext.h"
               "gimp-intl.h");
