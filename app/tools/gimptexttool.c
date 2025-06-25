@@ -452,7 +452,7 @@ gimp_text_tool_button_press (GimpTool            *tool,
           text_tool->grab_widget = text_tool->widget;
         }
 
-      /*  bail out now if the user user clicked on a handle of an
+      /*  bail out now if the user clicked on a handle of an
        *  existing rectangle, but not inside an existing framed layer
        */
       if (gimp_tool_rectangle_get_function (rectangle) !=
