@@ -19,7 +19,7 @@ endif
 
 executable_name = 'script-fu'
 
-# script-fu.c registers registers many PDB procs in the PDB.
+# script-fu.c registers many PDB procs in the PDB.
 # Several source files implement the PDB procedures of type PLUGIN, of similar names.
 # script-fu.c also implements PDB procedure of type EXTENSION "extension-script-fu"
 
