@@ -1274,7 +1274,7 @@ fit_with_least_squares (curve_type curve)
    See pp.57--59 of the Phoenix thesis.
 
    The B?(t) here corresponds to B_i^3(U_i) there.
-   The Bernshte\u in polynomials of degree n are defined by
+   The Bernstein polynomials of degree n are defined by
    B_i^n(t) = { n \choose i } t^i (1-t)^{n-i}, i = 0..n  */
 
 #define B0(t) CUBE (1 - (t))
