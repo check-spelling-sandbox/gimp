@@ -1841,7 +1841,7 @@ Sun Mar  8 17:44:05 PST 1998 Manish Singh <yosh@gimp.org>
 
 Tue Mar  3 01:02:30 1998  Larry Ewing  <lewing@discord.isc.tamu.edu>
 
-	* app/scale.c: Fixed a long standing bug in the scale factor
+	* app/scale.c: Fixed a long-standing bug in the scale factor
 	computation so that the scale labels all agree.
 
 Sun Mar  1 18:45:09 PST 1998 Manish Singh <yosh@gimp.org>

@@ -72,7 +72,7 @@
 ;  - require reboot if installing to directory from which GIMP was just uninstalled,
 ;    and this directory wasn't removed by the uninstaller; the installer will continue
 ;    automatically after reboot
-;- fixed a long standing bug where "Open with GIMP" menu entries would be left after
+;- fixed a long-standing bug where "Open with GIMP" menu entries would be left after
 ;  uninstalling
 ;
 #pragma option -e+
@@ -666,14 +666,14 @@ begin
 	    InstallType := 'itDowngrade';
 	end;
 	DebugMsg('CheckInstallType','Installed GIMP {#GIMP_MUTEX_VERSION} is: ' + Installed_AppVersion + ', installer is: {#FULL_GIMP_VERSION}. So Install type is: ' + InstallType);
-	
+
 	//Inno does not support direct downgrade so let's block it to not break installs
-	if (not WizardSilent) and (InstallType = 'itDowngrade') then begin 
+	if (not WizardSilent) and (InstallType = 'itDowngrade') then begin
 	    if SuppressibleMsgBox(FmtMessage(CustomMessage('DowngradeError'), [Installed_AppVersion, '{#FULL_GIMP_VERSION}']), mbCriticalError, MB_OK, IDOK) = IDOK then begin
 			ShellExecAsOriginalUser('','ms-settings:appsfeatures','','',SW_SHOW,ewNoWait,ErrorCode);
 			Abort;
 		end;
-	end else if (WizardSilent) and (InstallType = 'itDowngrade') then begin 
+	end else if (WizardSilent) and (InstallType = 'itDowngrade') then begin
 	    DebugMsg('CheckInstallType',CustomMessage('DowngradeError'));
 		Abort;
 	end;
@@ -685,7 +685,7 @@ var Message,Buttons: TArrayOfString;
 #endif
 begin
 	CheckInstallType;
-	
+
 	ConfigOverride := coUndefined;
 
 	Check32bitOverride;
@@ -934,12 +934,12 @@ begin
 		end else if InstallType = 'itInstall' then begin
 		    Caption := CustomMessage('Customize');
 		end;
-		   
+
 		OnClick := @CustomizeOnClick;
 	end;
 
 	MeasureLabel.Free;
-	
+
 end;
 
 
