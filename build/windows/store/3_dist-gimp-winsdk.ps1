@@ -27,7 +27,7 @@ if (-not $GITLAB_CI)
   }
 
 
-# 1. AUTODECTET LATEST WINDOWS SDK AND MSSTORE-CLI
+# 1. AUTODETECT LATEST WINDOWS SDK AND MSSTORE-CLI
 Write-Output "$([char]27)[0Ksection_start:$(Get-Date -UFormat %s -Millisecond 0):msix_tlkt$([char]13)$([char]27)[0KChecking WinSDK and other tools installation"
 if ((Get-WmiObject -Class Win32_ComputerSystem).SystemType -like 'ARM64*')
   {
