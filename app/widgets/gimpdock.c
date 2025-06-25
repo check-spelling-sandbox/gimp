@@ -311,7 +311,7 @@ gimp_dock_dropped_cb (GtkWidget *notebook,
   new_dockbook = gimp_dockbook_new (menus_get_global_menu_factory (gimp_dialog_factory_get_context (factory)->gimp));
   gimp_dock_add_book (dock, GIMP_DOCKBOOK (new_dockbook), insert_index);
 
-  /* Add the dockable to new new dockbook */
+  /* Add the dockable to new dockbook */
   gtk_notebook_append_page (GTK_NOTEBOOK (new_dockbook), child, NULL);
   g_object_unref (dockable);
 

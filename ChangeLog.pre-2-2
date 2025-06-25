@@ -20896,7 +20896,7 @@
 	GIMP_UNDO_TEXT_LAYER_MODIFIED and undo group types
 	GIMP_UNDO_GROUP_DRAWABLE and GIMP_UNDO_GROUP_DRAWABLE_MOD.
 
-	* app/core/gimpimage-undo-push.[ch]: added new new function
+	* app/core/gimpimage-undo-push.[ch]: added new function
 	gimp_image_undo_push_text_layer_modified() which makes
 	modifications of the text_layer's "modified" boolean undoable.
 
