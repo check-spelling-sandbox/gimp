@@ -118,7 +118,7 @@ script_fu_scripts_clear_tree ( GimpPlugIn *plug_in)
  * the list of paths can be just one directory,
  * a plugin's subdir of /plug-ins (independent interpreter).
  * The plugin manager only queries one .scm file,
- * having the same name as its parent dir and and having execute permission.
+ * having the same name as its parent dir and having execute permission.
  *
  * But the list of paths can be many:
  * the sys and user /scripts dirs(extension-script-fu).

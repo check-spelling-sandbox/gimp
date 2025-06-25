@@ -883,7 +883,7 @@ gfig_undo_action (GSimpleAction *action,
 
   if (undo_level >= 0)
     {
-      /* Free current objects an reinstate previous */
+      /* Free current objects and reinstate previous */
       free_all_objs (gfig_context->current_obj->obj_list);
       gfig_context->current_obj->obj_list = NULL;
       tmp_bezier = tmp_line = obj_creating = NULL;
