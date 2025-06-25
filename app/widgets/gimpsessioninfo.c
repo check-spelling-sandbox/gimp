@@ -519,7 +519,7 @@ gimp_session_info_restore_docks (GimpRestoreDocksData *data)
 
   if (GIMP_IS_DOCK_CONTAINER (dialog))
     {
-      /* We expect expect there to always be docks. In sessionrc files
+      /* We expect there to always be docks. In sessionrc files
        * from <= 2.6 not all dock window entries had dock entries, but we
        * take care of that during sessionrc parsing
        */
