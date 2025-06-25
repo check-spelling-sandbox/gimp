@@ -47,7 +47,7 @@
  * in the queue; note that the frequency itself is not stored anywhere.
  *
  * To keep items from remaining at the top of the queue for too long, the delta
- * is capped above, such the the maximal delta of the first item is MAX_DELTA,
+ * is capped above, such the maximal delta of the first item is MAX_DELTA,
  * and the maximal delta of each subsequent item is the maximal delta of the
  * previous item, times MAX_DELTA_FALLOFF.
  *

@@ -286,7 +286,7 @@ UI:
  - Allow to set GimpToolPreset's icon using the new GimpIconPicker widget
  - Make the text tool's style overlay show default values from the
    text object if there is no style active at the cursor position/selection
- - Show the the text size's unit in the text style overlay
+ - Show the text size's unit in the text style overlay
  - Make tool dialogs transient to the image window again
  - Consistently add a "gimp-" prefix to all window roles
  - Make the preset buttons in tool options work on the global tool

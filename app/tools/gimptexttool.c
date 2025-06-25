@@ -478,7 +478,7 @@ gimp_text_tool_button_press (GimpTool            *tool,
             }
         }
 
-      /* if the the click is not related to the currently edited text
+      /* if the click is not related to the currently edited text
        * layer in any way, try to pick a text layer
        */
       if (! text_tool->moving &&

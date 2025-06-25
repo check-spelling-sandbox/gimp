@@ -223,7 +223,7 @@ gimp_palette_import_create_image_palette (gpointer data,
                          _("Untitled"),
                          color_tab->count);
 
-  /* Adjust the colors to the mean of the the sample */
+  /* Adjust the colors to the mean of the sample */
   color = gegl_color_new (NULL);
   rgb[0] = (guchar) color_tab->r + (color_tab->r_adj / color_tab->count);
   rgb[1] = (guchar) color_tab->g + (color_tab->g_adj / color_tab->count);

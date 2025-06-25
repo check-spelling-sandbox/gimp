@@ -7089,7 +7089,7 @@
 2008-05-13  Michael Natterer  <mitch@gimp.org>
 
 	First prototype of a button in the levels tool dialog that will
-	jump the the curves tool with the same settings:
+	jump the curves tool with the same settings:
 
 	* app/gegl/gimplevelsconfig.[ch]: add new function
 	gimp_levels_config_to_curves_config() which converts a

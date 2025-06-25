@@ -495,7 +495,7 @@ gimp_operation_flood_process_fetch (GimpOperationFloodContext *ctx)
       ctx->water        = ctx->water_buffer;
       ctx->source_water = ctx->water_buffer + ctx->roi.width;
 
-      /* Set the vertical extent of the rectangle to span a the current
+      /* Set the vertical extent of the rectangle to span the current
        * segment's row.
        */
       iv_rect.y      = ctx->roi.y + ctx->segment.y;
@@ -518,7 +518,7 @@ gimp_operation_flood_process_fetch (GimpOperationFloodContext *ctx)
         ctx->source_water[x] = 0.0;
     }
 
-  /* Set the vertical extent of the rectangle to span a the current segment's
+  /* Set the vertical extent of the rectangle to span the current segment's
    * row.
    */
   iv_rect.y      = ctx->roi.y + ctx->segment.y;
@@ -909,7 +909,7 @@ gimp_operation_flood_process_commit (const GimpOperationFloodContext    *ctx,
   /* Image-virtual and image-physical rectangles, respectively. */
   GeglRectangle                       iv_rect, ip_rect;
 
-  /* Set the vertical extent of the rectangle to span a the current segment's
+  /* Set the vertical extent of the rectangle to span the current segment's
    * row.
    */
   iv_rect.y      = ctx->roi.y + ctx->segment.y;

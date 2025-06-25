@@ -610,7 +610,7 @@ aff_element_compute_click_boundary (AffElement *elem,
   xc = xtot / num_elements;
   yc = ytot / num_elements;
 
-  /* compute the sum of the (x+iy)^2, and take half the the resulting
+  /* compute the sum of the (x+iy)^2, and take half the resulting
      angle (xtot+iytot = A*exp(2i*theta)), to get an average direction */
 
   xtot = 0;
@@ -647,7 +647,7 @@ aff_element_compute_click_boundary (AffElement *elem,
   xc += 0.5 * ((axis1max + axis1min) * cth - (axis2max + axis2min) * sth);
   yc += 0.5 * ((axis1max + axis1min) * sth + (axis2max + axis2min) * cth);
 
-  /* if the the rectangle is less than 10 pixels in any dimension,
+  /* if the rectangle is less than 10 pixels in any dimension,
      make it click_boundary; otherwise, set click_boundary = draw_boundary */
 
   if (axis1 < 8.0 || axis2 < 8.0)

@@ -2345,7 +2345,7 @@ load_thumbnails (struct heif_context *heif,
 
       /* get handle to thumbnail image
        *
-       * if there is no thumbnail image, just the the image itself
+       * if there is no thumbnail image, just the image itself
        * (will be scaled down later)
        */
 

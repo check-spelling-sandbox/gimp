@@ -1657,7 +1657,7 @@ load_xwd_f2_d16_b16 (GFile           *file,
   bluemask  = xwdhdr->l_blue_mask;
 
   /* How to shift RGB to be right aligned ? */
-  /* (We rely on the the mask bits are grouped and not mixed) */
+  /* (We rely on the mask bits are grouped and not mixed) */
   redshift = greenshift = blueshift = 0;
 
   while (((1 << redshift)   & redmask)   == 0) redshift++;
@@ -1832,7 +1832,7 @@ load_xwd_f2_d24_b32 (GFile            *file,
   if (bluemask  == 0) bluemask  = 0x0000ff;
 
   /* How to shift RGB to be right aligned ? */
-  /* (We rely on the the mask bits are grouped and not mixed) */
+  /* (We rely on the mask bits are grouped and not mixed) */
   redshift = greenshift = blueshift = 0;
 
   while (((1 << redshift)   & redmask)   == 0) redshift++;
@@ -2078,7 +2078,7 @@ load_xwd_f2_d32_b32 (GFile           *file,
   alphamask = 0xffffffff & ~(redmask | greenmask | bluemask);
 
   /* How to shift RGB to be right aligned ? */
-  /* (We rely on the the mask bits are grouped and not mixed) */
+  /* (We rely on the mask bits are grouped and not mixed) */
   redshift = greenshift = blueshift = alphashift = 0;
 
   while (((1 << redshift)   & redmask)   == 0) redshift++;
@@ -2279,7 +2279,7 @@ load_xwd_f1_d24_b1 (GFile            *file,
   if (!standard_rgb)   /* Do we need to re-map the pixel-values ? */
     {
       /* How to shift RGB to be right aligned ? */
-      /* (We rely on the the mask bits are grouped and not mixed) */
+      /* (We rely on the mask bits are grouped and not mixed) */
 
       while (((1 << redshift)   & redmask)   == 0) redshift++;
       while (((1 << greenshift) & greenmask) == 0) greenshift++;

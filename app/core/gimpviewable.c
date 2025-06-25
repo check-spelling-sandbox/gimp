@@ -724,7 +724,7 @@ gimp_viewable_get_size (GimpViewable  *viewable,
  * @size:        requested size for preview.
  * @popup:       %TRUE if the preview is intended for a popup window.
  * @dot_for_dot: If %TRUE, ignore any differences in X and Y resolution.
- * @width: (out) (optional):  return location for the the calculated width.
+ * @width: (out) (optional):  return location for the calculated width.
  * @height: (out) (optional): return location for the calculated height.
  *
  * Retrieve the size of a viewable's preview.  By default, this

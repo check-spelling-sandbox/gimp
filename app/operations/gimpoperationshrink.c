@@ -260,7 +260,7 @@ gimp_operation_shrink_process (GeglOperation       *operation,
   const Babl          *input_format  = babl_format ("Y float");
   const Babl          *output_format = babl_format ("Y float");
   gint32               i, j, x, y;
-  gfloat             **buf;  /* caches the the region's pixels */
+  gfloat             **buf;  /* caches the region's pixels */
   gfloat              *out;  /* holds the new scan line we are computing */
   gfloat             **max;  /* caches the smallest values for each column */
   gint16              *circ; /* holds the y coords of the filter's mask */

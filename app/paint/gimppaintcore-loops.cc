@@ -74,7 +74,7 @@ extern "C"
  *   - A dispatch function, which takes the input parameters, the requested set
  *     of algorithms, the (type of) the current algorithm hierarchy, and a
  *     visitor object.  The function calls the visitor with a (potentially)
- *     modified hierarchy, depending on the input.  Ihe dispatch function for
+ *     modified hierarchy, depending on the input.  The dispatch function for
  *     an algorithm checks if the requested set of algorithms contains a
  *     certain algorithm, adds the said algorithm to the hierarchy accordingly,
  *     and calls the visitor with the new hierarchy.  See the AlgorithmDispatch

@@ -707,7 +707,7 @@ gimp_brush_core_interpolate (GimpPaintCore    *paint_core,
       if (num_points >= 1)
         {
           /*  Hack the reported total distance such that it looks to the
-           *  next line as if the the last pixel plotted were at an integer
+           *  next line as if the last pixel plotted were at an integer
            *  multiple of the brush spacing. This helps prevent artifacts
            *  for connected lines when the brush spacing is such that some
            *  slopes will use the stripe regime and other slopes will use

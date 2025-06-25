@@ -357,7 +357,7 @@ register_progress_procs (GimpPDB *pdb)
                                "gimp-progress-pulse");
   gimp_procedure_set_static_help (procedure,
                                   "Pulses the progress bar for the current plug-in.",
-                                  "Updates the progress bar for the current plug-in. It is only valid to call this procedure from a plug-in. Use this function instead of 'gimp-progress-update' if you cannot tell how much progress has been made. This usually causes the the progress bar to enter \"activity mode\", where a block bounces back and forth.",
+                                  "Updates the progress bar for the current plug-in. It is only valid to call this procedure from a plug-in. Use this function instead of 'gimp-progress-update' if you cannot tell how much progress has been made. This usually causes the progress bar to enter \"activity mode\", where a block bounces back and forth.",
                                   NULL);
   gimp_procedure_set_static_attribution (procedure,
                                          "Sven Neumann <sven@gimp.org>",

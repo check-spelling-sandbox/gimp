@@ -164,7 +164,7 @@ gimp_applicator_new (GeglNode *parent)
                          NULL);
 
   gegl_node_link (applicator->mask_node, applicator->mask_offset_node);
-  /* don't connect the the mask offset node to mode's aux2 yet */
+  /* don't connect the mask offset node to mode's aux2 yet */
 
   applicator->affect_node =
     gegl_node_new_child (applicator->node,

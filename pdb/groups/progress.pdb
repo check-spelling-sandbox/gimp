@@ -95,7 +95,7 @@ sub progress_pulse {
 Updates the progress bar for the current plug-in. It is only valid to
 call this procedure from a plug-in. Use this function instead of
 gimp_progress_update() if you cannot tell how much progress has been
-made. This usually causes the the progress bar to enter "activity
+made. This usually causes the progress bar to enter "activity
 mode", where a block bounces back and forth.
 HELP
 
