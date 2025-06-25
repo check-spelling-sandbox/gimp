@@ -450,6 +450,6 @@
 ; expect SelectionMask grows to image size
 
 ; TODO test bit-depth of selection mask
-; TODO test valus of selection mask in range 0-255
+; TODO test values of selection mask in range 0-255
 
 (gimp-display-new testImage)

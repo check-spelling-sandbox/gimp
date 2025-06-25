@@ -223,7 +223,7 @@ set_tag_ui (metadata_editor *args,
               gtk_list_store_remove(liststore, &iter);
             }
         }
-      /* Add new values values */
+      /* Add new values */
       if (!strcmp (LICENSOR_HEADER, name))
         {
           for (row = 1; row < row_count+1; row++)
