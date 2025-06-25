@@ -39,7 +39,7 @@ Bugs fixed in GIMP 2.0rc1
 - 12253:  only cancel tool operation if tool is active on the image that
           is becoming dirty (Mitch)
 - 136343: fixed wrong function prototypes (Mitch)
-- 136636: workaround a GDK problem on win32 (Mitch)
+- 136636: work around a GDK problem on win32 (Mitch)
 - 136747: fixed problem in gimp-print configure check (Yosh)
 - 136850: fixed crash when toggling tool preview (Sven)
 - 136937: allow translation of tool-option menus (Sven)
@@ -170,7 +170,7 @@ Bugs fixed in GIMP 2.0pre3
 - 133099: Duplicate PDB entries problem (Mitch)
 - 133122: Disallow renaming of layer masks and some floating selections (Mitch)
 - 130118: Allow non-UTF8 characters in the GIMP home directory (Mitch)
-- 122026: Workaround a bug in gdk_draw_segments() (David Odin)
+- 122026: Work around a bug in gdk_draw_segments() (David Odin)
 - 133280: Remove deleted scripts from the menu (Mitch)
 - 133270: Replace deprecated enum values in scripts (Kevin Cozens)
 - 133180: Sort menu entries for save and load procedures (Mitch)
