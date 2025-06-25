@@ -101,7 +101,7 @@ _gimp_pick_button_kwin_pick (GimpPickButton *button)
   else
     {
       /* I had failure of KDE's color picking API. So let's just
-       * fallback to the default color picking when this happens. This
+       * fall back to the default color picking when this happens. This
        * will at least work on X11.
        * See: https://bugs.kde.org/show_bug.cgi?id=387720
        */

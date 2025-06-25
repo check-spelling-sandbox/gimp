@@ -335,7 +335,7 @@ static void set_gerror (GError **error, GimpBinrelocInitError errcode);
  * @note If you want to use BinReloc for a library, then you should call
  *       _gimp_reloc_init_lib() instead.
  * @note Initialization failure is not fatal. BinReloc functions will just
- *       fallback to the supplied default path.
+ *       fall back to the supplied default path.
  *
  * @param error  If BinReloc failed to initialize, then the error report will
  *               be stored in this variable. Set to NULL if you don't want an
@@ -374,7 +374,7 @@ _gimp_reloc_init (GError **error)
  * @note The BinReloc source code MUST be included in your library, or this
  *       function won't work correctly.
  * @note Initialization failure is not fatal. BinReloc functions will just
- *       fallback to the supplied default path.
+ *       fall back to the supplied default path.
  *
  * @returns TRUE on success, FALSE if a filename cannot be found.
  */

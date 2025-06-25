@@ -389,7 +389,7 @@ gimp_enum_radio_frame_add (GtkFrame  *frame,
  * @size:                    requested pixel size
  *
  * Loads an icon into a pixbuf with size as close as possible to @size.
- * If icon does not exist or fail to load, the function will fallback to
+ * If icon does not exist or fail to load, the function will fall back to
  * "gimp-wilber-eek" instead to prevent NULL pixbuf. As a last resort,
  * if even the fallback failed to load, a magenta @size square will be
  * returned, so this function is guaranteed to always return a
@@ -415,7 +415,7 @@ gimp_widget_load_icon (GtkWidget   *widget,
   icon_theme = gtk_icon_theme_get_for_screen (gtk_widget_get_screen (widget));
   scale_factor = gtk_widget_get_scale_factor (widget);
   name = g_strdup_printf ("%s-symbolic", icon_name);
-  /* This will find the symbolic icon and fallback to non-symbolic
+  /* This will find the symbolic icon and fall back to non-symbolic
    * depending on icon theme.
    */
   icon_info = gtk_icon_theme_lookup_icon_for_scale (icon_theme, name,

@@ -131,7 +131,7 @@ darktable_init_procedures (GimpPlugIn *plug_in)
 
   /* In Darktable 4.6, a new GIMP-specific API was introduced due to changes
    * in how the version output is formatted. We first check for Darktable
-   * with this API, then fallback to the pre-4.6 regex checks if the user has
+   * with this API, then fall back to the pre-4.6 regex checks if the user has
    * an older version of Darktable installed. */
   if (g_spawn_sync (NULL,
                     argv,

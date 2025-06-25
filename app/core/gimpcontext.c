@@ -1930,7 +1930,7 @@ gimp_context_image_changed (GimpContext *context)
  *   space TRC).
  * - If there is no active image or if its space is non-sRGB, we use the context
  *   color's space (if set).
- * - We discard non-RGB spaces and fallback to sRGB.
+ * - We discard non-RGB spaces and fall back to sRGB.
  */
 const Babl *
 gimp_context_get_rgba_format (GimpContext  *context,

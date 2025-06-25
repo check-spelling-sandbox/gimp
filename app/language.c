@@ -808,7 +808,7 @@ language_get_system_lang_id (void)
   /* In macOS, the user sets a list of prefered languages and the
    * software respects this preference order. I.e. that just storing the
    * top-prefered lang would not be enough. What if GIMP didn't have
-   * translations for it, then it would fallback to the second lang. If
+   * translations for it, then it would fall back to the second lang. If
    * this second lang changed, GIMP localization would change but we
    * would not be aware of it. Instead, let's use the whole list as our
    * language identifier. If this list changes in any way, we consider

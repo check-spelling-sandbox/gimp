@@ -462,7 +462,7 @@ export_image (GFile                *file,
                                               GIMP_COLOR_RENDERING_INTENT_RELATIVE_COLORIMETRIC,
                                               error);
       else
-        /* The NULL space will fallback to a naive CMYK conversion. */
+        /* The NULL space will fall back to a naive CMYK conversion. */
         space = NULL;
     }
 

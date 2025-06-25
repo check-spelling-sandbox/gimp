@@ -501,7 +501,7 @@ gimp_cell_renderer_toggle_create_pixbuf (GimpCellRendererToggle *toggle,
       screen       = gtk_widget_get_screen (widget);
       icon_theme   = gtk_icon_theme_get_for_screen (screen);
 
-      /* Look for symbolic and fallback to color icon. */
+      /* Look for symbolic and fall back to color icon. */
       icon_name = g_strdup_printf ("%s-symbolic", toggle->icon_name);
       icon_info = gtk_icon_theme_lookup_icon_for_scale (icon_theme, icon_name,
                                                         toggle->icon_size, scale_factor,
