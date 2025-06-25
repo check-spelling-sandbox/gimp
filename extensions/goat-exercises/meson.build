@@ -73,7 +73,7 @@ install_data(
 )
 plug_ins = plug_ins + ':goat-exercise-py3.py'
 
-# Javascript (GJS) version.
+# JavaScript (GJS) version.
 
 if have_javascript
   install_data(

@@ -200,7 +200,7 @@
           </li>
 
           <li>Deeply reworked API for plug-in developers</li>
-          <li>Plug-in API now available in C/C++, Python 3, Javascript, Lua, Vala and more</li>
+          <li>Plug-in API now available in C/C++, Python 3, JavaScript, Lua, Vala and more</li>
 
           <li>Improved support of many image formats</li>
         </ul>
@@ -605,7 +605,7 @@
             Major plug-in API rewrite
           </li>
           <li>
-            Plug-in API now available in C/C++, Python 3, Javascript, Lua and Vala
+            Plug-in API now available in C/C++, Python 3, JavaScript, Lua and Vala
           </li>
           <li>
             New manageable extension format

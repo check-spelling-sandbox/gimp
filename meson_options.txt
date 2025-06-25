@@ -64,7 +64,7 @@ option('linux-input',       type: 'feature', value: 'auto', description: 'Linux 
 option('vector-icons',      type: 'boolean', value: true,   description: 'Use vector icons rather than raster ones')
 
 option('vala',              type: 'feature', value: 'auto', description: 'Build VAPI and Vala plugins')
-option('javascript',        type: 'feature', value: 'auto', description: 'Install Javascript plug-ins')
+option('javascript',        type: 'feature', value: 'auto', description: 'Install JavaScript plug-ins')
 option('lua',               type: 'boolean', value: false,  description: 'Install Lua plug-ins (experimental)')
 
 option('debug-self-in-build', type: 'boolean', value: false, description: 'Run in-build GIMP within gdb for debugging purpose')

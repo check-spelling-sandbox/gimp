@@ -29770,7 +29770,7 @@ msgstr "Undo History Menu"
 #~ msgstr "Major plug-in API rewrite"
 
 #~ msgid ""
-#~ "Plug-in API now available in C/C++, Python 3, Javascript, Lua and Vala"
+#~ "Plug-in API now available in C/C++, Python 3, JavaScript, Lua and Vala"
 #~ msgstr ""
 #~ "Plug-in API now available in C/C++, Python 3, JavaScript, Lua and Vala"
 

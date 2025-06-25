@@ -275,8 +275,8 @@ msgid "Space between table elements"
 msgstr "Space between table elements"
 
 #: ../plug-ins/pygimp/plug-ins/py-slice.py:441
-msgid "Javascript for onmouseover and clicked"
-msgstr "Javascript for onmouseover and clicked"
+msgid "JavaScript for onmouseover and clicked"
+msgstr "JavaScript for onmouseover and clicked"
 
 #: ../plug-ins/pygimp/plug-ins/py-slice.py:443
 msgid "Skip animation for table caps"

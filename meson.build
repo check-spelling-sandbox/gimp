@@ -1093,7 +1093,7 @@ if not pygobject_found
   error('PyGObject is required.')
 endif
 
-## Javascript
+## JavaScript
 
 gjs = find_program('gjs', required: false)
 have_javascript = get_option('javascript').enabled() or (gjs.found() and get_option('javascript').auto())
@@ -2122,7 +2122,7 @@ final_message = [
                                 .format(can_import_avif, can_export_avif),
 '''  PDF (export):        @0@'''.format(cairopdf.found()),
 '''  Print:               @0@'''.format(have_print),
-'''  Javascript plug-ins: @0@'''.format(have_javascript),
+'''  JavaScript plug-ins: @0@'''.format(have_javascript),
 '''  Vala plug-ins:       @0@'''.format(have_vala),
 '''  TWAIN (Win32):       @0@'''.format(platform_windows),
 '''  WMF:                 @0@'''.format(wmf.found()),

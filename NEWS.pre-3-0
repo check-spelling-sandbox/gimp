@@ -1133,12 +1133,12 @@ Plug-ins:
     * load active selection from PSP file.
     * Load guides and grid info.
   - Image Map: two new fields to the HTML Link tab and one new field to the
-    Javascript tab for area properties:
+    JavaScript tab for area properties:
     * accesskey: The same as the mnemonic key shortcuts in GTK, to activate an
       area of the image map. Depending on the OS, you either hold ALT or
       ALT+SHIFT and this key.
     * tabindex: What order to select the area when the user presses Tab.
-    * onClick: Run a Javascript function when the user clicks on the area.
+    * onClick: Run a JavaScript function when the user clicks on the area.
   - Esm Software PIX: new import support.
   - All plug-ins were ported to the new Gimp*Procedure API using
     GimpProcedureConfig instead of GimpValueArray arguments.
@@ -1246,7 +1246,7 @@ API:
         infrastructure if the mimetype argument is set in
         gimp_save_procedure_new().
     * On plug-in exit, we do not display memory reference hold warnings for Lua,
-      Javascript and Python plug-ins anymore. The GObject-Introspection bindings
+      JavaScript and Python plug-ins anymore. The GObject-Introspection bindings
       for these languages seem to hold references of their own in some
       conditions and anyway plug-in developers don't have any memory management
       capabilities available in the chosen languages. It's not like they can do
@@ -2357,7 +2357,7 @@ Build:
     is only written in the INSTALL file though, no tests are run on
     configure time.
   - The distribution stage now has a new `dev-docs` job containing both
-    the C API reference (gi-docgen) and the Python and Javascript (gjs)
+    the C API reference (gi-docgen) and the Python and JavaScript (gjs)
     ones (g-ir-doc).
   - The `pdbgen` (generation of PDB source files) build step is finally
     ported to meson too, which is a major step to one day consider this
@@ -2960,7 +2960,7 @@ Plug-ins:
 
 Devel docs:
 
-  - Python 3 and Javascript API documentation are now generated inside
+  - Python 3 and JavaScript API documentation are now generated inside
     the build directory devel-docs/g-ir-docs/html/ (not installed right
     now) if you configure the build with option --enable-g-ir-doc
     (alternative for the meson build: -Dg-ir-doc=true but the docs ends
@@ -3473,7 +3473,7 @@ API:
   - The full API is GObject Introspected into 2 modules: Gimp and
     GimpUi. This means plug-ins can be written in various non-C
     languages. So far the following languages have been tested and work
-    well: Python 3, Lua, Javascript and Vala.
+    well: Python 3, Lua, JavaScript and Vala.
     (Note: Python 2 is also working, but considering that this language
     is end-of-life since 2020, we don't really care).
   - All pygimp specific Python API does not exist anymore. Python will

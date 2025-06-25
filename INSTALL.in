@@ -310,7 +310,7 @@ help in that regard:
      sendmail for sending emails if --with-sendmail enabled
      gdb or lldb for our new bug-reporting dialog
      "gegl:matting-levin" GEGL operation for alternative matting engine
-     GJS for Javascript plug-ins
+     GJS for JavaScript plug-ins
      dot for "Show Image Graph" (unstable branches)
      xdg-desktop-portal implemented for your desktop for various D-Bus API (screenshot, color-picking…)
 

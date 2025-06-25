@@ -1,7 +1,7 @@
      TinyScheme would not exist if it wasn't for MiniScheme. I had just
      written the HTTP server for Ovrimos SQL Server, and I was lamenting the
-     lack of a scripting language. Server-side Javascript would have been the
-     preferred solution, had there been a Javascript interpreter I could
+     lack of a scripting language. Server-side JavaScript would have been the
+     preferred solution, had there been a JavaScript interpreter I could
      lay my hands on. But there weren't. Perl would have been another solution,
      but it was probably ten times bigger that the program it was supposed to
      be embedded in. There would also be thorny licencing issues. 

@@ -1179,8 +1179,8 @@ msgstr ""
 #~ msgid "Space between table elements"
 #~ msgstr "Space between table elements"
 
-#~ msgid "Javascript for onmouseover and clicked"
-#~ msgstr "Javascript for onmouseover and clicked"
+#~ msgid "JavaScript for onmouseover and clicked"
+#~ msgstr "JavaScript for onmouseover and clicked"
 
 #~ msgid "Skip animation for table caps"
 #~ msgstr "Skip animation for table caps"
