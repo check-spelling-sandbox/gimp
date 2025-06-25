@@ -2002,7 +2002,7 @@ gimp_gradient_tool_editor_gradient_info_apply (GimpGradientTool   *gradient_tool
             info->start_y == gradient_tool->start_y))
 
     {
-      /* we're undoing am end-endpoint move operation; select the end
+      /* we're undoing an end-endpoint move operation; select the end
        * endpoint
        */
       selection = GIMP_TOOL_LINE_HANDLE_END;

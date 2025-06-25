@@ -14,7 +14,7 @@
 
 	Bug 574972 – Grayscale profile should be removed in RGB/Indexed mode
 
-	* app/core/gimpimage-convert.c (gimp_image_convert): Remove the ICC 
+	* app/core/gimpimage-convert.c (gimp_image_convert): Remove the ICC
 	profile when image will be converted from/to grayscale mode.
 	Patch by Yohinori Yamakawa <yam@yellowmagic.info>
 
@@ -129,7 +129,7 @@
 	Dropped support for the GnomeVFS file-uri backend. Recent GNOME
 	releases use GIO/GVfs and libgnomeui will also go away soon.
 
-	* INSTALL 
+	* INSTALL
 	* configure.in: removed checks for libgnomeui and libgnome-keyring.
 
 	* plug-ins/file-uri/Makefile.am
@@ -311,7 +311,7 @@
 
 2009-03-19  Sven Neumann  <sven@gimp.org>
 
-	* app/actions/context-actions.c (context_actions): 
+	* app/actions/context-actions.c (context_actions):
 	* app/paint/gimpinkoptions.c: changed "Aspect" to "Aspect Ratio".
 
 2009-03-19  Sven Neumann  <sven@gimp.org>
@@ -557,7 +557,7 @@
 	* app/widgets/gimptagentry.c (gimp_tag_entry_key_press): allow to
 	leave the widget with Ctrl+Tab. Handle GDK_KP_Tab and
 	GDK_ISO_Left_Tab.
-	(gimp_tag_entry_expose): 
+	(gimp_tag_entry_expose):
 
 2009-03-02  Michael Natterer  <mitch@gimp.org>
 
@@ -2903,7 +2903,7 @@
 	* app/display/gimpdisplayshell-scale.c
 	(gimp_display_shell_scale_update_rulers): Avoid critical warnings
 	when converting an image window with a unit other than pixels into
-	a the empty image window. Probably fixes some of the crashes
+	an empty image window. Probably fixes some of the crashes
 	reported by Windows users.
 
 2008-11-09  Michael Natterer  <mitch@gimp.org>

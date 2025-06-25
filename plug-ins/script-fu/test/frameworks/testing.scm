@@ -192,7 +192,7 @@
 
 ; Record eval-result, a tuple, from eval of code.
 ; This knows that a passed normal test has true result and empty error.
-; <code is> a an object? a Scheme text, is a boolean proposition,
+; <code is> an object? a Scheme text, is a boolean proposition,
 (define (testing:record-assert-result eval-result code)
   ;(gimp-message "record-assert-result")
   ; passed when has no error and result is #t
@@ -210,7 +210,7 @@
 ; matches a prefix of the actual error message yielded by eval.
 ; <result> is dynamic type returned by eval
 ; <error-message> is type string
-; <code> is a an object? a Scheme text, is a boolean proposition.
+; <code> is an object? a Scheme text, is a boolean proposition.
 ; <expected-error> is type string
 (define (testing:record-assert-error-result eval-result code expected-error)
   ; debug
