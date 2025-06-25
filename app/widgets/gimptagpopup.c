@@ -448,7 +448,7 @@ gimp_tag_popup_get_property (GObject    *object,
  * gimp_tag_popup_new:
  * @combo_entry: #GimpComboTagEntry which is owner of the popup window.
  *
- * Tag popup widget is only useful for for #GimpComboTagEntry and
+ * Tag popup widget is only useful for #GimpComboTagEntry and
  * should not be used elsewhere.
  *
  * Returns: a newly created #GimpTagPopup widget.
