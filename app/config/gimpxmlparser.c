@@ -264,7 +264,7 @@ gimp_xml_parser_parse_io_channel (GimpXmlParser  *parser,
  * gimp_xml_parser_parse_buffer:
  * @parser: a #GimpXmlParser
  * @buffer: a string buffer
- * @len: the number of byes in @buffer or -1 if @buffer is nul-terminated
+ * @len: the number of bytes in @buffer or -1 if @buffer is nul-terminated
  * @error: return location for possible errors
  *
  * This function uses the given @parser to parse the XML in @buffer.

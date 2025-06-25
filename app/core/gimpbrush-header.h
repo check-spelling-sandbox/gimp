@@ -41,7 +41,7 @@ struct _GimpBrushHeader
 };
 
 /*  In a brush file, next comes the brush name, null-terminated.
- *  After that comes the brush data -- width * height * bytes bytes of
+ *  After that comes the brush data -- width * height * bytes of
  *  it...
  */
 
