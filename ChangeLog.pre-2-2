@@ -10289,7 +10289,7 @@
 
 	Applied (slightly modified) patch from Shlomi Fish which adds a
 	progress bar to the RGB -> INDEXED conversion. Fixes bug #145274
-	and shows that we really really need a GimpProgressInterface in
+	and shows that we really, really, need a GimpProgressInterface in
 	the core to give progress users full access to the progress API.
 
 	* app/core/gimpimage-convert.[ch]: added special
@@ -10645,7 +10645,7 @@
 
 2004-08-04  Manish Singh  <yosh@gimp.org>
 
-	* configure.in: Really really really really fix WINDRES logic.
+	* configure.in: Really really, really, really fix WINDRES logic.
 
 2004-08-03  DindinX  <david@dindinx.org>
 
@@ -10737,7 +10737,7 @@
 
 2004-08-01  Manish Singh  <yosh@gimp.org>
 
-	* configure.in: Really really really fix WINDRES logic.
+	* configure.in: Really really, really, fix WINDRES logic.
 
 2004-08-01  Manish Singh  <yosh@gimp.org>
 

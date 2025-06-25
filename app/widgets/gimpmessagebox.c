@@ -532,7 +532,7 @@ gimp_message_box_repeat (GimpMessageBox *box)
     {
       /* When a same message is repeated dozens of thousands of times in
        * a short span of time, updating the GUI at each increment is
-       * extremely slow (like really really slow, your GUI gets stuck
+       * extremely slow (like really, really, slow, your GUI gets stuck
        * for 10 minutes). So let's just delay GUI update as a low
        * priority idle task.
        */
