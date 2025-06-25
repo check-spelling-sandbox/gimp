@@ -178,7 +178,7 @@ gimp_modifiers_editor_init (GimpModifiersEditor *editor)
 
   editor->priv->rows                     = g_hash_table_new_full (g_str_hash, g_str_equal, g_free, NULL);
 
-  /* Setup the title. */
+  /* Set up the title. */
   gtk_frame_set_label_align (GTK_FRAME (editor), 0.5, 0.5);
 
   grid = gtk_grid_new ();
@@ -219,7 +219,7 @@ gimp_modifiers_editor_init (GimpModifiersEditor *editor)
   gtk_frame_set_label_widget (GTK_FRAME (editor), grid);
   gtk_widget_show (grid);
 
-  /* Setup the stack. */
+  /* Set up the stack. */
   editor->priv->stack = gtk_stack_new ();
   gtk_container_add (GTK_CONTAINER (editor), editor->priv->stack);
   gtk_widget_show (editor->priv->stack);

@@ -161,7 +161,7 @@ gimp_display_shell_rulers_update (GimpDisplayShell *shell)
       vertical_upper   += offset_y;
     }
 
-  /* Finally setup the actual rulers */
+  /* Finally set up the actual rulers */
 
   gimp_ruler_set_range (GIMP_RULER (shell->hrule),
                         horizontal_lower,

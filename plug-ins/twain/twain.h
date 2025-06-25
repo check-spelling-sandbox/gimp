@@ -495,7 +495,7 @@ typedef struct {
    TW_UINT32  DataBytesXfered; /* Number of bytes successfully transferred */
 } TW_PASSTHRU, FAR * pTW_PASSTHRU;
 
-/* DAT_SETUPAUDIOFILEXFER, information required to setup an audio file transfer */
+/* DAT_SETUPAUDIOFILEXFER, information required to set up an audio file transfer */
 typedef struct {
    TW_STR255	FileName; /* full path target file */
    TW_UINT16	Format;   /* one of TWAF_xxxx */

@@ -85,7 +85,7 @@ gimp_display_shell_scrollbars_update (GimpDisplayShell *shell)
  * @shell:
  * @value:
  *
- * Setup the limits of the horizontal scrollbar
+ * Set up the limits of the horizontal scrollbar
  **/
 void
 gimp_display_shell_scrollbars_setup_horizontal (GimpDisplayShell *shell,
@@ -146,7 +146,7 @@ gimp_display_shell_scrollbars_setup_horizontal (GimpDisplayShell *shell,
  * @shell:
  * @value:
  *
- * Setup the limits of the vertical scrollbar
+ * Set up the limits of the vertical scrollbar
  **/
 void
 gimp_display_shell_scrollbars_setup_vertical (GimpDisplayShell *shell,

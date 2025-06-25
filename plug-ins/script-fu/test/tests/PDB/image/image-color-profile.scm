@@ -34,7 +34,7 @@
 ; an image we use just to transfer color profiles
 (define colorImage (car (gimp-image-new 21 22 RGB)))
 
-; setup a testProfile
+; set up a testProfile
 ; Now PRIVATE
 ;(define testProfile (car (gimp-image-get-color-profile colorImage)))
 ; testProfile is a Scheme vector, a C GBytes

@@ -495,7 +495,7 @@ gimp_ui_configurer_configure_for_single_window (GimpUIConfigurer *ui_configurer)
   GimpDisplay      *active_display    = gimp_context_get_display (gimp_get_user_context (gimp));
   GimpDisplayShell *active_shell      = gimp_display_get_shell (active_display);
 
-  /* Get and setup the window to put everything in */
+  /* Get and set up the window to put everything in */
   uber_image_window = gimp_ui_configurer_get_uber_window (ui_configurer);
 
   /* Mve docks to the left and right side of the image window */

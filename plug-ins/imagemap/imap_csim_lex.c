@@ -1775,7 +1775,7 @@ static void csim_ensure_buffer_stack (void)
 	}
 }
 
-/** Setup the input buffer state to scan directly from a user-specified character buffer.
+/** Set up the input buffer state to scan directly from a user-specified character buffer.
  * @param base the character buffer
  * @param size the size in bytes of the character buffer
  *
@@ -1810,7 +1810,7 @@ YY_BUFFER_STATE csim__scan_buffer  (char * base, yy_size_t  size )
 	return b;
 }
 
-/** Setup the input buffer state to scan a string. The next call to csim_lex() will
+/** Set up the input buffer state to scan a string. The next call to csim_lex() will
  * scan from a @e copy of @a str.
  * @param yystr a NUL-terminated string to scan
  *
@@ -1823,7 +1823,7 @@ YY_BUFFER_STATE csim__scan_string (yyconst char * yystr )
 	return csim__scan_bytes(yystr,strlen(yystr) );
 }
 
-/** Setup the input buffer state to scan the given bytes. The next call to csim_lex() will
+/** Set up the input buffer state to scan the given bytes. The next call to csim_lex() will
  * scan from a @e copy of @a bytes.
  * @param yybytes the byte buffer to scan
  * @param _yybytes_len the number of bytes in the buffer pointed to by @a bytes.

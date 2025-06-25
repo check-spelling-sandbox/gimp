@@ -770,7 +770,7 @@ create_input_window (POINT origin,
 /* }}}
  * {{{ Hidden notification window */
 
-/* We setup a hidden window to listen for WM_DISPLAYCAHNGE
+/* We set up a hidden window to listen for WM_DISPLAYCAHNGE
  * messages and reposition the input-only windows on the
  * screen */
 
