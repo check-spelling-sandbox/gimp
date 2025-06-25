@@ -2,8 +2,8 @@
 # Copyright (C) 2004-2006 Adam Weinberger and the GNOME Foundation
 # This file is distributed under the same licence as the gimp plug-ins package.
 # Adam Weinberger <adamw@gnome.org>, 2004, 2005, 2006.
-# 
-# 
+#
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: gimp plug-ins\n"
@@ -6180,7 +6180,7 @@ msgstr "Error loading PNG file: %s"
 msgid "Error while reading '%s'. File corrupted?"
 msgstr "Error while reading '%s'. File corrupted?"
 
-#. Aie! Unknown type
+#. Aiee! Unknown type
 #: ../plug-ins/common/png.c:814
 #, c-format
 msgid "Unknown color model in PNG file '%s'."
