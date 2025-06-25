@@ -346,7 +346,7 @@ gimp_macos_setenv (const char * progname)
       g_free (tmp);
       if (res_dir && !stat (res_dir, &sb) && S_ISDIR (sb.st_mode))
         {
-          g_print ("GIMP is started as MacOS application\n");
+          g_print ("GIMP is started as a macOS application\n");
         }
       else
         {
@@ -603,12 +603,12 @@ main (int    argc,
   /* Make Inno aware of gimp process avoiding broken install/unninstall */
   char    *utf8_name = g_strdup_printf ("GIMP-%s", GIMP_MUTEX_VERSION);
   wchar_t *name      = g_utf8_to_utf16 (utf8_name, -1, NULL, NULL, NULL);
-  
+
   CreateMutexW (NULL, FALSE, name);
-  
+
   g_free (utf8_name);
   g_free (name);
-  
+
   /* Enable Anti-Aliasing*/
   g_setenv ("PANGOCAIRO_BACKEND", "fc", TRUE);
 
