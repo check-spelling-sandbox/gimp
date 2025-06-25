@@ -105,7 +105,7 @@ struct _GimpControllerEventValue
  * @trigger: GimpControllerEventTrigger
  * @value:   GimpControllerEventValue
  *
- * A union to hjold all event types
+ * A union to hold all event types
  **/
 union _GimpControllerEvent
 {
