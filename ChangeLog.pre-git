@@ -2449,7 +2449,7 @@
 
 	* app/display/gimpdisplayshell.h: optimize access to
 	GimpDisplayShell struct members by placing related and frequently
-	accessed members like like scale and offset into the same
+	accessed members like scale and offset into the same
 	cacheline.
 
 	* app/display/gimpdisplayshell.c (gimp_display_shell_init): resort
