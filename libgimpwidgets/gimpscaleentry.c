@@ -334,7 +334,7 @@ gimp_scale_entry_get_range (GimpScaleEntry *entry)
  * @upper:       the upper value for the whole widget if @limit_scale is
  *               %FALSE, or only for the #GtkSpinButton if %TRUE.
  * @limit_scale: Whether the range should only apply to the #GtkScale or
- *               if it should share its #GtkAdjustement with the
+ *               if it should share its #GtkAdjustment with the
  *               #GtkSpinButton. If %TRUE, both @lower and @upper must be
  *               included in current #GtkSpinButton range.
  *
