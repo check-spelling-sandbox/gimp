@@ -605,7 +605,7 @@ gimp_plug_in_set_file_proc_handles_vector (GimpPlugIn   *plug_in,
                    "Plug-in \"%s\"\n(%s)\n"
                    "attempted to register procedure \"%s\" "
                    "as a vector load procedure which does not take the "
-                   "standard load procedure procedure arguments: "
+                   "standard load procedure arguments: "
                    "(GimpRunMode, file, int, int) -> (image)",
                    gimp_object_get_name (plug_in),
                    gimp_file_get_utf8_name (plug_in->file),
