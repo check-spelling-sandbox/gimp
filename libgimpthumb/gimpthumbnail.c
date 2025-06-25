@@ -1001,7 +1001,7 @@ gimp_thumbnail_debug_notify (GObject    *object,
  * @error: return location for possible errors
  *
  * Attempts to load a thumbnail preview for the image associated with
- * @thumbnail. Before you use this function you need need to set an
+ * @thumbnail. Before you use this function you need to set an
  * image location using gimp_thumbnail_set_uri() or
  * gimp_thumbnail_set_filename(). You can also peek at the thumb
  * before loading it using gimp_thumbnail_peek_thumb.
