@@ -1012,7 +1012,7 @@ gimp_image_metadata_save_filter (GimpImage            *image,
 
   if (flags & GIMP_METADATA_SAVE_COMMENT)
     {
-      /* nothing to do, blah blah */
+      /* nothing to do, blah, blah */
     }
 
   return new_metadata;
