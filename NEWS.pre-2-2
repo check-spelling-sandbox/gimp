@@ -35,7 +35,7 @@ Overview of Changes in GIMP 2.2.0 (since 2.2-pre2 was released)
 - Lots of bug fixes and some optimizations.
 
 
-Contributors: 
+Contributors:
 
    Michael Natterer, Sven Neumann, David Odin, Manish Singh, Kevin Cozens,
    Joao S. O. Bueno, Karine Proot, Tim Mooney, Wolfgang Hofer, Simon Budig,
@@ -85,7 +85,7 @@ Overview of Changes in GIMP 2.2-pre2
 - Lots of bug fixes and some optimizations.
 
 
-Contributors: 
+Contributors:
 
    Michael Natterer, Sven Neumann, David Odin, Manish Singh, Kevin Cozens,
    Joao S. O. Bueno, Geert Jordaens, David Gowers, Øyvind Kolås, Cai Qian,
@@ -135,11 +135,11 @@ Overview of Changes in GIMP 2.2-pre1
 - lots of bug fixes.
 
 
-Contributors: 
+Contributors:
 
    Michael Natterer, Sven Neumann, David Odin, Manish Singh, Kevin Cozens,
    Joao S. O. Bueno, Geert Jordaens, Yeti, Karine Proot, Øyvind Kolås,
-   Simon Budig 
+   Simon Budig
 
 
 
@@ -202,7 +202,7 @@ Overview of Changes in GIMP 2.1.6
 
 - Cleaned up PDB API for brushes, gradients, palettes and patterns.
   Deprecated lots of functions and added saner replacements. Added
-  gimp-context-* PDB namespace with replacements for some of the 
+  gimp-context-* PDB namespace with replacements for some of the
   deprecated stuff.
 
 - Let GimpView handle pixbuf previews. Added a (themable) drop shadow
@@ -378,7 +378,7 @@ Overview of Changes in GIMP 2.1.3
 
 Contributors:
 
-   Michael Natterer, Sven Neumann, Helvetix Victorinox, Shlomi Fish, 
+   Michael Natterer, Sven Neumann, Helvetix Victorinox, Shlomi Fish,
    Bill Skaggs, Brion Vibber, Raphael Quinet, Simon Budig, David Odin,
    Manish Singh, Hans Breuer, Michael Schumacher, Dave Neary
 
@@ -405,7 +405,7 @@ Overview of Changes in GIMP 2.1.2
 - Improvements and code cleanup in gimpressionist plug-in.
 
 - Allow to cut'n'paste image data between GIMP and other applications
-  (for example Abiword) using the system clipboard.
+  (for example AbiWord) using the system clipboard.
 
 - List unsaved images in Quit dialog.
 
@@ -471,7 +471,7 @@ Overview of Changes in GIMP 2.1.1
 - Dispatch Enter, Return, Backspace and Delete key events to the tools
   and use them where it makes sense.
 
-- Some optimizations to the tile system, the gradient rendering and to 
+- Some optimizations to the tile system, the gradient rendering and to
   the cubic interpolation routine.
 
 - Show the brush outline while painting.
@@ -502,7 +502,7 @@ GIMP 2.1.0 includes the following enhancements over GIMP 2.0:
 
  - Major user interface improvements.
 
-   * Large parts of the GIMP user interface have been changed to 
+   * Large parts of the GIMP user interface have been changed to
      comply better with the GNOME Human Interface Guidelines. This is
      an ongoing effort and the interface may still be inconsistent in
      a few places.
@@ -548,7 +548,7 @@ GIMP 2.1.0 includes the following enhancements over GIMP 2.0:
  - Some changes to plug-ins.
 
    * Plug-ins can now register the same procedures in multiple places (the
-     API to register menu entries has been changed in a backward-compatible 
+     API to register menu entries has been changed in a backward-compatible
      fashion).
 
    * Plug-ins can now optionally register a menu icon.
