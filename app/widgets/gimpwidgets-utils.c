@@ -1249,7 +1249,7 @@ gimp_highlight_widget_draw (GtkWidget *widget,
  * @highlight, in a similar fashion to gtk_drag_highlight()
  * and gtk_drag_unhighlight().
  *
- * If @rect is %NULL, highlight the full widget, otherwise highlight the
+ * If @rect is %NULL, highlight the full widget; otherwise, highlight the
  * specific rectangle in widget coordinates.
  * When unhighlighting (i.e. @highlight is %FALSE), the value of @rect
  * doesn't matter, as the previously used rectangle will be reused.
@@ -2357,7 +2357,7 @@ gimp_search_widget_rec (GtkWidget   *widget,
        * dockable was already present, not if it was just created.
        *
        * TODO: this should be fixed so that we always make the
-       * widget visible before blinking, otherwise it's a bit
+       * widget visible before blinking; otherwise, it's a bit
        * useless when this happens.
        */
       gtk_widget_grab_focus (widget);

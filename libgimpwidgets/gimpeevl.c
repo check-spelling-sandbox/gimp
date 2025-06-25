@@ -535,7 +535,7 @@ gimp_eevl_lex (GimpEevl *eva)
     }
   else if (s[0] == '+' || s[0] == '-')
     {
-      /* Snatch these before the g_strtod() does, otherwise they might
+      /* Snatch these before the g_strtod() does; otherwise, they might
        * be used in a numeric conversion.
        */
       gimp_eevl_lex_accept_count (eva, 1, s[0]);

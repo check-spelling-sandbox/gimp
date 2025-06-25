@@ -1456,7 +1456,7 @@ gimp_tool_rectangle_button_press (GimpToolWidget      *widget,
 
       /* If the rectangle is being modified we want the center on
        * fixed_center to be at the center of the currently existing
-       * rectangle, otherwise we want the point where the user clicked
+       * rectangle; otherwise, we want the point where the user clicked
        * to be the center on fixed_center.
        */
       private->center_x_on_fixed_center = snapped_x;
@@ -1465,7 +1465,7 @@ gimp_tool_rectangle_button_press (GimpToolWidget      *widget,
       /* When the user toggles modifier keys, we want to keep track of
        * what coordinates the "other side" should have. If we are
        * creating a rectangle, use the current mouse coordinates as
-       * the coordinate of the "other side", otherwise use the
+       * the coordinate of the "other side"; otherwise, use the
        * immediate "other side" for that.
        */
       private->other_side_x = snapped_x;
@@ -1803,7 +1803,7 @@ gimp_tool_rectangle_key_press (GimpToolWidget *widget,
 
   gimp_tool_widget_set_snap_offsets (widget, 0, 0, 0, 0);
 
-  /*  Resize the rectangle if the mouse is over a handle, otherwise move it  */
+  /*  Resize the rectangle if the mouse is over a handle; otherwise, move it  */
   switch (private->function)
     {
     case GIMP_TOOL_RECTANGLE_MOVING:

@@ -438,7 +438,7 @@ gimp_resolution_entry_set_width (GimpResolutionEntry *entry,
   if (width == 0)
     {
       /* Do nothing, i.e. revert back to value it was. Yet notify after an idle
-       * source, otherwise the entry is not updated (the binding likely blocks
+       * source; otherwise, the entry is not updated (the binding likely blocks
        * notifications for this property to avoid infinite loops.
        */
       g_idle_add ((GSourceFunc) gimp_resolution_entry_idle_notify, entry);
@@ -474,7 +474,7 @@ gimp_resolution_entry_set_height (GimpResolutionEntry *entry,
   if (height == 0)
     {
       /* Do nothing, i.e. revert back to value it was. Yet notify after an idle
-       * source, otherwise the entry is not updated (the binding likely blocks
+       * source; otherwise, the entry is not updated (the binding likely blocks
        * notifications for this property to avoid infinite loops.
        */
       g_idle_add ((GSourceFunc) gimp_resolution_entry_idle_notify, entry);

@@ -70,7 +70,7 @@ amplify your actions.
 
 Note that if you render onto an image with an alpha channel, the
 background will be transparent (very useful for compositing several
-fractals), otherwise the background will be the current background.
+fractals); otherwise, the background will be the current background.
 
 There are tutorials and some example images at:
 

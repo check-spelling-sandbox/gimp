@@ -267,7 +267,7 @@ _("Sets the preferred pen and touch input API.")
 
 #define INITIAL_ZOOM_TO_FIT_BLURB \
 _("When enabled, this will ensure that the full image is visible after a " \
-  "file is opened, otherwise it will be displayed with a scale of 1:1.")
+  "file is opened; otherwise, it will be displayed with a scale of 1:1.")
 
 #define DRAG_ZOOM_MODE_BLURB \
 _("Whether to zoom based on distance moved or time spent moving, when " \

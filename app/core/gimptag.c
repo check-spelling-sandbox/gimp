@@ -319,7 +319,7 @@ gimp_tag_has_prefix (GimpTag     *tag,
  * Tries to create a valid tag string from given @tag_string.
  *
  * Returns: (transfer full) (nullable): a newly allocated tag string in case
- * given @tag_string was valid or could be fixed, otherwise %NULL. Allocated
+ * given @tag_string was valid or could be fixed; otherwise, %NULL. Allocated
  * value should be freed using g_free().
  **/
 gchar *

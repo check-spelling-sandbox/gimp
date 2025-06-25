@@ -292,8 +292,8 @@ msgid "The edited palette"
 msgstr "The edited palette"
 
 #: plug-ins/python/palette-offset.py:65
-msgid "The newly created palette when read-only, otherwise the input palette"
-msgstr "The newly created palette when read-only, otherwise the input palette"
+msgid "The newly created palette when read-only; otherwise, the input palette"
+msgstr "The newly created palette when read-only; otherwise, the input palette"
 
 #. TODO: Re-incorporate LAB and LCHab options with GeglColor
 #: plug-ins/python/palette-sort.py:45 plug-ins/python/palette-sort.py:463

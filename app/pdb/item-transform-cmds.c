@@ -998,7 +998,7 @@ register_item_transform_procs (GimpPDB *pdb)
                                   "\n"
                                   "If a selection exists and the item is a drawable, the portion of the drawable which lies under the selection is cut from the drawable and made into a floating selection which is then flipped. If auto_center is set to TRUE, the flip is around the selection's center. Otherwise, the coordinate of the axis needs to be specified. The return value is the ID of the flipped floating selection.\n"
                                   "\n"
-                                  "If there is no selection or the item is not a drawable, the entire item will be flipped around its center if auto_center is set to TRUE, otherwise the coordinate of the axis needs to be specified. The return value will be equal to the item ID supplied as input.\n"
+                                  "If there is no selection or the item is not a drawable, the entire item will be flipped around its center if auto_center is set to TRUE; otherwise, the coordinate of the axis needs to be specified. The return value will be equal to the item ID supplied as input.\n"
                                   "\n"
                                   "This procedure is affected by the following context setters: 'gimp-context-set-transform-resize'.",
                                   NULL);
@@ -1199,7 +1199,7 @@ register_item_transform_procs (GimpPDB *pdb)
                                   "\n"
                                   "If a selection exists and the item is a drawable, the portion of the drawable which lies under the selection is cut from the drawable and made into a floating selection which is then rotated by the specified amount. If auto_center is set to TRUE, the rotation is around the selection's center. Otherwise, the coordinate of the center point needs to be specified. The return value is the ID of the rotated floating selection.\n"
                                   "\n"
-                                  "If there is no selection or the item is not a drawable, the entire item will be rotated around its center if auto_center is set to TRUE, otherwise the coordinate of the center point needs to be specified.\n"
+                                  "If there is no selection or the item is not a drawable, the entire item will be rotated around its center if auto_center is set to TRUE; otherwise, the coordinate of the center point needs to be specified.\n"
                                   "The return value will be equal to the item ID supplied as input.\n"
                                   "\n"
                                   "This procedure is affected by the following context setters: 'gimp-context-set-transform-resize'.",
@@ -1260,7 +1260,7 @@ register_item_transform_procs (GimpPDB *pdb)
                                   "\n"
                                   "If a selection exists and the item is a drawable, the portion of the drawable which lies under the selection is cut from the drawable and made into a floating selection which is then rotated by the specified amount. If auto_center is set to TRUE, the rotation is around the selection's center. Otherwise, the coordinate of the center point needs to be specified. The return value is the ID of the rotated floating selection.\n"
                                   "\n"
-                                  "If there is no selection or the item is not a drawable, the entire item will be rotated around its center if auto_center is set to TRUE, otherwise the coordinate of the center point needs to be specified.\n"
+                                  "If there is no selection or the item is not a drawable, the entire item will be rotated around its center if auto_center is set to TRUE; otherwise, the coordinate of the center point needs to be specified.\n"
                                   "The return value will be equal to the item ID supplied as input.\n"
                                   "\n"
                                   "This procedure is affected by the following context setters: 'gimp-context-set-interpolation', 'gimp-context-set-transform-direction', 'gimp-context-set-transform-resize'.",

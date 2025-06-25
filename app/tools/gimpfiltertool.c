@@ -1070,7 +1070,7 @@ gimp_filter_tool_real_set_config (GimpFilterTool *filter_tool,
   gimp_config_copy (GIMP_CONFIG (config),
                     GIMP_CONFIG (filter_tool->config), 0);
 
-  /*  reset the "time" property, otherwise explicitly storing the
+  /*  reset the "time" property; otherwise, explicitly storing the
    *  config as setting will also copy the time, and the stored object
    *  will be considered to be among the automatically stored recently
    *  used settings

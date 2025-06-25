@@ -1801,7 +1801,7 @@ begin
 		                            '#Run:<description>/<full path to uninstaller>/<parameters for automatic uninstall>'#13#10+
 		                            '#'#13#10+
 		                            '#The file is parsed in reverse order' + #13#10 +
-		                            '' + #13#10 //needs '' in front, otherwise preprocessor complains
+		                            '' + #13#10 //needs '' in front; otherwise, preprocessor complains
 		                            ,False)
 	else
 	begin

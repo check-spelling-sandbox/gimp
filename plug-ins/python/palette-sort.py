@@ -319,7 +319,7 @@ def palette_sort(palette, selection, slice_expr, channel1, ascending1,
 # Important to describe the general effect on palettes rather than details of the sort.
 help_doc = r"""
 Sorts a palette, or part of a palette.
-Sorts the given palette when it is editable, otherwise creates a new sorted palette.
+Sorts the given palette when it is editable; otherwise, creates a new sorted palette.
 The default is a 1D sort, but you can also sort over two color channels
 or create a 2D sorted palette with sorted rows.
 You can optionally install colormath (https://pypi.python.org/pypi/colormath/1.0.8)

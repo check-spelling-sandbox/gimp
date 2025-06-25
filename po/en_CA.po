@@ -6960,10 +6960,10 @@ msgstr "Sets the text to appear in image window titles."
 #: ../app/config/gimprc-blurbs.h:200
 msgid ""
 "When enabled, this will ensure that the full image is visible after a file "
-"is opened, otherwise it will be displayed with a scale of 1:1."
+"is opened; otherwise, it will be displayed with a scale of 1:1."
 msgstr ""
 "When enabled, this will ensure that the full image is visible after a file "
-"is opened, otherwise it will be displayed with a scale of 1:1."
+"is opened; otherwise, it will be displayed with a scale of 1:1."
 
 #: ../app/config/gimprc-blurbs.h:204
 msgid ""

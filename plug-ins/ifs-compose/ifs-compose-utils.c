@@ -648,7 +648,7 @@ aff_element_compute_click_boundary (AffElement *elem,
   yc += 0.5 * ((axis1max + axis1min) * sth + (axis2max + axis2min) * cth);
 
   /* if the the rectangle is less than 10 pixels in any dimension,
-     make it click_boundary, otherwise set click_boundary = draw_boundary */
+     make it click_boundary; otherwise, set click_boundary = draw_boundary */
 
   if (axis1 < 8.0 || axis2 < 8.0)
     {

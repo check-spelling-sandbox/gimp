@@ -1381,7 +1381,7 @@ gimp_stack_trace_print (const gchar   *prog_name,
 #endif
       close (sync_fd[1]);
 
-      /* It is important to close the writing side of the pipe, otherwise
+      /* It is important to close the writing side of the pipe; otherwise,
        * the read() will wait forever without getting the information that
        * writing is finished.
        */
@@ -1767,7 +1767,7 @@ gimp_utils_generic_available (const gchar *program,
       if (! WIFEXITED (status) || WEXITSTATUS (status) != 0)
         return FALSE;
 
-      /* It is important to close the writing side of the pipe, otherwise
+      /* It is important to close the writing side of the pipe; otherwise,
        * the read() will wait forever without getting the information that
        * writing is finished.
        */

@@ -510,7 +510,7 @@ gimp_edit_paste_get_tagged_layers (GimpImage         *image,
         case GIMP_PASTE_TYPE_FLOATING_INTO:
         case GIMP_PASTE_TYPE_FLOATING_INTO_IN_PLACE:
           /*  when pasting as floating make sure gimp_item_convert()
-           *  will turn group layers into normal layers, otherwise use
+           *  will turn group layers into normal layers; otherwise, use
            *  the same layer type so e.g. text information gets
            *  preserved. See issue #2667.
            */

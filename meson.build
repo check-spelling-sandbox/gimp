@@ -511,7 +511,7 @@ if meson.is_cross_build() and not meson.can_run_host_binaries()
     glib_warning = '''
       Test for glib-networking cannot be performed while cross-compiling,
       unless you set an `exe_wrapper` binary in your toolchain file.
-      Make sure glib-networking is installed, otherwise GIMP will not be able
+      Make sure glib-networking is installed; otherwise, GIMP will not be able
       to display the remote help pages through the help browser, nor will it
       be able to open remote HTTPS (or other protocol using SSL/TLS) files.
       HTTPS is becoming the expected standard and should not be considered
@@ -536,7 +536,7 @@ else # not meson.is_cross_build() or meson.can_run_host_binaries()
         glib_warning = '''
       The cross-platform test for glib-networking failed, using the
       `exe_wrapper` set in your toolchain file.
-      Make sure glib-networking is installed, otherwise GIMP will not be able
+      Make sure glib-networking is installed; otherwise, GIMP will not be able
       to display the remote help pages through the help browser, nor will it
       be able to open remote HTTPS (or other protocol using SSL/TLS) files.
       HTTPS is becoming the expected standard and should not be considered
@@ -1101,7 +1101,7 @@ if not gjs.found() and have_javascript
   js_warning = '''
   GJS was not found.
   JavaScript plug-ins will be installed anyway but you should make sure that
-  the JavaScript interpreter GJS is available at installation, otherwise
+  the JavaScript interpreter GJS is available at installation; otherwise,
   installed plug-ins won't be usable.
   '''
   warning(js_warning)
@@ -1173,7 +1173,7 @@ if have_lua
       Or you are cross-compiling so we couldn't test lua-lgi support.
       Lua example plug-in (EXPERIMENTAL) will be installed anyway but you
       should make sure that luajit or lua and that LGI are available at
-      installation, otherwise Lua plug-ins won't be usable.
+      installation; otherwise, Lua plug-ins won't be usable.
       '''
     warning(lua_warning)
     warnings += lua_warning

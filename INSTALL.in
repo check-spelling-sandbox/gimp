@@ -485,7 +485,7 @@ optional features or plug-ins will be installed.
 There are some GIMP features, in particular for the support of more
 recent or less used image formats, that need additional third-party
 libraries installed on your system. You need the related libraries and
-header files installed for these, otherwise the compiled GIMP will be a
+header files installed for these; otherwise, the compiled GIMP will be a
 minimal version without these features.
 
 Once you installed them, run the following command to trigger a

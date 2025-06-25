@@ -3201,7 +3201,7 @@ Core:
   - Color Profile Policy (import) now exposes a "Convert to Preferred
     Profile" (fourth) choice and the import dialog default "Convert"
     action will convert the image to the preferred profile (if any was
-    set, otherwise it falls back to the built-in profile). Converting to
+    set; otherwise, it falls back to the built-in profile). Converting to
     the built-in profile will be still available as secondary action.
   - A new "Metadata Rotation Policy" is now exposed in the Preferences
     dialog, next to the "Color Profile Policy" (in page `Preferences >

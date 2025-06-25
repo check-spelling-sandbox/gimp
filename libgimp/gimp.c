@@ -1060,7 +1060,7 @@ gimp_plugin_sigfatal_handler (gint sig_num)
     }
 
   /* Do not end with gimp_quit().
-   * We want the plug-in to continue its normal crash course, otherwise
+   * We want the plug-in to continue its normal crash course; otherwise,
    * we won't get the "Plug-in crashed" error in GIMP.
    */
   exit (EXIT_FAILURE);

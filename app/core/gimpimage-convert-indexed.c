@@ -1472,7 +1472,7 @@ find_split_candidate (const boxptr  boxlist,
   *which_axis = AXIS_UNDEF;
 
   /* we only perform the initial L-split bias /at all/ if the final
-     number of desired colors is quite low, otherwise it all comes
+     number of desired colors is quite low; otherwise, it all comes
      out in the wash anyway and this initial bias generally only hurts
      us in the long run. */
   if (desired_colors <= 16)
@@ -1503,7 +1503,7 @@ find_split_candidate (const boxptr  boxlist,
           etype bpe = (double)((boxp->berror) * B_SCALE * B_SCALE);
 #else
           /*
-           * Sorry about the mess, otherwise would get :
+           * Sorry about the mess; otherwise, would get :
            * error C2520: conversion from unsigned __int64 to double
            *              not implemented, use signed __int64
            */
@@ -3731,7 +3731,7 @@ median_cut_pass2_nodestruct_dither_rgb (QuantizeObj *quantobj,
  * Initialize the error-limiting transfer function (lookup table).
  * The raw F-S error computation can potentially compute error values of up to
  * +- MAXJSAMPLE.  But we want the maximum correction applied to a pixel to be
- * much less, otherwise obviously wrong pixels will be created.  (Typical
+ * much less; otherwise, obviously wrong pixels will be created.  (Typical
  * effects include weird fringes at color-area boundaries, isolated bright
  * pixels in a dark area, etc.)  The standard advice for avoiding this problem
  * is to ensure that the "corners" of the color cube are allocated as output

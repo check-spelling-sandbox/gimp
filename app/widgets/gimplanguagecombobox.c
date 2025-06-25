@@ -72,7 +72,7 @@ gimp_language_combo_box_init (GimpLanguageComboBox *combo)
  * Returns a combo box containing all GUI localization languages if
  * @manual_l18n is %FALSE, or all manual localization languages
  * otherwise. If @empty_label is not %NULL, an entry with this label
- * will be created for the language code "", otherwise if @empty_label
+ * will be created for the language code ""; otherwise, if @empty_label
  * is %NULL and @manual_l18n is %FALSE, the entry will be "System
  * Language" localized in itself (not in the GUI language).
  */

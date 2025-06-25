@@ -161,7 +161,7 @@ gih_create_procedure (GimpPlugIn  *plug_in,
                                         _("This plug-in exports an image in "
                                           "the GIMP brush pipe format. For a "
                                           "colored brush pipe, RGBA layers are "
-                                          "used, otherwise the layers should be "
+                                          "used; otherwise, the layers should be "
                                           "grayscale masks. The image can be "
                                           "multi-layered, and additionally the "
                                           "layers can be divided into a "

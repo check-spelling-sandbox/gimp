@@ -377,7 +377,7 @@ gimp_operation_border_process (GeglOperation       *operation,
       transition = g_new (gfloat, roi->width);
 
       /* With `self->edge_lock', initialize row above image as
-       * selected, otherwise, initialize as unselected.
+       * selected; otherwise, initialize as unselected.
        */
       if (self->edge_lock)
         {

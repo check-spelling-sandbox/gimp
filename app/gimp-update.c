@@ -98,7 +98,7 @@ static gint          gimp_check_updates_process_idle (gpointer          data);
  * update policy settings).
  * If @last_version is %NULL, the currently stored "last known release"
  * is compared. Even if we haven't made any new remote checks, it is
- * important to always compare again stored last release, otherwise we
+ * important to always compare again stored last release; otherwise, we
  * might warn of the same current version, or worse an older version.
  *
  * Returns: %TRUE is @last_version (or stored last known release if

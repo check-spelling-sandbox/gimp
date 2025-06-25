@@ -236,7 +236,7 @@ struct yy_buffer_state
 	int yy_is_interactive;
 
 	/* Whether we're considered to be at the beginning of a line.
-	 * If so, '^' rules will be active on the next match, otherwise
+	 * If so, '^' rules will be active on the next match; otherwise,
 	 * not.
 	 */
 	int yy_at_bol;

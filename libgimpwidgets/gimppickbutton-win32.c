@@ -305,7 +305,7 @@ create_cursor_from_rgba32_pixbuf (GdkPixbuf *pixbuf,
       goto cleanup;
     }
 
-  /* We also need to provide a proper mask HBITMAP, otherwise
+  /* We also need to provide a proper mask HBITMAP; otherwise,
    * CreateIconIndirect() fails with ERROR_INVALID_PARAMETER.
    * This mask bitmap is a bitfield indicating whether the */
   memset (&info, 0, sizeof (info));

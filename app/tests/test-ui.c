@@ -646,7 +646,7 @@ repeatedly_switch_window_mode (gconstpointer data)
                        &expected_second_width,
                        &expected_second_height);
 
-  /* Make sure they differ, otherwise the test is pointless */
+  /* Make sure they differ; otherwise, the test is pointless */
   g_assert_cmpint (expected_initial_width,  !=, expected_second_width);
   g_assert_cmpint (expected_initial_height, !=, expected_second_height);
 

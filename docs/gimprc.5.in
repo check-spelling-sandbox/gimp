@@ -567,7 +567,7 @@ pixel on the screen.  Possible values are yes and no.
 (initial-zoom-to-fit yes)
 
 When enabled, this will ensure that the full image is visible after a file is
-opened, otherwise it will be displayed with a scale of 1:1.  Possible values
+opened; otherwise, it will be displayed with a scale of 1:1.  Possible values
 are yes and no.
 
 .TP

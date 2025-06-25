@@ -405,7 +405,7 @@ gimp_fatal_func (const gchar    *log_domain,
 #endif /* ! G_OS_WIN32 */
 
   /* Do not end with gimp_quit().
-   * We want the plug-in to continue its normal crash course, otherwise
+   * We want the plug-in to continue its normal crash course; otherwise,
    * we won't get the "Plug-in crashed" error in GIMP.
    */
   exit (EXIT_FAILURE);

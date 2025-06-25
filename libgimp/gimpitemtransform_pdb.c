@@ -101,7 +101,7 @@ gimp_item_transform_translate (GimpItem *item,
  *
  * If there is no selection or the item is not a drawable, the entire
  * item will be flipped around its center if auto_center is set to
- * TRUE, otherwise the coordinate of the axis needs to be specified.
+ * TRUE; otherwise, the coordinate of the axis needs to be specified.
  * The return value will be equal to the item ID supplied as input.
  *
  * This procedure is affected by the following context setters:
@@ -311,7 +311,7 @@ gimp_item_transform_perspective (GimpItem *item,
  *
  * If there is no selection or the item is not a drawable, the entire
  * item will be rotated around its center if auto_center is set to
- * TRUE, otherwise the coordinate of the center point needs to be
+ * TRUE; otherwise, the coordinate of the center point needs to be
  * specified.
  * The return value will be equal to the item ID supplied as input.
  *
@@ -377,7 +377,7 @@ gimp_item_transform_rotate_simple (GimpItem         *item,
  *
  * If there is no selection or the item is not a drawable, the entire
  * item will be rotated around its center if auto_center is set to
- * TRUE, otherwise the coordinate of the center point needs to be
+ * TRUE; otherwise, the coordinate of the center point needs to be
  * specified.
  * The return value will be equal to the item ID supplied as input.
  *

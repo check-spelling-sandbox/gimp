@@ -1439,7 +1439,7 @@ fractalexplorer_rescan_list (GtkWidget *widget,
           gtk_list_store_clear (GTK_LIST_STORE (model));
           fill_list_store (GTK_LIST_STORE (model));
 
-          /* select active fractal, otherwise first fractal */
+          /* select active fractal; otherwise, first fractal */
           selection = gtk_tree_view_get_selection (GTK_TREE_VIEW (view));
           if (gtk_tree_model_get_iter_first (model, &iter))
             {

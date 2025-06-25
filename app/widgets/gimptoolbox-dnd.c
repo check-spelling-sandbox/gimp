@@ -97,7 +97,7 @@ gimp_toolbox_dnd_init (GimpToolbox *toolbox,
 
   /* Before calling any dnd helper functions, setup the drag
    * destination manually since we want to handle all drag events
-   * manually, otherwise we would not be able to give the drag handler
+   * manually; otherwise, we would not be able to give the drag handler
    * a chance to handle drag events
    */
   gtk_drag_dest_set (vbox,

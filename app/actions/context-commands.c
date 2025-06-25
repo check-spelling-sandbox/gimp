@@ -695,7 +695,7 @@ context_brush_radius_cmd_callback (GimpAction *action,
       radius = gimp_brush_generated_get_radius (generated);
 
       /* If the user uses a high precision radius adjustment command
-       * then we allow a minimum radius of 0.1 px, otherwise we set the
+       * then we allow a minimum radius of 0.1 px; otherwise, we set the
        * minimum radius to 1.0 px and adjust the radius to 1.0 px if it
        * is less than 1.0 px. This prevents irritating 0.1, 1.1, 2.1 etc
        * radius sequences when 1.0 px steps are used.

@@ -596,7 +596,7 @@ gimp_tool_handle_grid_button_press (GimpToolWidget      *widget,
                active_handle < 4)
         {
           /* existing handle is being dragged. don't set dragged_handle for
-           * newly-created handles, otherwise their snap offset will be wrong
+           * newly-created handles; otherwise, their snap offset will be wrong
            */
           dragged_handle = private->handles[private->handle];
         }

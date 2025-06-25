@@ -63,7 +63,7 @@ class PaletteOffset (Gimp.PlugIn):
             procedure.add_int_argument ("amount", _("O_ffset"), _("Offset"),
                                         1, GLib.MAXINT, 1, GObject.ParamFlags.READWRITE)
             procedure.add_palette_return_value ("new-palette", _("The edited palette"),
-                                                _("The newly created palette when read-only, otherwise the input palette"),
+                                                _("The newly created palette when read-only; otherwise, the input palette"),
                                                 GObject.ParamFlags.READWRITE)
             procedure.add_menu_path ('<Palettes>/Palettes Menu')
         else:

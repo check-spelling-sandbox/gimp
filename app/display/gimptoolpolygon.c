@@ -820,7 +820,7 @@ gimp_tool_polygon_update_motion (GimpToolPolygon *polygon,
           gint    segment_index;
 
           /* Base constraints on the last segment vertex if we move
-           * the first one, otherwise base on the previous segment
+           * the first one; otherwise, base on the previous segment
            * vertex
            */
           if (priv->grabbed_segment_index == 0)

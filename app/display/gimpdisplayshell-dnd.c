@@ -636,7 +636,7 @@ gimp_display_shell_drop_uri_list (GtkWidget *widget,
         }
 
       /* Something above might have run a few rounds of the main loop. Check
-       * that shell->display is still there, otherwise ignore this as the app
+       * that shell->display is still there; otherwise, ignore this as the app
        * is being torn down for quitting.
        */
       if (warn && shell->display)

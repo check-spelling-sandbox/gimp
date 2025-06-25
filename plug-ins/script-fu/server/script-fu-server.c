@@ -815,7 +815,7 @@ make_socket (const struct addrinfo *ai)
   setsockopt (sock, SOL_SOCKET, SO_REUSEADDR, (const void *) &v, sizeof(v));
 
 #ifdef IPV6_V6ONLY
-  /* Only listen on IPv6 addresses, otherwise bind() will fail. */
+  /* Only listen on IPv6 addresses; otherwise, bind() will fail. */
   if (ai->ai_family == AF_INET6)
     {
       v = 1;
