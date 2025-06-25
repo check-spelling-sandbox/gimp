@@ -961,7 +961,7 @@ gimp_spin_scale_motion_notify (GtkWidget      *widget,
        * gdk_device_warp(): if their difference is less than half the
        * monitor width, then we assume the pointer got warped
        * (otherwise, the user must have very quickly moved the mouse
-       * across half the screen.)  yes, this is an ugly ugly hack :)
+       * across half the screen.)  yes, this is an ugly, ugly, hack :)
        */
 
       if (scale->pointer_warp)
