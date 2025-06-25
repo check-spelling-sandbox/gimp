@@ -353,7 +353,7 @@ gimp_navigation_editor_popup (GimpDisplayShell *shell,
         view_marker_center_y;
 
     /* When the image is zoomed out and overscrolled, the above
-     * calculation risks positioning the popup far far away from the
+     * calculation risks positioning the popup far, far, away from the
      * click coordinate. We don't want that, so perform some clamping.
      */
     x = CLAMP (x, screen_click_x - popup_width,  screen_click_x);
