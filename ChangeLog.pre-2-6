@@ -221,7 +221,7 @@
 	Bug 549195 – Color Wheel not working (GtkHSV):
 
 	* modules/color-selector-wheel.c: change packing and size requests
-	of the GtkHSV and its optional GtkAligmnent depending on the GTK+
+	of the GtkHSV and its optional GtkAlignment depending on the GTK+
 	version used to make it work with both the old and the new version
 	of the widget. Evil hacks, better don't look :)
 
