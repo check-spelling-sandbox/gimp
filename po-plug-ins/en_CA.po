@@ -186,8 +186,8 @@ msgid "Use loglog smoothing"
 msgstr "Use loglog smoothing"
 
 #: ../plug-ins/FractalExplorer/Dialogs.c:937
-msgid "Use log log smoothing to eliminate \"banding\" in the result"
-msgstr "Use log log smoothing to eliminate \"banding\" in the result"
+msgid "Use log smoothing to eliminate \"banding\" in the result"
+msgstr "Use log smoothing to eliminate \"banding\" in the result"
 
 #. Color Density frame
 #: ../plug-ins/FractalExplorer/Dialogs.c:941

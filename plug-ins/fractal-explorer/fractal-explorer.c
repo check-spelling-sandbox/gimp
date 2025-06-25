@@ -391,8 +391,8 @@ explorer_create_procedure (GimpPlugIn  *plug_in,
                                        2, 8192, 512,
                                        G_PARAM_READWRITE);
       gimp_procedure_add_boolean_argument (procedure, "use-loglog-smoothing",
-                                           _("_Use log log smoothing"),
-                                           _("Use log log smoothing to eliminate "
+                                           _("_Use log smoothing"),
+                                           _("Use log smoothing to eliminate "
                                            "\"banding\" in the result"),
                                            FALSE,
                                            G_PARAM_READWRITE);

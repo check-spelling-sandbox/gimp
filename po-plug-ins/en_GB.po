@@ -11579,12 +11579,12 @@ msgid "Number of Colors for mapping"
 msgstr "Number of Colours for mapping"
 
 #: plug-ins/fractal-explorer/fractal-explorer.c:394
-msgid "_Use log log smoothing"
-msgstr "_Use log log smoothing"
+msgid "_Use log smoothing"
+msgstr "_Use log smoothing"
 
 #: plug-ins/fractal-explorer/fractal-explorer.c:395
-msgid "Use log log smoothing to eliminate \"banding\" in the result"
-msgstr "Use log log smoothing to eliminate \"banding\" in the result"
+msgid "Use log smoothing to eliminate \"banding\" in the result"
+msgstr "Use log smoothing to eliminate \"banding\" in the result"
 
 #: plug-ins/fractal-explorer/fractal-explorer.c:493
 msgid "Rendering fractal"
