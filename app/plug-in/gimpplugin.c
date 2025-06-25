@@ -428,7 +428,7 @@ gimp_plug_in_close_waitpid (GPid        pid,
  * It is only for UNIX-like platforms; might not be portable to MSWindows.
  * It can also be used for debugging the protocol, to know message lengths.
  *
- * Used on MacOS for a seeming bug in IO events.
+ * Used on macOS for a seeming bug in IO events.
  * Usually, on an IO event on condition G_IO_IN,
  * you can assume the pipe is not empty and a read will not block.
  */

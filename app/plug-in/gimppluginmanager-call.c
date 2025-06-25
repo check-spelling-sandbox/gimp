@@ -28,7 +28,7 @@
 
 #ifdef __APPLE__
 /* Not include gtk/gtk.h and depend on gtk just for GDK_WINDOWING_QUARTZ macro.
- * __APPLE__ suffices, we only build for MacOS (vs iOS) and Quartz (vs X11)
+ * __APPLE__ suffices, we only build for macOS (vs iOS) and Quartz (vs X11)
  */
 #import <Cocoa/Cocoa.h>
 #endif
@@ -399,7 +399,7 @@ gimp_plug_in_manager_call_run_temp (GimpPlugInManager      *manager,
       * was say a callback from a Resource chooser dialog.
       * In that case, when the chooser is closing, it would be better
       * to activate the plugin, avoiding an extra click by the user.
-      * We can't do that here, unless we use the more cooperative API of MacOS.
+      * We can't do that here, unless we use the more cooperative API of macOS.
       */
       [NSApp activateIgnoringOtherApps:YES];
 #endif

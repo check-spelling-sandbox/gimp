@@ -15,7 +15,7 @@ This may also interest users who want to use different interpreters.
 
 ## Brief summary
 
-On Linux (except for Lua) and MacOS, a shebang in a GIMP plugin
+On Linux (except for Lua) and macOS, a shebang in a GIMP plugin
 text file is enough to indicate what interpreter to start.
 On Windows (and Linux for Lua), you also need an .interp file installed with GIMP.
 
@@ -45,7 +45,7 @@ Similarly, GIMP launches an interpreter on GIMP plugin text files.
 GIMP must figure out the "corresponding" interpreter.
 
 The general mechanism for launching interpreters from their text files is built into the operating system.
-On Linux and MacOS, the mechanism is called a shebang or sh-bang.
+On Linux and macOS, the mechanism is called a shebang or sh-bang.
 On Windows, the mechanism "associates" file extensions with programs.
 
 GIMP uses similar mechanisms to launch interpreters.
@@ -63,7 +63,7 @@ only one of the GIMP apps should launch interpreted GIMP plugin files.
 
 ## Platform differences
 
-On Linux (except for Lua) and MacOS, you simply need a shebang in a plugin text file.
+On Linux (except for Lua) and macOS, you simply need a shebang in a plugin text file.
 
 On Windows (and Linux, at least for Lua), you must also define an .interp file.
 The .interp files are part of GIMP's installation on Windows (and Linux for Lua)
@@ -71,7 +71,7 @@ The .interp files are part of GIMP's installation on Windows (and Linux for Lua)
 The .interp files are built when the Windows installer is built.
 See the source file: /build/windows/installer/base_gimp3264.iss .
 
-A user can optionally create .interp files on Linux and MacOS.
+A user can optionally create .interp files on Linux and macOS.
 But they are not usually part of a Linux installation.
 Sophisticated users can edit .interp files to change which interpreters GIMP launches.
 

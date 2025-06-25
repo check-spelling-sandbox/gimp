@@ -1243,7 +1243,7 @@ gimp_widget_animation_enabled (void)
                 NULL);
 
 #ifdef PLATFORM_OSX
-  /* The MacOS setting is TRUE if the user wants animations turned off, so
+  /* The macOS setting is TRUE if the user wants animations turned off, so
    * we invert it to match the format of the other platforms */
   animation_enabled =
     ! ([[NSWorkspace sharedWorkspace] accessibilityDisplayShouldReduceMotion]);

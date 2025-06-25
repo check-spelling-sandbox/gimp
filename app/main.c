@@ -370,7 +370,7 @@ gimp_macos_setenv (const char * progname)
             }
         }
 
-      /* Detect we were built in homebrew for MacOS */
+      /* Detect we were built in homebrew for macOS */
       tmp = g_strdup_printf ("%s/Frameworks/Python.framework", res_dir);
       if (tmp && !stat (tmp, &sb) && S_ISDIR (sb.st_mode))
         {
@@ -378,7 +378,7 @@ gimp_macos_setenv (const char * progname)
           need_pythonhome = FALSE;
         }
       g_free (tmp);
-      /* Detect we were built in MacPorts for MacOS */
+      /* Detect we were built in MacPorts for macOS */
       tmp = g_strdup_printf ("%s/Library/Frameworks/Python.framework", res_dir);
       if (tmp && !stat (tmp, &sb) && S_ISDIR (sb.st_mode))
         {
@@ -561,7 +561,7 @@ main (int    argc,
   gimp_open_console_window ();
 #endif
 #if defined(ENABLE_RELOCATABLE_RESOURCES) && defined(__APPLE__)
-  /* remove MacOS session identifier from the command line args */
+  /* remove macOS session identifier from the command line args */
   gint newargc = 0;
   for (gint i = 0; i < argc; i++)
     {

@@ -1454,7 +1454,7 @@ shmem_choice = get_option('shmem-type')
 if shmem_choice == 'auto'
   shmem_choice = 'sysv'
 
-  # MacOS X has broken SysV shm
+  # macOS has broken SysV shm
   if platform_osx
     shmem_choice = 'posix'
   endif

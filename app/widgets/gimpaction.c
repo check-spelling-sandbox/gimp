@@ -1267,8 +1267,8 @@ gimp_action_set_menu_path (GimpAction  *action,
     {
       paths = gimp_utils_break_menu_path (menu_path, NULL, NULL);
 
-      /* MacOS does not support the "rightwards triangle arrowhead" symbol,
-       * so we'll use the MacOS submenu separator symbol per Lukas Oberhuber. */
+      /* macOS does not support the "rightwards triangle arrowhead" symbol,
+       * so we'll use the macOS submenu separator symbol per Lukas Oberhuber. */
 #ifdef PLATFORM_OSX
       priv->menu_path = g_strjoinv (" > ", paths);
 #else

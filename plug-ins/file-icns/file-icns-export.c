@@ -136,7 +136,7 @@ icns_find_type (gint width,
     {
       /* TODO: Currently, this chooses the first "modern" ICNS format for a
        * ICNS file. This is because newer formats are not supported well in
-       * non-native MacOS programs like Inkscape. It'd be nice to design
+       * non-native macOS programs like Inkscape. It'd be nice to design
        * a GUI with enough information for users to make their own decisions
        */
       if (iconTypes[j].width == width   &&
@@ -465,7 +465,7 @@ icns_export_image (GFile        *file,
 
       match = icns_find_type (width, height);
 
-      /* MacOS X format icons */
+      /* macOS format icons */
       if (match != -1 && duplicates[match] == 0)
         {
           gint temp_size;

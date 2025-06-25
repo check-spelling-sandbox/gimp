@@ -945,13 +945,13 @@ script_fu_reset (SFScript *script)
 
 /*
  * Functions for window front/back management.
- * These might only be necessary for MacOS.
+ * These might only be necessary for macOS.
  *
  * One problem is that the GIMP and the scriptfu extension process are separate "apps".
  * Closing a main scriptfu dialog does not terminate the scriptfu extension process,
- * and MacOS does not then activate some other app.
+ * and macOS does not then activate some other app.
  * On other platforms, the select dialogs are transient to the GIMP app's progress bar,
- * but that doesn't seem to work on MacOS.
+ * but that doesn't seem to work on macOS.
  *
  * Also some of the GIMP "select" widgets (for brush, pattern, gradient, font, palette)
  * for plugins are independent and tool like:
@@ -969,8 +969,8 @@ script_fu_reset (SFScript *script)
  * 3) Gtk3 might solve this (now using Gtk2.)
  */
 
-/* On MacOS, without calls to this, scriptfu dialog gets spinning ball of doom,
- * meaning MacOS thinks app is not responding to events,
+/* On macOS, without calls to this, scriptfu dialog gets spinning ball of doom,
+ * meaning macOS thinks app is not responding to events,
  * and dialog stays visible even after destroyed.
  */
 static void
@@ -986,7 +986,7 @@ script_fu_flush_events (void)
 #ifdef GDK_WINDOWING_QUARTZ
   /* Alternative code might be a call to gtk_main()?
    * This is not an infinite loop since there are finite events, and iteration reduces them.
-   * Somehow, this lets MacOS think the app is responsive.
+   * Somehow, this lets macOS think the app is responsive.
    */
   while (g_main_context_pending (NULL))
     g_main_context_iteration (NULL, TRUE);
@@ -996,7 +996,7 @@ script_fu_flush_events (void)
 }
 
 
-/* On MacOS, without calls to this,
+/* On macOS, without calls to this,
  * when user closes GIMP "select" dialogs (child of main dialog)
  * the main scriptfu dialog can be obscured by GIMP main window.
  * The main scriptfu dialog must be visible so user can choose the OK button,

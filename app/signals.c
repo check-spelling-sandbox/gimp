@@ -126,7 +126,7 @@ gimp_init_signal_handlers (gchar **backtrace_file)
 
   /* these are handled by gimp_fatal_error() */
   /*
-   * MacOS has its own crash handlers which end up fighting the
+   * macOS has its own crash handlers which end up fighting the
    * these Gimp supplied handlers and leading to very hard to
    * deal with hangs (just get a spin dump)
    */
