@@ -737,7 +737,7 @@ gimp_file_is_executable (GFile *file)
  * gimp_file_get_extension:
  * @file: A #GFile
  *
- * Returns @file's extension (including the .), or NULL if there is no
+ * Returns @file's extension (including the "."), or NULL if there is no
  * extension. Note that this function handles compressed files too,
  * e.g. for "file.png.gz" it will return ".png.gz".
  *
