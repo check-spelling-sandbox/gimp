@@ -54,7 +54,7 @@ try:
   # Clean-up the temporary config directory after each usage, yet making sure we
   # don't get tricked by weird redirections or anything of the sort. In particular
   # we check that this is a directory with user permission, not a symlink, and
-  # that it's inside inside the project build's root.
+  # that it's inside the project build's root.
   if "GIMP3_DIRECTORY" in os.environ and os.path.isdir(GIMP3_DIRECTORY):
     if os.path.islink(GIMP3_DIRECTORY):
       print(f"ERROR: $GIMP3_DIRECTORY ({GIMP3_DIRECTORY}) should not be a symlink.")
