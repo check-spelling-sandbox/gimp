@@ -2234,7 +2234,7 @@ Fri Jan  9 01:15:51 PST 1998 Manish Singh <yosh@gimp.org>
 	* plug-ins/edge/edge.c
 	* plug-ins/edge/emboss.c
 	* plug-ins/edge/laplace.c
-	* plug-ins/edge/sobel.c: DEC OSF1 cannont handle reference to
+	* plug-ins/edge/sobel.c: DEC OSF1 cannot handle reference to
 	array element with a negative argument with an unsigned int
 	(gimp-joke-980108-0)
 

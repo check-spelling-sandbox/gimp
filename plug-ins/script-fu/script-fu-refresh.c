@@ -48,7 +48,7 @@ script_fu_refresh_proc (GimpProcedure        *procedure,
 {
   if (script_fu_extension_is_busy ())
     {
-      g_message (_("You can not use \"Refresh Scripts\" while a "
+      g_message (_("You cannot use \"Refresh Scripts\" while a "
                    "Script-Fu dialog box is open.  Please close "
                    "all Script-Fu windows and try again."));
 

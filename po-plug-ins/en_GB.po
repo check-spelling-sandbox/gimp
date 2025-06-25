@@ -8649,11 +8649,11 @@ msgstr "Compatibility"
 
 #: plug-ins/file-bmp/bmp-export.c:1066
 msgid ""
-"Some applications can not read BMP images that include color space "
+"Some applications cannot read BMP images that include color space "
 "information. GIMP writes color space information by default. Disabling this "
 "option will cause GIMP to not write color space information to the file."
 msgstr ""
-"Some applications can not read BMP images that include colour space "
+"Some applications cannot read BMP images that include colour space "
 "information. GIMP writes colour space information by default. Disabling this "
 "option will cause GIMP to not write colour space information to the file."
 
@@ -18948,14 +18948,14 @@ msgstr "Transferring data from scanner/camera"
 #~ msgid "Phase _shift:"
 #~ msgstr "Phase _shift:"
 
-#~ msgid "You can not rotate the whole image if there's a selection."
-#~ msgstr "You can not rotate the whole image if there's a selection."
+#~ msgid "You cannot rotate the whole image if there's a selection."
+#~ msgstr "You cannot rotate the whole image if there's a selection."
 
-#~ msgid "You can not rotate the whole image if there's a floating selection."
-#~ msgstr "You can not rotate the whole image if there's a floating selection."
+#~ msgid "You cannot rotate the whole image if there's a floating selection."
+#~ msgstr "You cannot rotate the whole image if there's a floating selection."
 
-#~ msgid "Sorry, channels and masks can not be rotated."
-#~ msgstr "Sorry, channels and masks can not be rotated."
+#~ msgid "Sorry, channels and masks cannot be rotated."
+#~ msgstr "Sorry, channels and masks cannot be rotated."
 
 #~ msgid "Shift each row of pixels by a random amount"
 #~ msgstr "Shift each row of pixels by a random amount"

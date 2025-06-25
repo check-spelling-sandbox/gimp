@@ -1063,7 +1063,7 @@ save_dialog (GimpProcedure *procedure,
                                              "write-color-space",
                                              GTK_TYPE_CHECK_BUTTON);
   gimp_help_set_help_data (toggle,
-                           _("Some applications can not read BMP images that "
+                           _("Some applications cannot read BMP images that "
                              "include color space information. GIMP writes "
                              "color space information by default. Disabling "
                              "this option will cause GIMP to not write color "

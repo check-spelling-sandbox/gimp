@@ -91,7 +91,7 @@
 
 /* #define GIMP_XCF_PATH_DEBUG */
 
-/* Filters can not be created until a layer is attached
+/* Filters cannot be created until a layer is attached
  * to an image, so we use this struct to store relevant
  * information until then */
 typedef struct

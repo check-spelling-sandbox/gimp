@@ -105,7 +105,7 @@
 
 #define SIMULATION_GAMUT_CHECK_BLURB \
   _("When enabled, the soft-proofing will mark colors " \
-    "which can not be represented in the target color space.")
+    "which cannot be represented in the target color space.")
 
 #define OUT_OF_GAMUT_COLOR_BLURB \
   _("The color to use for marking colors which are out of gamut.")

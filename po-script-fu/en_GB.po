@@ -1536,10 +1536,10 @@ msgstr "Drop shadow Y offset"
 #~ msgstr "Re-read all available Script-Fu scripts"
 
 #~ msgid ""
-#~ "You can not use \"Refresh Scripts\" while a Script-Fu dialog box is "
+#~ "You cannot use \"Refresh Scripts\" while a Script-Fu dialog box is "
 #~ "open.  Please close all Script-Fu windows and try again."
 #~ msgstr ""
-#~ "You can not use \"Refresh Scripts\" while a Script-Fu dialogue box is "
+#~ "You cannot use \"Refresh Scripts\" while a Script-Fu dialogue box is "
 #~ "open.  Please close all Script-Fu windows and try again."
 
 #~ msgid "_Sphere..."

@@ -291,7 +291,7 @@ exported_file_files (gconstpointer data)
  * @data:
  *
  * Tests that after a XCF file that was imported has been exported,
- * the import URI is cleared. An image can not be considered both
+ * the import URI is cleared. An image cannot be considered both
  * imported and exported at the same time.
  **/
 static void

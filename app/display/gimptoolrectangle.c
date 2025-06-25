@@ -1664,7 +1664,7 @@ gimp_tool_rectangle_motion (GimpToolWidget   *widget,
           private->fixed_rule == GIMP_RECTANGLE_FIXED_SIZE)
         {
           /* For fixed size, set the function to moving immediately since the
-           * rectangle can not be resized anyway.
+           * rectangle cannot be resized anyway.
            */
 
           /* We fake a coord update to get the right size. */

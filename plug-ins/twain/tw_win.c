@@ -151,7 +151,7 @@ unloadTwainLibrary(pTW_SESSION twSession)
 
   /* the data source id will no longer be valid after
    * twain is killed.  If the id is left around the
-   * data source can not be found or opened
+   * data source cannot be found or opened
 	 */
   DS_IDENTITY(twSession)->Id = 0;
 

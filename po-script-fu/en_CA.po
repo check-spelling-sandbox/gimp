@@ -92,7 +92,7 @@ msgstr "_Refresh Scripts"
 
 #: ../plug-ins/script-fu/script-fu.c:363
 msgid ""
-"You can not use \"Refresh Scripts\" while a Script-Fu dialog box is open.  "
+"You cannot use \"Refresh Scripts\" while a Script-Fu dialog box is open.  "
 "Please close all Script-Fu windows and try again."
 msgstr ""
 "You cannot use \"Refresh Scripts\" while a Script-Fu dialogue box is open.  "

@@ -5,7 +5,7 @@
 	freely, provided this file is included!
 
 	This program comes with no warranty, whatsoever. The author
-	can not be held liable for any damage caused by proper or
+	cannot be held liable for any damage caused by proper or
 	improper use of this program.
 
 
@@ -13,14 +13,14 @@
 
 The GIMPressionist is a plug-in for the GNU Image Manipulation Program,
 a.k.a. GIMP. It can be used to create natural looking painting effects
-and similar. It can also be run in a primitive "standalone" mode. 
+and similar. It can also be run in a primitive "standalone" mode.
 
 The current version is still a bit shaky, and is to be considered beta
 software. I'll do some serious testing, hopefully across a few more
 platforms, as soon as I can.
 
 The official Web-page is http://www.prosalg.no/~vidar/gimpressionist/ and
-will always contain a link to the latest released version. 
+will always contain a link to the latest released version.
 
 
 --- Compiling / Installing
@@ -41,7 +41,7 @@ subdirectories 'Brushes', 'Paper' and 'Presets' will be created during
 "make install", and a few files will be added; As a minimum,
 'defaultbrush.pgm' and 'defaultpaper.pgm' under their respective
 directories. These are vanilla .PGM files, which could be edited (and
-created) with any decent program - like GIMP! :-) 
+created) with any decent program - like GIMP! :-)
 
 
 --- Standalone
@@ -49,14 +49,14 @@ created) with any decent program - like GIMP! :-)
 As of version 0.99 and later, the GIMPressionist can also be run
 separately from GIMP. This is primarily intended for debugging
 purposes, though, as it still needs GIMP libraries to compile. In your
-shell, type: 
+shell, type:
 	gimpressionist somefile.ppm
 
 The image specified must be a valid PPM file. No other formats are
 supported, and probably never will.
 
 If you click "OK", the PPM will be replaced with the "repainted" version.
-If you "Cancel", nothing will be done to the file. 
+If you "Cancel", nothing will be done to the file.
 
 
 --- File Formats
@@ -91,11 +91,11 @@ explain);
 If you have any comments, criticism, ideas for improvement or new
 features, or if you run into problems of any sort, let me know, so that I
 can (try to) fix it for the next release! (And, if you find platform-
-dependent bugs, please try to fix them and send me a patch!) 
+dependent bugs, please try to fix them and send me a patch!)
 
 I'm also welcoming contributions in the form of brushes or textures! For
 this program to be valuable, it needs them... Bad! All contributions will
-be properly credited, of course. 
+be properly credited, of course.
 
 Good luck and happy painting!
 

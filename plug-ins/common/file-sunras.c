@@ -846,7 +846,7 @@ rle_fputc (gint  val,
   if (rlebuf.val == val)   /* Same value in the buffer ? */
     {
       (rlebuf.n)++;
-      if (rlebuf.n == 257) /* Can not be encoded in a single run ? */
+      if (rlebuf.n == 257) /* Cannot be encoded in a single run ? */
         {
           retval = rle_putrun (256, rlebuf.val, ofp);
           if (retval < 0)

@@ -107,7 +107,7 @@ help in that regard:
      It is hosted at: https://gitlab.gnome.org/GNOME/gexiv2/
 
   9. libpng, libjpeg, libtiff, librsvg and lcms are hard dependencies
-     that can not be disabled. poppler is also a hard dependency because
+     that cannot be disabled. poppler is also a hard dependency because
      PDF is too common nowadays for it to be an option (at least for
      import); and poppler-data (CJK and Cyrillic support in PDF) is also
      required because no languages should be considered "second class

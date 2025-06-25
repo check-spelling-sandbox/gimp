@@ -85,7 +85,7 @@
 
 ;              setting attributes of existing palette
 
-; Can not change column count on system palette
+; Cannot change column count on system palette
 (assert-error `(gimp-palette-set-columns ,testBearsPalette 1)
               "Procedure execution of gimp-palette-set-columns failed")
 

@@ -212,7 +212,7 @@
 
 
 ; Items below this line are for compatibility.
-; The history of their inclusion in ScriptFu can not be easily ascertained.
+; The history of their inclusion in ScriptFu cannot be easily ascertained.
 ; Some older ScriptFu scripts may use them.
 ; Generally speaking "useful but not in R5RS."
 ; At some point GIMP maintainers may remove them.

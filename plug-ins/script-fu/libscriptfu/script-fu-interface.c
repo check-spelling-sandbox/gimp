@@ -130,7 +130,7 @@ script_fu_interface_dialog (SFScript  *script,
   g_debug ("%s", G_STRFUNC);
 
   /* Simply return if there is already an interface. This is an
-   * ugly workaround for the fact that we can not process two
+   * ugly workaround for the fact that we cannot process two
    * scripts at a time.
    */
   if (sf_interface != NULL)

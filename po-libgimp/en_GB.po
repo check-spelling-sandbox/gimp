@@ -1958,10 +1958,10 @@ msgstr ""
 
 #: libgimpconfig/gimpcolorconfig.c:107
 msgid ""
-"When enabled, the soft-proofing will mark colors which can not be "
+"When enabled, the soft-proofing will mark colors which cannot be "
 "represented in the target color space."
 msgstr ""
-"When enabled, the soft-proofing will mark colours which can not be "
+"When enabled, the soft-proofing will mark colours which cannot be "
 "represented in the target colour space."
 
 #: libgimpconfig/gimpcolorconfig.c:111

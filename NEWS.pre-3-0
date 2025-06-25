@@ -2423,7 +2423,7 @@ Core:
       pattern syntax. It matches '*' (wildcard) and '?' (joker). GLib
       docs notes also: "Note that in contrast to glob(), the '/'
       character can be matched by the wildcards, there are no '[...]'
-      character ranges and '*' and '?' can not be escaped to include
+      character ranges and '*' and '?' cannot be escaped to include
       them literally in a pattern."
     * Regular expression search: Perl-compatible regular expressions as
       implemented in GLib.

@@ -263,7 +263,7 @@ file_save (Gimp                *gimp,
           gimp_image_set_exported_file (image, orig_file);
           gimp_image_set_export_proc (image, file_proc);
 
-          /* An image can not be considered both exported and imported
+          /* An image cannot be considered both exported and imported
            * at the same time, so stop consider it as imported now
            * that we consider it exported.
            */

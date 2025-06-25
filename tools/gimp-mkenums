@@ -17,7 +17,7 @@ use File::Basename;
 # Information about the current enumeration
 my $flags;                      # Is enumeration a bitmask?
 my $option_lowercase_name;      # A lower case name to use as part of the *_get_type() function, instead of the one that we guess.
-                                # For instance, when an enum uses abnormal capitalization and we can not guess where to put the underscores.
+                                # For instance, when an enum uses abnormal capitalization and we cannot guess where to put the underscores.
 my $seenbitshift;               # Have we seen bitshift operators?
 my $enum_prefix;                # Prefix for this enumeration
 my $enumname;                   # Name for this enumeration

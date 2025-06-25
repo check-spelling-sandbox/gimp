@@ -794,7 +794,7 @@ gimp_brush_transform_bounding_box (const GimpTempBuf *temp_buf,
   *width  = (gint) ceil (MAX (MAX (x1, x2), MAX (x3, x4)) - 0.5) - *x;
   *height = (gint) ceil (MAX (MAX (y1, y2), MAX (y3, y4)) - 0.5) - *y;
 
-  /* Transform size can not be less than 1 px */
+  /* Transform size cannot be less than 1 px */
   *width  = MAX (1, *width);
   *height = MAX (1, *height);
 }

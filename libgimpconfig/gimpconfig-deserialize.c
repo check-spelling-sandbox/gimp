@@ -1263,7 +1263,7 @@ gimp_config_deserialize_any (GValue     *value,
   if (!g_value_type_transformable (G_TYPE_STRING, prop_spec->value_type))
     {
       g_scanner_error (scanner,
-                       "%s can not be transformed from a string",
+                       "%s cannot be transformed from a string",
                        g_type_name (prop_spec->value_type));
       return G_TOKEN_NONE;
     }

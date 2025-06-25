@@ -161,7 +161,7 @@
 (define (bad-file-name)
   (gimp-message (string-append _"The filename you entered is not a suitable name for a file."
 			       "\n\n"
-			       _"All characters in the name are either white-spaces or characters which can not appear in filenames.")))
+			       _"All characters in the name are either white-spaces or characters which cannot appear in filenames.")))
 
 ; Return path to a file, or abort with error to Gimp.
 ;

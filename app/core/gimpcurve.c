@@ -1084,7 +1084,7 @@ gimp_curve_set_curve (GimpCurve *curve,
  * @curve: a #GimpCurve object
  *
  * If this function returns %TRUE, then the curve maps each value to
- * itself. If it returns %FALSE, then this assumption can not be made.
+ * itself. If it returns %FALSE, then this assumption cannot be made.
  *
  * Returns: %TRUE if the curve is an identity mapping, %FALSE otherwise.
  **/

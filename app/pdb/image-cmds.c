@@ -3208,7 +3208,7 @@ register_image_procs (GimpPDB *pdb)
                                "gimp-image-delete");
   gimp_procedure_set_static_help (procedure,
                                   "Delete the specified image.",
-                                  "If there are no displays associated with this image it will be deleted. This means that you can not delete an image through the PDB that was created by the user. If the associated display was however created through the PDB and you know the display ID, you may delete the display. Removal of the last associated display will then delete the image.",
+                                  "If there are no displays associated with this image it will be deleted. This means that you cannot delete an image through the PDB that was created by the user. If the associated display was however created through the PDB and you know the display ID, you may delete the display. Removal of the last associated display will then delete the image.",
                                   NULL);
   gimp_procedure_set_static_attribution (procedure,
                                          "Spencer Kimball & Peter Mattis",

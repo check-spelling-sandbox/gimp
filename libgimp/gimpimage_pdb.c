@@ -248,7 +248,7 @@ gimp_image_duplicate (GimpImage *image)
  * Delete the specified image.
  *
  * If there are no displays associated with this image it will be
- * deleted. This means that you can not delete an image through the PDB
+ * deleted. This means that you cannot delete an image through the PDB
  * that was created by the user. If the associated display was however
  * created through the PDB and you know the display ID, you may delete
  * the display. Removal of the last associated display will then delete

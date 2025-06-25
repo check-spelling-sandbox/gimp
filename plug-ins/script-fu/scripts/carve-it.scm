@@ -6,7 +6,7 @@
 ;   This layer is used as the mask for the carving effect
 ;   NOTE: This script requires the image to be carved to either be an
 ;   RGB color or grayscale image with a single layer. An indexed file
-;   can not be used due to the use of gimp-drawable-histogram and
+;   cannot be used due to the use of gimp-drawable-histogram and
 ;   gimp-drawable-levels.
 
 

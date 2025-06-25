@@ -213,7 +213,7 @@ You can comment out tests that fail.
 
 ### Tests cannot catch syntax errors
 
-The test framework can not test detection of syntax errors
+The test framework cannot test detection of syntax errors
 because parsing errors
 prevent the test framework from starting.
 

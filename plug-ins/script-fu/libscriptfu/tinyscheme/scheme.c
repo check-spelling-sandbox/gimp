@@ -5403,7 +5403,7 @@ void scheme_load_file(scheme *sc, FILE *fin)
 void scheme_load_named_file(scheme *sc, FILE *fin, const char *filename) {
   if (fin == NULL)
   {
-    fprintf(stderr,"File pointer can not be NULL when loading a file\n");
+    fprintf(stderr,"File pointer cannot be NULL when loading a file\n");
     return;
   }
   dump_stack_reset(sc);

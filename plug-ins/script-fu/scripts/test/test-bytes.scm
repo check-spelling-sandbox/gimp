@@ -234,12 +234,12 @@
     `(and (= (char->integer (read-char ,port)) 20320)    ; 20320 = 你 (UTF-32)
           (= (char->integer (read-char ,port)) 22909)))) ; 22909 = 好 (UTF-32)
 
-; Ensure read-byte can not read past EOF.
+; Ensure read-byte cannot read past EOF.
 ; Test data: test-data-1byte
 (define (test-read-byte-overflow port)
   (assert `(begin (read-byte ,port) (eof-object? (read-byte ,port)))))
 
-; Ensure read-char can not read past EOF.
+; Ensure read-char cannot read past EOF.
 ; Test data: test-data-1char
 (define (test-read-char-overflow port)
   (assert `(begin (read-char ,port) (eof-object? (read-char ,port)))))
