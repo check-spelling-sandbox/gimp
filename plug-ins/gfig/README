@@ -307,7 +307,7 @@ should be able to replace the DrawBezier function. (Only the first two args
 are really needed).
 
 The algorithm the current code is based on was obtained by looking
-at the many many examples out on the web.
+at the many, many, examples out on the web.
 (Bezier drawing seems to be topic of the year for computer degrees
 and people learning java!!!)
 
