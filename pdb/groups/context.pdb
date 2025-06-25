@@ -2794,7 +2794,7 @@ sub context_set_interpolation {
 Modifies the interpolation setting.
 
 
-This setting affects affects the following procedures:
+This setting affects the following procedures:
 gimp_item_transform_flip(), gimp_item_transform_perspective(),
 gimp_item_transform_rotate(), gimp_item_transform_scale(),
 gimp_item_transform_shear(), gimp_item_transform_2d(),
@@ -2853,7 +2853,7 @@ sub context_set_transform_direction {
 Modifies the transform direction setting.
 
 
-This setting affects affects the following procedures:
+This setting affects the following procedures:
 gimp_item_transform_flip(), gimp_item_transform_perspective(),
 gimp_item_transform_rotate(), gimp_item_transform_scale(),
 gimp_item_transform_shear(), gimp_item_transform_2d(),
@@ -2915,7 +2915,7 @@ than the original area, this setting determines how the resulting area
 is sized.
 
 
-This setting affects affects the following procedures:
+This setting affects the following procedures:
 gimp_item_transform_flip(), gimp_item_transform_flip_simple(),
 gimp_item_transform_perspective(), gimp_item_transform_rotate(),
 gimp_item_transform_rotate_simple(), gimp_item_transform_scale(),

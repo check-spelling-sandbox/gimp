@@ -3554,7 +3554,7 @@ gimp_context_get_interpolation (void)
  *
  * Modifies the interpolation setting.
  *
- * This setting affects affects the following procedures:
+ * This setting affects the following procedures:
  * gimp_item_transform_flip(), gimp_item_transform_perspective(),
  * gimp_item_transform_rotate(), gimp_item_transform_scale(),
  * gimp_item_transform_shear(), gimp_item_transform_2d(),
@@ -3631,7 +3631,7 @@ gimp_context_get_transform_direction (void)
  *
  * Modifies the transform direction setting.
  *
- * This setting affects affects the following procedures:
+ * This setting affects the following procedures:
  * gimp_item_transform_flip(), gimp_item_transform_perspective(),
  * gimp_item_transform_rotate(), gimp_item_transform_scale(),
  * gimp_item_transform_shear(), gimp_item_transform_2d(),
@@ -3710,7 +3710,7 @@ gimp_context_get_transform_resize (void)
  * original area, this setting determines how the resulting area is
  * sized.
  *
- * This setting affects affects the following procedures:
+ * This setting affects the following procedures:
  * gimp_item_transform_flip(), gimp_item_transform_flip_simple(),
  * gimp_item_transform_perspective(), gimp_item_transform_rotate(),
  * gimp_item_transform_rotate_simple(), gimp_item_transform_scale(),
