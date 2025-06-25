@@ -67,10 +67,10 @@
 
 2004-12-16  Bill Skaggs <weskaggs@primate.ucdavis.edu>
 
-	* app/core/gimpgradient-load.c: reject .ggr files whose 
+	* app/core/gimpgradient-load.c: reject .ggr files whose
 	segments don't properly span the range 0-1.
 	Fixes bug #161430.
-	
+
 2004-12-16  Manish Singh  <yosh@gimp.org>
 
 	* app/widgets/gimppdbdialog.c (gimp_pdb_dialog_set_property): Cast
@@ -181,7 +181,7 @@
 
 2004-12-14  Maurits Rijk  <m.rijk@chello.nl>
 
-	* plug-ins/imagemap/imap_selection.c: don't use 
+	* plug-ins/imagemap/imap_selection.c: don't use
 	gtk_tree_selection_get_selected with GTK_SELECTION_MULTIPLE. Should
 	finally fix bug #149157.
 
@@ -236,7 +236,7 @@
 	* plug-ins/imagemap/imap_misc.[ch]
 	* plug-ins/imagemap/imap_selection.[ch]
 	* plug-ins/imagemap/imap_toolbar.[ch]
-	* plug-ins/imagemap/imap_tools.[ch]: removed need for 
+	* plug-ins/imagemap/imap_tools.[ch]: removed need for
 	GTK_DISABLE_DEPRECATED. Looking at #149157 next...
 
 2004-12-13  Sven Neumann  <sven@gimp.org>
@@ -249,13 +249,13 @@
 	* plug-ins/pygimp/gimpfu.py: display PF_RADIO options vertically
 	instead of horizontally, as suggested by Joao S. O. Bueno Calligaris.
 	Fixes bug #160546.
-	
+
 2004-12-13  Bill Skaggs <weskaggs@primate.ucdavis.edu>
 
 	* plug-ins/gfig/gfig.c: make the "gfig" layer parasites persistent,
 	so that they will be saved in xcf files.  Stop printing "GFig
 	parasite found" message.
-	
+
 2004-12-13  Michael Natterer  <mitch@gimp.org>
 
 	* app/widgets/gimppdbdialog.[ch]: don't forget the context we
@@ -311,7 +311,7 @@
 2004-12-12  Sven Neumann  <sven@gimp.org>
 
 	Applied patch from Adam D. Moss (bug #161113):
-	
+
 	* app/core/gimpimage-convert.c: Use a slower but much nicer
 	technique for finding the two best colours to dither between when
 	using fixed/positional dither methods.  Makes positional dither
@@ -332,7 +332,7 @@
 
 	* app/widgets/gimpdataeditor.c: make Revert button insensitive
 	because revert is not yet implemented (bug #152259).
-	
+
 2004-12-12  Sven Neumann  <sven@gimp.org>
 
 	* app/widgets/gimpdock.c: show a confirmation dialog if a dock
@@ -343,7 +343,7 @@
 
 	* plug-ins/common/pnm.c: make export do the right thing when
 	saving as .pgm or .ppm.  Fixes bug #160045.
-	
+
 2004-12-12  Sven Neumann  <sven@gimp.org>
 
 	* libgimp/gimp.def: added gimp_edit_copy_visible.
@@ -480,7 +480,7 @@
 	resolve bug #72959.
 
 	* app/core/gimpdrawable-histogram.h: remove trailing whitespace.
-	
+
 2004-12-10  Manish Singh  <yosh@gimp.org>
 
 	* app/widgets/gimpdatafactoryview.c
@@ -513,7 +513,7 @@
 	* app/core/gimpbrushpipe.c (gimp_brush_pipe_select_brush):
 	Don't initialize a new random number generator every time a brush
 	is selected from a pipe.  Fixes bug #148205).
-	
+
 2004-12-09  DindinX  <dindinx@gimp.org>
 
 	* plug-ins/common/cartoon.c: marked the menu entry for translation
@@ -548,7 +548,7 @@
 	* plug-ins/common/randomize.c:  Changed algorithm for Pick and
 	Slur to treat all channels within a pixel in the same way;
 	intended to fix bug #72852.
-	
+
 2004-12-08  Bill Skaggs <weskaggs@primate.ucdavis.edu>
 
 	* app/dialogs/print-size-dialog.c (print_size_dialog_size_changed):
@@ -857,14 +857,14 @@
 
 	* plug-ins/gfig/gfig-style.c: make sure PaintType is saved and
 	loaded with the style.
-	
+
 2004-11-28  DindinX  <dindinx@gimp.org>
 
 	* plug-ins/gfig/gfig-dialog.c: correctly initializes the paint_type
 	field of the default style.
 
 	* plug-ins/gfig/gfig-style.c: don't print an useless error message
-	where no-one can see it when loading an other with no style but use
+	where no-one can see it when loading another with no style but use
 	the default style instead.
 
 2004-11-28  Sven Neumann  <sven@gimp.org>
@@ -939,7 +939,7 @@
 
 	* plug-ins/script-fu/scripts/spyrogimp.scm: Force number of teeth
 	to be integer values. Changed default for Outer teeth to give a
-	more interesting image. Detabified file. Fixes bug #158448. 
+	more interesting image. Detabified file. Fixes bug #158448.
 
 2004-11-27  Sven Neumann  <sven@gimp.org>
 
@@ -1145,7 +1145,7 @@
 	* app/core/gimpparasitelist.c: cosmetics, untabified.
 
 	* libgimpbase/gimpparasiteio.[ch]: added g_return_if_fail()'s
-	to all functions. 
+	to all functions.
 
 	(gimp_pixpipe_params_parse): changed "gchar*" param to "const
 	gchar*" (sortof API change, but these files are most probably only
@@ -1180,7 +1180,7 @@
 2004-11-22  Kevin Cozens  <kcozens@cvs.gimp.org>
 
 	* plug-ins/script-fu/scripts/copy-visible.scm: Fixed incorrect
-	comparison in if statement. Partial(?) fix for bug #138662. 
+	comparison in if statement. Partial(?) fix for bug #138662.
 
 2004-11-22  Manish Singh  <yosh@gimp.org>
 
@@ -1729,14 +1729,14 @@
 
 	* plug-ins/pygimp/gimpfu.py: Fix -fu slider behavior (bug #155103).
 	Patch by Joao S. O. Bueno.
-	
+
 2004-11-16  Manish Singh  <yosh@gimp.org>
 
 	* plug-ins/common/glasstile.c: Remove unnecessary G_OBJECT() casts.
 
 2004-11-16  Manish Singh  <yosh@gimp.org>
 
-	* configure.in: 
+	* configure.in:
 	* plug-ins/pygimp/Makefile.am: Compile pygimp with
 	-fno-strict-aliasing if the compiler supports it.
 
@@ -1985,7 +1985,7 @@
 	* app/dialogs/print-size-dialog.c: started to redo this dialog
 	without using a GimpSizeBox. The widgets aren't connected, so it
 	isn't usable yet.
-	
+
 	* app/widgets/gimpprogressbox.c
 	* app/widgets/gimpprogressdialog.c
 	* app/widgets/gimpsizebox.c: trivial cleanups.
@@ -2105,14 +2105,14 @@
 	* plug-ins/Lighting/lighting_ui.c
 	* plug-ins/common/csource.c
 	* plug-ins/common/glasstile.c
-	* plug-ins/common/nova.c 
+	* plug-ins/common/nova.c
 	* plug-ins/common/pcx.c
 	* plug-ins/common/pnm.c
 	* plug-ins/common/randomize.c
 	* plug-ins/common/screenshot.c
 	* plug-ins/common/sel_gauss.c
 	* plug-ins/common/spheredesigner.c
-	* plug-ins/common/wind.c 
+	* plug-ins/common/wind.c
 	* plug-ins/gfig/gfig-dialog.c
 	* plug-ins/gfig/gfig-dobject.c
 	* plug-ins/gimpressionist/gimpressionist.c
@@ -2426,7 +2426,7 @@
 	functions on drawables which are not added to an image because
 	this will be forbidden soon (because it can trash the image's undo
 	stack).
-	
+
 2004-11-11  Michael Natterer  <mitch@gimp.org>
 
 	* plug-ins/script-fu/scripts/lava.scm: replaced
@@ -2621,7 +2621,7 @@
 
 	* app/dialogs/user-install-dialog.c (user_install_migrate_files):
 	don't copy menurc, the format changed anyway.
-	
+
 2004-11-08  Sven Neumann  <sven@gimp.org>
 
 	* plug-ins/script-fu/script-fu-interface.c (script_fu_ok):
@@ -2752,7 +2752,7 @@
 2004-11-06  Sven Neumann  <sven@gimp.org>
 
 	New Win32 icons contributed by Jernej Simoncic:
-	
+
 	* app/Makefile.am
 	* app/makefile.msc
 	* app/gimp.rc
@@ -2895,7 +2895,7 @@
 2004-11-03  Øyvind Kolås  <pippin@gimp.org>
 
 	* app/base/gimphistogram.h: %s/historgam/histogram/
-	
+
 2004-11-03  Michael Natterer  <mitch@gimp.org>
 
 	* app/widgets/gimpdasheditor.c (gimp_dash_editor_finalize): don't
@@ -3630,7 +3630,7 @@
 	* app/core/gimpdrawable-transform.c: made the fixed point used in
 	supersampling configurable (in source) and changed from 15.16 to
 	21.10 fixed point.
-	
+
 	Fixes bug #128594 for drawables less than 2G wide.
 
 2004-10-27  Michael Schumacher <schumaml@gmx.de>
@@ -3923,7 +3923,7 @@
 
 	* libgimpbase/gimpbaseenums.[ch]: register some missing enums.
 
-	* tools/pdbgen/enumcode.pl: removed code to generate 
+	* tools/pdbgen/enumcode.pl: removed code to generate
 	plug-ins/script-fu/script-fu-constants.c, generate code to
 	explicitely initialize and query all of libgimp*'s enums
 	and write it to libgimp/gimpenums.c.tail
@@ -4445,7 +4445,7 @@
 	* plug-ins/common/raw.c: new plug-in from Tim Copperfield, made
 	work with the GIMP 2.1 API by Philipp Gühring, then heavily
 	cleaned up and undeprecated by myself. Fixes bug #144943.
-	
+
 	(still uses GtkPreview, but i wanted a sane state in cvs to diff
 	 against before replacing it)
 
@@ -5932,7 +5932,7 @@
 
 2004-10-04  Sven Neumann  <sven@gimp.org>
 
-	* plug-ins/script-fu/script-fu-interface.c (script_fu_about): set 
+	* plug-ins/script-fu/script-fu-interface.c (script_fu_about): set
 	the help_func again (but not the help_id).
 
 2004-10-04  Sven Neumann  <sven@gimp.org>
@@ -5996,7 +5996,7 @@
 
 	* plug-ins/script-fu/scripts/asc2img.scm: a cleaned up version of
 	the script contributed by Kevin Cozens (see bug #153900).
-	
+
 	* plug-ins/script-fu/scripts/predator.scm: applied patch by Kevin
 	Cozens that fixes use of the script on original layer (bug #152678).
 
@@ -6042,7 +6042,7 @@
 	* plug-ins/dbbrowser/Makefile.am
 	* plug-ins/script-fu/Makefile.am: moved the libgimpprocbrowser to
 	the beginning of LDADD
-	
+
 2004-10-03  DindinX  <dindinx@gimp.org>
 
 	* libgimp/gimpaspectpreview.c: limit the size of the preview to 512
@@ -6498,11 +6498,11 @@
 
 2004-09-28  Maurits Rijk  <m.rijk@chello.nl>
 
-	* plug-ins/imagemap/imap_circle.c: 
+	* plug-ins/imagemap/imap_circle.c:
 	* plug-ins/imagemap/imap_cmd_gimp_guides.c
 	* plug-ins/imagemap/imap_edit_area_info.c
 	* plug-ins/imagemap/imap_grid.c
-	* plug-ins/imagemap/imap_polygon.c 
+	* plug-ins/imagemap/imap_polygon.c
 	* plug-ins/imagemap/imap_rectangle.c
 	* plug-ins/imagemap/imap_settings.c: first set of changes to make
 	imagemap fully HIG compliant. More to come.
@@ -6810,11 +6810,11 @@
 	* plug-ins/imagemap/Makefile.am
 	* plug-ins/imagemap/*.xpm: get rid of all .xpm images
 
-	* configure.in 
+	* configure.in
 	* plug-ins/imagemap/images/*: and add them as .png here
 
 	* plug-ins/imagemap/imap_browse.c: remove unused include.
-	
+
 2004-09-25  Sven Neumann  <sven@gimp.org>
 
 	* app/widgets/gimpviewrenderer.h: removed trailing whitespace.
@@ -7140,7 +7140,7 @@
 
 2004-09-23  Sven Neumann  <sven@gimp.org>
 
-	* plug-ins/script-fu/scripts/hsv-graph.scm: 
+	* plug-ins/script-fu/scripts/hsv-graph.scm:
 
 	* tools/pdbgen/pdb/context.pdb: oops, should probably pop, not
 	push a context in gimp_context_pop().
