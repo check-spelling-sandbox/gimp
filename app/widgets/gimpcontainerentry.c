@@ -416,7 +416,7 @@ gimp_container_entry_changed (GtkEntry          *entry,
     }
   else
     {
-      /* While editing the entry, show EEK for non-existent item. */
+      /* While editing the entry, show EEK for nonexistent item. */
       gtk_entry_set_icon_from_icon_name (entry,
                                          GTK_ENTRY_ICON_SECONDARY,
                                          GIMP_ICON_WILBER_EEK);

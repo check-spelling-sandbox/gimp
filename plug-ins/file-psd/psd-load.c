@@ -2340,7 +2340,7 @@ add_layers (GimpImage     *image,
       else if (layer_channels > base_channels)
         {
           IFDBG(3) g_debug ("No alpha channel, but we have extra channels!");
-          /* We have a gap for the non existent alpha channel.
+          /* We have a gap for the nonexistent alpha channel.
            * Just move the last extra channel there (untested, we don't have examples). */
           channel_idx[base_channels] = channel_idx[layer_channels-1];
           layer_channels--;

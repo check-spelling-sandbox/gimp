@@ -955,7 +955,7 @@ gimp_drawable_filter_update (GimpDrawableFilter      *filter,
           g_set_error (error, GIMP_ERROR, GIMP_FAILED,
                        /* TODO: localize after string freeze. */
                        "GEGL operation '%s' has been called with a "
-                       "non-existent argument name '%s' (#%d).",
+                       "nonexistent argument name '%s' (#%d).",
                        opname, pspec->name, i);
           break;
         }

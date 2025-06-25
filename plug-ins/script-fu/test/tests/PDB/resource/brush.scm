@@ -151,7 +151,7 @@
 
 ;                miscellaneous
 
-(test! "brush-get-by-name on non-existent name")
+(test! "brush-get-by-name on nonexistent name")
 
 ; Formerly, returned a PDB error, now returns NULL i.e. ID -1
 ; gimp-brush-get-by-name returns error, when brush of that name not exists

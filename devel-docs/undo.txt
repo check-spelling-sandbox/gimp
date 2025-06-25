@@ -13,7 +13,7 @@ be cleared, since the actions on the redo stack may depend on the
 image being in a particular state (eg consider: layer add, rename,
 undo rename, layer delete.  If the redo stack weren't cleared on undo,
 then there would still be a "rename" operation on the redo stack which
-could be run on a non-existent layer.  Bad news.)
+could be run on a nonexistent layer.  Bad news.)
 
 Undo groups
 -----------

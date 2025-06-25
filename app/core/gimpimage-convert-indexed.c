@@ -3706,7 +3706,7 @@ median_cut_pass2_nodestruct_dither_rgb (QuantizeObj *quantobj,
                             goto got_color;
                           }
                         }
-                      g_error ("Non-existent color was expected to "
+                      g_error ("Nonexistent color was expected to "
                                "be in non-destructive colormap.");
                     got_color:
                       dest[INDEXED] = lastindex;

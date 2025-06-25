@@ -2024,7 +2024,7 @@ Mon Feb  2 19:19:16 1998  Scott Goehring  <scott@poverty.bloomington.in.us>
 Sat Jan 31 20:49:11 EST 1998 Adrian Likins <adrian@gimp.org>
 
 	* plug-ins/edge.c: added a check so it wouldnt segfault when
-	passed a non-existent drawable
+	passed a nonexistent drawable
 
 	* plug-ins/threshold_alpha.c:  added a non-interactive mode
 

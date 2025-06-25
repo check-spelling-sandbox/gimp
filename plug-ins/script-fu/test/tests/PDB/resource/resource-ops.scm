@@ -22,7 +22,7 @@
 
 ; get-by-name, which is generic and takes a "resource type name"
 
-; get-by-name on non-existent name returns C NULL i.e. invalid ID
+; get-by-name on nonexistent name returns C NULL i.e. invalid ID
 ;(assert `(= (gimp-resource-get-by-name "GimpBrush" "Agate")
 ;            -1))
 
