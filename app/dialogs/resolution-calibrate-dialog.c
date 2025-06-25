@@ -42,7 +42,7 @@ static gint       ruler_height    = 1;
  * @icon_name:        an optional icon-name for the upper left corner
  *
  * Displays a dialog that allows the user to interactively determine
- * her monitor resolution. This dialog runs it's own GTK main loop and
+ * her monitor resolution. This dialog runs its own GTK main loop and
  * is connected to a #GimpSizeEntry handling the resolution to be set.
  **/
 void

@@ -165,6 +165,6 @@ script_fu_progress_report (const gchar *command)
    * in ScriptFu's own dialog.
    * In v2 needed: while (gtk_events_pending ())  gtk_main_iteration ();
    * In v3 gimp_progress goes to another process, the gimp app,
-   * having it's own event loop.
+   * having its own event loop.
    */
 }

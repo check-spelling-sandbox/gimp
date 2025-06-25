@@ -274,11 +274,11 @@ gimp_config_deserialize_property (GimpConfig *config,
        *  which implements it is param_spec->owner_type's class.
        *
        *  Therefore, we ask param_spec->owner_type's immediate parent class
-       *  for it's GimpConfigInterface and check if we get a different
+       *  for its GimpConfigInterface and check if we get a different
        *  pointer.
        *
        *  (if the pointers are the same, param_spec->owner_type's
-       *   GimpConfigInterface is inherited from one of it's parent classes
+       *   GimpConfigInterface is inherited from one of its parent classes
        *   and thus not able to handle param_spec->owner_type's properties).
        */
       if (config_iface)

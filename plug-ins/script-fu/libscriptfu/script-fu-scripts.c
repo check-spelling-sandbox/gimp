@@ -376,7 +376,7 @@ script_fu_add_menu (scheme  *sc,
  * only prevent the plugin from being translated properly.
  *
  * Although the set_18n callback is called many times in the same interpreter session,
- * before create proc and run proc, the script is only interpreted for it's registrations once.
+ * before create proc and run proc, the script is only interpreted for its registrations once.
  * However, an ill-formed script can call script-fu-register-i18n
  * many times for the same procedure, see below.
  */

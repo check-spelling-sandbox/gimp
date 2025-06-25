@@ -494,7 +494,7 @@ Overview of Changes in GIMP 1.3.14
 - Keyboard navigation for grid views [Sven]
 - List and grid views for fonts [Mitch, Sven]
 - Some text tool improvements [Sven]
-- Moved gimp-gap into it's own CVS module [Yosh, Sven]
+- Moved gimp-gap into its own CVS module [Yosh, Sven]
 - More icons in even more sizes [Jimmac, Mitch, Sven]
 - I18n header cleanup [Sven]
 - Lots of bug fixes
@@ -511,7 +511,7 @@ Overview of Changes in GIMP 1.3.13
 - Allow to create channels from an image's color component [Sven, Mitch]
 - Added a full-screen mode for the image window [Sven, Mitch]
 - Added a simple config file writer to GimpConfig [Sven]
-- Moved gimp-perl into it's own CVS module [Yosh]
+- Moved gimp-perl into its own CVS module [Yosh]
 - Migrated all core dialogs from GtkList to GtkTreeView [Mitch]
 - Refactored the GimpDisplayShell update/draw code [Mitch, Sven]
 - Rewrote the Undo History as a GimpDockable [Mitch]

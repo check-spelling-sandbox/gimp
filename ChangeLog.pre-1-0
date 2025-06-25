@@ -403,7 +403,7 @@ Thu Apr 30 16:49:41 PDT 1998 Manish Singh <yosh@gimp.org>
 Thu Apr 30 16:38:59 PDT 1998 Manish Singh <yosh@gimp.org>
 
 	* updated randomize and blur plugins, split out libgpc into
-	it's own dir
+	its own dir
 
 Thu Apr 30 14:32:16 PDT 1998 Manish Singh <yosh@gimp.org>
 

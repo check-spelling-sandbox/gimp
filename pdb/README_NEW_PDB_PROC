@@ -116,7 +116,7 @@ sub text_layer_get_text {
 
 That's the first line, declaring the name of the new PDB function (it
 will be renamed to +gimp_text_layer_get_text+ automatically), and
-opening the braces for it's content.
+opening the braces for its content.
 
 Description of the procedure
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~

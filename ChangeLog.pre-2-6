@@ -9157,7 +9157,7 @@
 
 	* app/config/gimpguiconfig.[ch]: removed "show-tips" property.
 
-	* app/gui/gui.[ch]: removed gui_post_init() as it's only purpose was
+	* app/gui/gui.[ch]: removed gui_post_init() as its only purpose was
 	to show the tips dialog.
 
 	* app/app.c: changed accordingly.

@@ -4637,7 +4637,7 @@
 
 	* app/dialogs/stroke-dialog.c: pass FALSE for "edit_context"
 	because this dialog takes its foreground and pattern from the user
-	context and doesn't need it's own GUI for them.
+	context and doesn't need its own GUI for them.
 
 2008-10-24  Michael Natterer  <mitch@gimp.org>
 
