@@ -460,7 +460,7 @@ Then it will try to search for various libraries, by looking up a `.pc`
 file (used to get information on installation details). For instance if
 pkg-config could not find the file 'gtk+-3.0.pc' that gets installed
 with GTK, verify that the development package of GTK+3 is installed or
-that you have a version equal or higher than the required version.
+that you have a version greater than or equal to the required version.
 
 If you installed a supported version of a dependency but the configure
 step still cannot find it, you may need to add the location of the .pc
