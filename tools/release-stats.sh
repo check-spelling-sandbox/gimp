@@ -131,7 +131,7 @@ echo
 echo "Meson build system:"
 git --no-pager shortlog -sn $PREV..$CUR -- meson_options.txt "*/meson.build"
 
-echo "Gitlab CI:"
+echo "GitLab CI:"
 git --no-pager shortlog -sn $PREV..$CUR -- .gitlab-ci.yml
 
 echo "Binary builds:"

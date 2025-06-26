@@ -21,7 +21,7 @@ case, run these builds at your own risk. ☢️
 
 ## Reviewing MR branches
 
-Reviewing merge requests on the Gitlab interface often leads to poor
+Reviewing merge requests on the GitLab interface often leads to poor
 review, because:
 
 - It doesn't show tabs, trailing whitespaces and other space issues
@@ -73,7 +73,7 @@ Moreover you would not be able to pass the CI build.
 So we will fetch the remote yet without naming the remote:
 
 - Click the "Check out branch" button below the merge request
-  description. Gitlab gives you instructions but we will only use the
+  description. GitLab gives you instructions but we will only use the
   first step ("Fetch and check out the branch for this merge request").
   For instance if contributor `xyz` created the branch `fix-bug-123` on
   their own remote, you would run:

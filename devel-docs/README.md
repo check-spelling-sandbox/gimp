@@ -229,7 +229,7 @@ top-level directories:
 | po-windows-installer/ | Translations of strings used in the Windows installer |
 | themes/         | Official themes                                      |
 | tools/          | Source code for non-distributed GIMP-related tools   |
-| .gitlab/        | Gitlab-related templates or scripts                  |
+| .gitlab/        | GitLab-related templates or scripts                  |
 
 The source code of the main GIMP application is found in the `app/` directory:
 

@@ -11,7 +11,7 @@ We recommend to look at the `README.md` file in respectively the `master` or
 ## Nightly builds
 
 Flathub does not host nightly builds, therefore we publish them on GNOME's
-Nightly repository. Our "nightlies" are actually "weeklies" through a [Gitlab job
+Nightly repository. Our "nightlies" are actually "weeklies" through a [GitLab job
 schedule named "Flatpak
 nightly"](https://gitlab.gnome.org/GNOME/gimp/-/pipeline_schedules), which builds
 whatever is on GIMP's repository `master` branch. The nightly manifest file is:

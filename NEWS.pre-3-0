@@ -597,7 +597,7 @@ Plug-ins:
     align-layer, border-average, contrast-retinex, despeckle,
     screenshot, file-gif-export, file-heif, file-jp2-load, file-jpegxl,
     file-mng, file-tga, file-bmp, file-sgi, file-webp.
-  - New file-plug-in testing framework. It comes with Gitlab junit reports.
+  - New file-plug-in testing framework. It comes with GitLab junit reports.
   - JPEG XL: half-float import support.
   - file-darktable: use the new API which darktable developed from us
     since version 4.6 (a new `--gimp` flag on command line). Fallback to
@@ -3168,7 +3168,7 @@ Devel docs:
 
   - Documentation to port GIMP 2.10 plug-ins to GIMP 3.0 has been
     started in `devel-docs/GIMP3-plug-in-porting-guide/`. It is also
-    visible directly on out Gitlab instance with visual styling:
+    visible directly on out GitLab instance with visual styling:
     https://gitlab.gnome.org/GNOME/gimp/-/tree/master/devel-docs/GIMP3-plug-in-porting-guide
 
 Build:
@@ -3489,7 +3489,7 @@ Build:
   - New meson build system. Still deemed "experimental" for the time
     being. Packagers are recommended to continue using the autotools
     build system in order to avoid build system-specific bugs.
-  - Continuous integration in Gitlab with:
+  - Continuous integration in GitLab with:
     - an autotools build with GCC on a Debian/testing runner
     - an autotools distcheck build on a Debian/testing runner
     - a meson build with GCC on a Debian/testing runner
