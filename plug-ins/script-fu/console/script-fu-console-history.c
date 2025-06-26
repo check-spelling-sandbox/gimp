@@ -86,7 +86,7 @@ console_history_init (CommandHistory *self)
 /* Store the command in tail of CommandHistory.
  * The tail is the most recent added element, which was created prior by new_tail.
  *
- * @commmand transfer full
+ * @command transfer full
  *
  * !!! The caller is executing the command.
  * The caller updates TotalHistory, with a prompt string and the command string.
