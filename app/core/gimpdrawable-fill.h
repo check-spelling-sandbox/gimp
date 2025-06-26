@@ -19,7 +19,7 @@
 #define __GIMP_DRAWABLE_FILL_H__
 
 
-/*  Lowlevel API that is used for initializing entire drawables and
+/*  Low-level API that is used for initializing entire drawables and
  *  buffers before they are used in images, they don't push an undo.
  */
 
