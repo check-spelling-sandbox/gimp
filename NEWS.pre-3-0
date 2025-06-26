@@ -2864,7 +2864,7 @@ API:
     Settings" and "Load Saved Settings". The term "defaults" was not
     very clear and could be confused with "factory defaults". Moreover
     tooltips were added and the "Load Defaults" button is now only
-    sensitive if "Save Defaults" buttion has been hit at least once.
+    sensitive if "Save Defaults" button has been hit at least once.
   - Annotations improved.
   - Drop g_object_notify() in favor of g_object_notify_by_pspec() in
     various implementations to avoid a slight performance hit because of
