@@ -3109,7 +3109,7 @@ static pointer opexe_0(scheme *sc, enum scheme_opcodes op) {
                pointer f=find_slot_in_env(sc,sc->envir,sc->COMPILE_HOOK,1);
                if(f==sc->NIL) {
                     sc->value = sc->code;
-                    /* Fallthru */
+                    /* Fallthrough */
                } else {
                     s_save(sc,OP_LAMBDA1,sc->args,sc->code);
                     sc->args=cons(sc,sc->code,sc->NIL);
