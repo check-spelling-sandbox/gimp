@@ -1518,7 +1518,7 @@ Mon Mar 16 17:50:56 EST 1998 Adrian Likins <adrian@gimp.org>
 	*gimprc_user: added a commented out (install-colormap)
 	option
 
-	*app/install.c: comsetic update to show info about .gimp/scripts
+	*app/install.c: cosmetic update to show info about .gimp/scripts
 
 	*plugins/sparkle/sparkle.c:
 	*plugins/despeckle/despeckle.c: made a local MIN/MAX instead
