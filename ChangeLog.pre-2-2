@@ -1207,7 +1207,7 @@
 
 2004-11-22  DindinX  <dindinx@gimp.org>
 
-	* plug-ins/gfig/gfig-dialog.c: correctly initialize the Antialising
+	* plug-ins/gfig/gfig-dialog.c: correctly initialize the Antialiasing
 	check box.  Reported by Zigomar.
 
 2004-11-22  Michael Natterer  <mitch@gimp.org>
