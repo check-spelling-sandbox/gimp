@@ -3776,7 +3776,7 @@
 	GimpImage::size-changed-detailed that is emited whenever
 	GimpViewable::size-changed is. The new signal provides additional
 	information, namely the previous origin relative to the current
-	origin. Cliens choose what specific signal to listen to depending
+	origin. Clients choose what specific signal to listen to depending
 	on how much info they need.
 
 	* app/display/gimpdisplayshell-handlers.c: Connect to
