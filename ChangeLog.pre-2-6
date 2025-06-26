@@ -15497,7 +15497,7 @@
 	* app/tools/gimpcurvestool.c
 	* app/widgets/gimpcurveview.c
 	* tools/pdbgen/pdb/color.pdb: changed accordingly (connect to "dirty"
-	instead of "notify" and added some freeze/thaw where approproate).
+	instead of "notify" and added some freeze/thaw where appropriate).
 
 	* app/pdb/color_cmds.c: regenerated.
 
