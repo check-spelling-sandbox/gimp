@@ -304,7 +304,7 @@ typedef enum  /*< skip >*/
   GIMP_DASHBOARD_UPDATE_INTERVAL_1_SEC    =   1000,
   GIMP_DASHBOARD_UPDATE_INTERVAL_2_SEC    =   2000,
   GIMP_DASHBOARD_UPDATE_INTERVAL_4_SEC    =   4000
-} GimpDashboardUpdateInteval;
+} GimpDashboardUpdateInterval;
 
 typedef enum  /*< skip >*/
 {

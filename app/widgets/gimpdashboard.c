@@ -311,7 +311,7 @@ struct _GimpDashboardPrivate
   gint                          update_idle_id;
   gint                          low_swap_space_idle_id;
 
-  GimpDashboardUpdateInteval    update_interval;
+  GimpDashboardUpdateInterval   update_interval;
   GimpDashboardHistoryDuration  history_duration;
   gboolean                      low_swap_space_warning;
 
@@ -1491,8 +1491,8 @@ gimp_dashboard_set_aux_info (GimpDocked *docked,
 
       if (! strcmp (aux->name, AUX_INFO_UPDATE_INTERVAL))
         {
-          gint                       value = atoi (aux->value);
-          GimpDashboardUpdateInteval update_interval;
+          gint                        value = atoi (aux->value);
+          GimpDashboardUpdateInterval update_interval;
 
           for (update_interval = GIMP_DASHBOARD_UPDATE_INTERVAL_0_25_SEC;
                update_interval < value &&
@@ -4899,8 +4899,8 @@ gimp_dashboard_reset (GimpDashboard *dashboard)
 }
 
 void
-gimp_dashboard_set_update_interval (GimpDashboard              *dashboard,
-                                    GimpDashboardUpdateInteval  update_interval)
+gimp_dashboard_set_update_interval (GimpDashboard               *dashboard,
+                                    GimpDashboardUpdateInterval  update_interval)
 {
   GimpDashboardPrivate *priv;
 
@@ -4934,7 +4934,7 @@ gimp_dashboard_set_update_interval (GimpDashboard              *dashboard,
     }
 }
 
-GimpDashboardUpdateInteval
+GimpDashboardUpdateInterval
 gimp_dashboard_get_update_interval (GimpDashboard *dashboard)
 {
   g_return_val_if_fail (GIMP_IS_DASHBOARD (dashboard), DEFAULT_UPDATE_INTERVAL);

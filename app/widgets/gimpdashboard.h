@@ -77,8 +77,8 @@ void                           gimp_dashboard_log_add_marker             (GimpDa
 void                           gimp_dashboard_reset                      (GimpDashboard                 *dashboard);
 
 void                           gimp_dashboard_set_update_interval        (GimpDashboard                 *dashboard,
-                                                                          GimpDashboardUpdateInteval     update_interval);
-GimpDashboardUpdateInteval     gimp_dashboard_get_update_interval        (GimpDashboard                 *dashboard);
+                                                                          GimpDashboardUpdateInterval    update_interval);
+GimpDashboardUpdateInterval     gimp_dashboard_get_update_interval        (GimpDashboard                *dashboard);
 
 void                           gimp_dashboard_set_history_duration       (GimpDashboard                 *dashboard,
                                                                           GimpDashboardHistoryDuration   history_duration);

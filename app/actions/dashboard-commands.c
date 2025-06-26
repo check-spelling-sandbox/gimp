@@ -66,8 +66,8 @@ dashboard_update_interval_cmd_callback (GimpAction *action,
                                         GVariant   *value,
                                         gpointer    data)
 {
-  GimpDashboard              *dashboard = GIMP_DASHBOARD (data);
-  GimpDashboardUpdateInteval  update_interval;
+  GimpDashboard               *dashboard = GIMP_DASHBOARD (data);
+  GimpDashboardUpdateInterval  update_interval;
 
   update_interval = g_variant_get_int32 (value);
 
