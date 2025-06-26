@@ -15126,7 +15126,7 @@
 	toggling 'Fixed center' while rubber banding a rectangle.
 
 	* app/tools/gimprectangletool.c
-	(gimp_rectangle_tool_set_other_side_coord): Finnishing off with a
+	(gimp_rectangle_tool_set_other_side_coord): Finishing off with a
 	call to gimp_rectangle_tool_check_function() as changing the
 	coordinates of the opposite side might swap the orientation of the
 	rectangle.
