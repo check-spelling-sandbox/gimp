@@ -2604,7 +2604,7 @@
 	(gimp_display_shell_fill): Clarify that it is safe to use the
 	risky function.
 
-	(gimp_display_shell_configure_event): Make proper comparisions (<=
+	(gimp_display_shell_configure_event): Make proper comparisons (<=
 	not =) and explain that usage of the risky function is safe.
 
 	(gimp_display_shell_shrink_wrap): Always call
