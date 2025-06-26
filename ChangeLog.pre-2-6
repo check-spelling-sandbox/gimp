@@ -14872,7 +14872,7 @@
 
 2007-11-18  Martin Nordholts  <martinn@svn.gnome.org>
 
-	* app/tools/gimprectangleselecttool.c: Cosmitics. More strictly
+	* app/tools/gimprectangleselecttool.c: Cosmetics. More strictly
 	align static function prototypes and consistently use the name
 	rect_sel_tool for pointers to GimpRectSelectTool.
 
