@@ -23,10 +23,10 @@
 
 typedef struct
 {
-  GType                        resource_type;
-  GimpResourceChoosedCallback  callback;
-  gpointer                     owner_data;
-  GDestroyNotify               data_destroy;
+  GType                       resource_type;
+  GimpResourceChosenCallback  callback;
+  gpointer                    owner_data;
+  GDestroyNotify              data_destroy;
 } GimpResourceAdaption;
 
 
@@ -260,13 +260,13 @@ popup_remote_chooser (const gchar   *title,
  *          freed automatically when the dialog is closed.
  **/
 const gchar *
-gimp_resource_select_new (const gchar                 *title,
-                          GBytes                      *parent_handle,
-                          GimpResource                *resource,
-                          GType                        resource_type,
-                          GimpResourceChoosedCallback  callback,
-                          gpointer                     owner_data,
-                          GDestroyNotify               data_destroy)
+gimp_resource_select_new (const gchar                *title,
+                          GBytes                     *parent_handle,
+                          GimpResource               *resource,
+                          GType                       resource_type,
+                          GimpResourceChosenCallback  callback,
+                          gpointer                    owner_data,
+                          GDestroyNotify              data_destroy)
 {
   GimpPlugIn    *plug_in = gimp_get_plug_in ();
   GimpProcedure *procedure;

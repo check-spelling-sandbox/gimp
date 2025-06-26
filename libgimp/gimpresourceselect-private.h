@@ -26,24 +26,24 @@
 G_BEGIN_DECLS
 
 /**
- * GimpResourceChoosedCallback:
+ * GimpResourceChosenCallback:
  * @resource: Chosen resource
  * @is_dialog_closing: Did user click Close button of dialog?
  * @owner_data: (closure): Owner's data
  *
  * Callback from libgimp GimpResourceSelect adapter to owner.
  **/
-typedef void (* GimpResourceChoosedCallback) (GimpResource *resource,
-                                              gboolean      is_dialog_closing,
-                                              gpointer      owner_data);
+typedef void (* GimpResourceChosenCallback) (GimpResource *resource,
+                                             gboolean      is_dialog_closing,
+                                             gpointer      owner_data);
 
-const gchar * gimp_resource_select_new       (const gchar                 *title,
-                                              GBytes                      *parent_handle,
-                                              GimpResource                *resource,
-                                              GType                        resource_type,
-                                              GimpResourceChoosedCallback  callback,
-                                              gpointer                     owner_data,
-                                              GDestroyNotify               data_destroy);
+const gchar * gimp_resource_select_new       (const gchar                *title,
+                                              GBytes                     *parent_handle,
+                                              GimpResource               *resource,
+                                              GType                       resource_type,
+                                              GimpResourceChosenCallback  callback,
+                                              gpointer                    owner_data,
+                                              GDestroyNotify              data_destroy);
 
 void          gimp_resource_select_set       (const gchar                 *callback_name,
                                               GimpResource                *resource);

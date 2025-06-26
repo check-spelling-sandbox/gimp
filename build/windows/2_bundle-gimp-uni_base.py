@@ -207,7 +207,7 @@ for dir in ["bin", "lib"]:
 
 ### .pdb (CodeView) debug symbols from babl, gegl and GIMP binaries
 bundle(GIMP_PREFIX, "bin/*.pdb")
-### Remove .pdb without corresponding binaries (depends on what was choosen to be bundled above)
+### Remove .pdb without corresponding binaries (depends on what was chosen to be bundled above)
 files = os.listdir(GIMP_DISTRIB / "bin")
 binaries = {os.path.splitext(file)[0] for file in files if file.endswith(('.exe', '.dll'))}
 for file in files:
