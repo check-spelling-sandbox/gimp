@@ -348,7 +348,7 @@ load_image (GFile *gfile, GError **error)
    * in some but not all cases) but always err on the Windows/signed side.
    * The only time we'll ever be wrong would be OS/2 1.x files with dimensions
    * larger than 32k (1.x files are from an era when 1024x768 was huge!) or
-   * OS/2 2.x images wider or higher than 2 billion pixels -- which is way
+   * OS/2 2.x images wider or taller than 2 billion pixels -- which is way
    * over GIMP's limit anyway.
    */
 

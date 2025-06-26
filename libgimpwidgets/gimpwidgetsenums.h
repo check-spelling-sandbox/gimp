@@ -28,8 +28,8 @@ G_BEGIN_DECLS
 /**
  * GimpAspectType:
  * @GIMP_ASPECT_SQUARE:    it's a 1:1 square
- * @GIMP_ASPECT_PORTRAIT:  it's higher than it's wide
- * @GIMP_ASPECT_LANDSCAPE: it's wider than it's high
+ * @GIMP_ASPECT_PORTRAIT:  it's taller than it's wide
+ * @GIMP_ASPECT_LANDSCAPE: it's wider than it's tall
  *
  * Aspect ratios.
  **/
