@@ -26,7 +26,7 @@
   '( "rgb-565" "rgba-5551" "rgb-555" "rgb-888" "rgba-8888" "rgbx-8888"))
 (define webp-encoder-strings
   '("default" "picture" "photo" "drawing" "icon" "text"))
-; omitting two compresison strings not compatible with all imgage types
+; omitting two compression strings not compatible with all imgage types
 ; "ccittfax3" "ccittfax4" only for B/W images?
 (define tiff-compression-strings
   '("none" "lzw" "packbits" "adobe_deflate" "jpeg" ))
