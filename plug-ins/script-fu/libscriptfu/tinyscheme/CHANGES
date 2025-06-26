@@ -280,7 +280,7 @@ Version 1.14
 
 Version 1.13
     Silly bug involving division by zero resolved by Roland Kaufman.
-    Macintoch support from Shmulik Regev.
+    Macintosh support from Shmulik Regev.
     Float parser bug fixed by Alexander Shendi.
     GC bug from Andru Luvisi.
 
