@@ -432,7 +432,7 @@ cleanup:
  * {{{ Low-level mouse hook */
 
 /* This mouse procedure can detect clicks made on any
- * application window. Countrary to mouse capture, this
+ * application window. Contrary to mouse capture, this
  * method continues to work even after switching active
  * windows. */
 
