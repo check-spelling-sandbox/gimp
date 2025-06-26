@@ -14280,7 +14280,7 @@
 
 	* app/dialogs/stroke-dialog.c: attach the saved-stroke-desc to the
 	gimp object instead of to the passed context in one function, and
-	to the user context in the other (coincidentially these contexts
+	to the user context in the other (coincidentally these contexts
 	were the same).
 
 	* app/actions/select-commands.c

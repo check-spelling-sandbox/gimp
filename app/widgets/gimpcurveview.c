@@ -778,7 +778,7 @@ gimp_curve_view_draw (GtkWidget *widget,
       h = view->cursor_rect.height;
 
       if (view->x_axis_label)
-        x += border + view->cursor_rect.height; /* coincidentially the right value */
+        x += border + view->cursor_rect.height; /* coincidentally the right value */
 
       cairo_push_group (cr);
 
