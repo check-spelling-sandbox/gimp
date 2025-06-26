@@ -1787,7 +1787,7 @@ gimp_blink_dockable (Gimp         *gimp,
 
 /**
  * gimp_dock_with_window_new:
- * @factory: a #GimpDialogFacotry
+ * @factory: a #GimpDialogFactory
  * @monitor: the #GdkMonitor the dock window should appear on
  * @toolbox: if %TRUE; gives a "gimp-toolbox-window" with a
  *           "gimp-toolbox", "gimp-dock-window"+"gimp-dock"
