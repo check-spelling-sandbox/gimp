@@ -16199,7 +16199,7 @@
 	gimpgradient.[ch] and makes them available through the PDB.
 	Fixes bug #129675 and bug #129678.
 
-	Did some cleanups / enhancments to the patch:
+	Did some cleanups / enhancements to the patch:
 
 	* app/core/gimpgradient.[ch]: changed the naming scheme of the new
 	functions and changed old functions to match the new scheme.
