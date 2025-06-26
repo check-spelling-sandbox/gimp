@@ -16572,7 +16572,7 @@
 
 	* app/paint/gimppaintcore.[ch]: removed "gdouble scale" parameter
 	and added "GimpPaintOptions" in GimpPaintCore::get_paint_area().
-	Check if virtual functions exist befoe calling them.
+	Check if virtual functions exist before calling them.
 
 	* app/paint/gimpbrushcore.[ch]: added "gdouble scale" to GimpBrushCore
 	and "gboolean use_scale" to GimpBrushCoreClass (defaults to TRUE).
