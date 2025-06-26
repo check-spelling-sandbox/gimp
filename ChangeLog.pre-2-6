@@ -7902,7 +7902,7 @@
 
 	* tools/pdbgen/pdb/drawable.pdb: use the new drawable shadow
 	API. Add new procedure gimp-drawable-free-shadow. Call
-	gimp_plug_in_cleaup_remove_shadow() when it gets called.
+	gimp_plug_in_cleanup_remove_shadow() when it gets called.
 
 	* tools/pdbgen/pdb/image.pdb: deprecate gimp-image-free-shadow.
 	Calling it has no effect any longer.
