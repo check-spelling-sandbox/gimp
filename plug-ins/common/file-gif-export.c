@@ -962,7 +962,7 @@ export_image (GFile         *file,
     }
 
 
-  /* write the GIFheader */
+  /* write the GIF header */
 
   if (colors < 256)
     {
