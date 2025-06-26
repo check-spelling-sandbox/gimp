@@ -1402,7 +1402,7 @@ export_image (GFile               *file,
 
   if (cmyk)
     {
-      /* CMYK is allways saved as lossless */
+      /* CMYK is always saved as lossless */
       lossless = TRUE;
     }
 

@@ -13282,7 +13282,7 @@ Sat Nov 20 19:52:30 CET 1999 Olof S Kylander <olof@gimp.org>
 
 	Updated menu location as suggested in the proposal from me
 	with comments form others. (Mitch what about fixing the sub
-	menu location so submenus allways is in top of a menu. Exception
+	menu location so submenus always is in top of a menu. Exception
 	of Repeat last, Re-show last and Filter all Layers, which should
 	be in top of the Filters menu.)
 
