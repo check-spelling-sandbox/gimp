@@ -361,7 +361,7 @@ typedef enum {
 /* Gradient type. (since PSP7)
  */
 typedef enum {
-  keSGTLinear = 0,      /* Linera gradient type */
+  keSGTLinear = 0,      /* Linear gradient type */
   keSGTRadial,          /* Radial gradient type */
   keSGTRectangular,     /* Rectangulat gradient type */
   keSGTSunburst         /* Sunburst gradient type */
