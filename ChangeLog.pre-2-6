@@ -6402,7 +6402,7 @@
 	NULL when halting the tool.
 
 	(gimp_foreground_select_tool_button_press): Only activate the
-	tool control if it is not active (it might be actived already
+	tool control if it is not active (it might be activated already
 	by the Free Select Tool).
 
 	* app/tools/gimpfreeselecttool.c
