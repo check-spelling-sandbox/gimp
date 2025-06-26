@@ -3650,7 +3650,7 @@
 
 2004-10-27  Sven Neumann  <sven@gimp.org>
 
-	* tools/pdbgen/enumcode.pl: removed trailing commmas from output.
+	* tools/pdbgen/enumcode.pl: removed trailing commas from output.
 
 2004-10-27  Sven Neumann  <sven@gimp.org>
 
