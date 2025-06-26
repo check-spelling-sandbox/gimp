@@ -4181,7 +4181,7 @@
 	* app/tools/gimptexttool.[ch]: move public functions together,
 	move all virtual function implementations together and put them in
 	order, made the text along path function public, factor out
-	gimp_text_tool_xy_to_offset() instead of duplicaing this code
+	gimp_text_tool_xy_to_offset() instead of duplicating this code
 	three times, remove gimp_rectangle_tool_frame_item() because it
 	doesn't belong here.
 
