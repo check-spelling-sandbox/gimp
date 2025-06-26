@@ -6657,7 +6657,7 @@
 	* tools/pdbgen/pdb/*.pdb: renamed argument flag
 	"no_validate" (which turns off utf8-validation for strings) to
 	"allow_non_utf8" and renamed "no_success" (which turns off
-	argument validation alltogether) to "no_validate".
+	argument validation altogether) to "no_validate".
 	Doesn't affect generated code.
 
 2007-04-26  Michael Natterer  <mitch@gimp.org>

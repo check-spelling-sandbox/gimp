@@ -3195,7 +3195,7 @@
 2008-08-11  Michael Natterer  <mitch@gimp.org>
 
 	* configure.in: change all LIBFOO variables to FOO_LIBS for
-	consistency, got rid of some variables alltogether since
+	consistency, got rid of some variables altogether since
 	PNG_CHECK_MODULES() already defined FOO_LIBS.
 
 	* tools/Makefile.am
