@@ -11374,7 +11374,7 @@
 	GimpGeglTool, or even less).
 
 	* app/tools/gimpgegltool.c: create a proxy config class for each
-	GegĺOperation and create a prop table on the config class'
+	GeglOperation and create a prop table on the config class'
 	properties as GUI for the GEGL operation. Write the proxy object's
 	properties back to the GeglNode in map().
 
