@@ -3798,7 +3798,7 @@
 	* app/core/gimpdrawable-transform.[ch]: added missing parameters
 	to gimp_drawable_transform_flip().
 
-	* tools/pdbgen/pdb/transform_tools.pdb: changed accordinly.
+	* tools/pdbgen/pdb/transform_tools.pdb: changed accordingly.
 
 	* app/base/base-enums.h
 	* app/core/core-enums.h: removed pdp-skip for GimpInterpolationType
@@ -4389,7 +4389,7 @@
 
 	* app/core/gimpchannel.c (gimp_channel_stroke)
 	* app/core/gimpselection.c (gimp_selection_stroke)
-	* app/vectors/gimpvectors.c (gimp_vectors_stroke): changed accprdingly.
+	* app/vectors/gimpvectors.c (gimp_vectors_stroke): changed accordingly.
 
 	* app/actions/select-commands.c
 	* app/actions/vectors-commands.c
@@ -4966,7 +4966,7 @@
 	* libgimpwidgets/gimppreview.[ch]: added a new function to set the
 	default cursor on preview: gimp_preview_set_default_cursor().
 
-	* libgimpwidgets/gimpscrolledpreview.c: changed accordlingly.
+	* libgimpwidgets/gimpscrolledpreview.c: changed accordingly.
 
 	* plug-ins/common/flarefx.c:
 	* plug-ins/common/nova.c: use this function.
@@ -9602,7 +9602,7 @@
 	* app/display/Makefile.am
 	* app/display/display-types.h
 	* app/display/gimpdisplayshell-callbacks.c
-	* app/gui/dialogs-constructors.c: Changed accordlingly.
+	* app/gui/dialogs-constructors.c: Changed accordingly.
 
 2004-08-25  Michael Natterer  <mitch@gimp.org>
 

@@ -5286,7 +5286,7 @@ Sun Apr 30 14:45:16 PDT 2000 Manish Singh <yosh@gimp.org>
 	gimp_color_cube() there for source level compatibility.
 
 	* libgimp/gimpprotocol.[ch]: changed the GPConfig message
-	accordinly and increased the gimp protocol version number because
+	accordingly and increased the gimp protocol version number because
 	the change breaks binary compatibility. Also actually pass the
 	use_xshm variable over the wire (was only in the GPConfig struct
 	before).

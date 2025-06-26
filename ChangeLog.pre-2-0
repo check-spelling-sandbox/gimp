@@ -6567,7 +6567,7 @@
 	gimpmiscui back to these plug-ins.
 
 	* libgimp/gimpmiscui.[ch]: removed these file.
-	* libgimp/Makefile.am: changed accordlingly.
+	* libgimp/Makefile.am: changed accordingly.
 
 	* plug-ins/libgimpoldpreview/gimpoldpreview.c: removed
 	gimp_plug_in_get_path() from here also, since I forgot to do this in
@@ -10732,7 +10732,7 @@
 	from the API. It can be set using gtk_widget_size_request(). Set a
 	mimimum height of 80 pixels.
 
-	* app/widgets/gimphistogrambox.c: changed accordinly. Reduced size
+	* app/widgets/gimphistogrambox.c: changed accordingly. Reduced size
 	of color gradient.
 
 	* app/tools/gimpcurvestool.c: reduced gradient sizes.
@@ -32349,7 +32349,7 @@
 	active one.
 
 	* app/display/gimpdisplay.c
-	* app/display/gimpdisplayshell-callbacks.c: changed accordinly.
+	* app/display/gimpdisplayshell-callbacks.c: changed accordingly.
 
 	* app/gui/gui.c: ditto. Set the menu sensitivity of new displays.
 
