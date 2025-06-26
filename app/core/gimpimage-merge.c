@@ -463,7 +463,7 @@ gimp_image_merge_group_layer (GimpImage      *image,
    *   in fact the output of the "gimp:pass-through" mode (similar to
    *   "gimp:replace") because we can't reproduce the same render
    *   otherwise. This works well, since anyway the merged layer is
-   *   ensured to be the bottomest one on its own level.
+   *   ensured to be the bottommost one on its own level.
    * - The group has filters: gimp_drawable_merge_filters() will
    *   actually set the end-rendering to the drawable (kinda rasterizing
    *   the group layer).
