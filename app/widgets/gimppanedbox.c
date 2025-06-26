@@ -936,7 +936,7 @@ gimp_paned_box_will_handle_drag (GimpPanedBox   *paned_box,
       return TRUE;
     }
 
-  /* If we don't have a common ancenstor we will not handle it */
+  /* If we don't have a common ancestor we will not handle it */
   if (! gtk_widget_translate_coordinates (widget,
                                           GTK_WIDGET (paned_box),
                                           x, y,
