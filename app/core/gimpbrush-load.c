@@ -752,7 +752,7 @@ gimp_brush_load_abr_brush_v12 (GDataInputStream  *input,
 
         /* g_print(" | << size: %dx%d %d bit (%d bytes) %s\n",
          *         width, height, abr_sampled_brush_hdr.depth, size,
-         *         comppres ? "compressed" : "raw");
+         *         compress ? "compressed" : "raw");
          */
 
         if (! compress)
