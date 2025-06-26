@@ -161,7 +161,7 @@
     <config name="ComponentsGimp32">
       <value>Support for 32-bit plug-ins</value>
     </config>
-    <!-- Compoments, only when installing on x64 Windows -->
+    <!-- Components, only when installing on x64 Windows -->
     <config name="ComponentsGimp32Description">
       <value>Include files necessary for using 32-bit plug-ins.%nRequired for TWAIN support.</value>
     </config>
