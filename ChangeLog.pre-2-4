@@ -2566,7 +2566,7 @@
 
 2007-08-11  Kevin Cozens  <kcozens@cvs.gnome.org>
 
-	* plug-ins/script-fu/tinyscheme/scheme.c: Commited patch from
+	* plug-ins/script-fu/tinyscheme/scheme.c: Committed patch from
 	Sven Neumann that reverts the optimization patch which stored
 	collation keys. See bug #374854.
 
