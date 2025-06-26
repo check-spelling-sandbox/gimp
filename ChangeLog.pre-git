@@ -3788,7 +3788,7 @@
 	and y2) were unused anyway. Add boolean member "moving". Implement
 	oper_update() and set the tool to moving mode when ALT is pressed.
 	Changed button_press(), button_release() and motion() accordingly.
-	Some more cleanup and removal of comented out code.
+	Some more cleanup and removal of commented out code.
 
 2008-11-01  Sven Neumann  <sven@gimp.org>
 

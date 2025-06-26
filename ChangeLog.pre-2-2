@@ -8432,7 +8432,7 @@
 	patch from David Gowers which adds actions to modify the context's
 	paint_mode. Fixes bug #151471.
 
-	* menus/image-menu.xml.in: added them to the (commentd out)
+	* menus/image-menu.xml.in: added them to the (commented out)
 	"Context" submenu.
 
 2004-09-07  Michael Natterer  <mitch@gimp.org>
