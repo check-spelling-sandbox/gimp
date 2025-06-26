@@ -72,7 +72,7 @@ typedef struct
   const gchar    *icon;
   const float     range_min;      /* val min of the component */
   const float     range_max;      /* val max of the component */
-  const gboolean  is_perceptual;  /* Take the componenent from an Y' or Y buffer */
+  const gboolean  is_perceptual;  /* Take the component from an Y' or Y buffer */
 } COMPONENT_DSC;
 
 /* Description of a composition */
