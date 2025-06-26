@@ -127,7 +127,7 @@ void        gimp_container_tree_view_add_renderer_cell
 
 void        gimp_container_tree_view_set_dnd_drop_to_empty
                                               (GimpContainerTreeView *tree_view,
-                                               gboolean               dnd_drop_to_emtpy);
+                                               gboolean               dnd_drop_to_empty);
 void        gimp_container_tree_view_connect_name_edited
                                               (GimpContainerTreeView *tree_view,
                                                GCallback              callback,
