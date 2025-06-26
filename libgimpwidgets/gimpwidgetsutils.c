@@ -1195,7 +1195,7 @@ gimp_widget_free_native_handle (GtkWidget  *widget,
   g_return_if_fail (window_handle != NULL);
 
   #ifdef GDK_WINDOWING_WAYLAND
-  /* Cancel the asynch callback which has a pointer into widget's private.
+  /* Cancel the async callback which has a pointer into widget's private.
    * Cancel regardless whether callback has already come.
    */
   if (GDK_IS_WAYLAND_DISPLAY (gdk_display_get_default ()) &&
@@ -1204,7 +1204,7 @@ gimp_widget_free_native_handle (GtkWidget  *widget,
     gdk_wayland_window_unexport_handle (gtk_widget_get_window (widget));
   #endif
 
-  /* On some platforms, window_handle may be NULL when an asynch callback has not come yet.
+  /* On some platforms, window_handle may be NULL when an async callback has not come yet.
    * The dereferenced pointer is the window handle.
    */
   if (*window_handle != NULL)

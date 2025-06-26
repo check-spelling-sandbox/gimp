@@ -380,7 +380,7 @@ gimp_gradient_select_model_change_handler (GimpGradientChooser *self,
  * Store grad data locally.
  * To avoid an asynchronous call back to core
  * to get gradient data at redraw for expose events.
- * Such an asynch call can improperly interleave
+ * Such an async call can improperly interleave
  * with transactions in other direction, across wire from core to plugin.
  * This is not just for performance, i.e. not just to save wire crossings.
  */
