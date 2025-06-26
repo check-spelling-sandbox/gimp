@@ -1500,7 +1500,7 @@
 
 	* app/widgets/gimpenumaction.[ch]: added boolean property
 	"value-variable" which specifies if the GimpEnumAction::selected()
-	signal may be emitted with arbirtary values (value-variable = TRUE)
+	signal may be emitted with arbitrary values (value-variable = TRUE)
 	or *only* with enum_action->value (value-variable = FALSE).
 
 	* app/widgets/gimpactiongroup.[ch]: added "gboolean
@@ -3106,7 +3106,7 @@
 	"transform_direction". Renamed rotate() to rotate_free() and
 	added a "gboolean auto_center" parameter. Added new function
 	rotate() which takes enum GimpRotationType instead of an
-	arbiatrary angle so the flip and rotate APIs are symmetric.
+	arbitrary angle so the flip and rotate APIs are symmetric.
 
 	* libgimp/gimp.def: added the gimp_drawable_transform_* stuff.
 
