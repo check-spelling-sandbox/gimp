@@ -564,7 +564,7 @@ gimp_thumbnail_peek_image (GimpThumbnail *thumbnail)
  *
  * Checks if a thumbnail file for the @thumbnail exists. It doesn't
  * load the thumbnail image and thus cannot check if the thumbnail is
- * valid and uptodate for the image file asosciated with the
+ * valid and uptodate for the image file associated with the
  * @thumbnail.
  *
  * If you want to check the thumbnail, either attempt to load it using
@@ -598,7 +598,7 @@ gimp_thumbnail_peek_thumb (GimpThumbnail *thumbnail,
  * @size: the preferred size of the thumbnail image
  *
  * Checks if a thumbnail file for the @thumbnail exists, loads it and
- * verifies it is valid and uptodate for the image file asosciated
+ * verifies it is valid and uptodate for the image file associated
  * with the @thumbnail.
  *
  * Returns: the thumbnail's #GimpThumbState after the update
