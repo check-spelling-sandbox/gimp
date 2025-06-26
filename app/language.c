@@ -308,7 +308,7 @@ language_init (const gchar  *language,
           language = "fr_CD";       /* French - Democratic Rep. of Congo */
           break;
         case 12300:
-          language = "fr_CI";       /* French - Cote d"Ivoire */
+          language = "fr_CI";       /* French - Cote d'Ivoire */
           break;
         case 15372:
           language = "fr_HT";       /* French - Haiti */
