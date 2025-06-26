@@ -10116,7 +10116,7 @@
 	* app/widgets/Makefile.am
 	* app/widgets/widgets-types.h
 	* app/widgets/gimpprogressbox.[ch]: new GtkVBox subclass featuring
-	a label and a progressbar. Implements GimpProgressIterface.
+	a label and a progressbar. Implements GimpProgressInterface.
 
 	* app/widgets/gimpprogressdialog.[ch]: replaced label and progress
 	by a GimpProgressBox. Delegate most progress functionality to it.
