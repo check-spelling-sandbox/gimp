@@ -430,7 +430,7 @@ gimp_tool_gui_set_viewables (GimpToolGui *gui,
   if (private->viewables)
     {
       for (iter = private->viewables; iter; iter = iter->next)
-        /* NOT g_set_weak_pointer() because the pointer is alrerady set */
+        /* NOT g_set_weak_pointer() because the pointer is already set */
         g_object_add_weak_pointer (G_OBJECT (iter->data),
                                    (gpointer) &iter->data);
     }
