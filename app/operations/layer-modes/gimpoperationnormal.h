@@ -61,7 +61,7 @@ gboolean   gimp_operation_normal_process      (GeglOperation       *op,
                                                const GeglRectangle *roi,
                                                gint                 level);
 
-#if COMPILE_SSE2_INTRINISICS
+#if COMPILE_SSE2_INTRINSICS
 
 gboolean   gimp_operation_normal_process_sse2 (GeglOperation       *op,
                                                void                *in,
@@ -72,9 +72,9 @@ gboolean   gimp_operation_normal_process_sse2 (GeglOperation       *op,
                                                const GeglRectangle *roi,
                                                gint                 level);
 
-#endif /* COMPILE_SSE2_INTRINISICS */
+#endif /* COMPILE_SSE2_INTRINSICS */
 
-#if COMPILE_SSE4_1_INTRINISICS
+#if COMPILE_SSE4_1_INTRINSICS
 
 gboolean   gimp_operation_normal_process_sse4 (GeglOperation       *op,
                                                void                *in,
@@ -85,7 +85,7 @@ gboolean   gimp_operation_normal_process_sse4 (GeglOperation       *op,
                                                const GeglRectangle *roi,
                                                gint                 level);
 
-#endif /* COMPILE_SSE4_1_INTRINISICS */
+#endif /* COMPILE_SSE4_1_INTRINSICS */
 
 
 #endif /* __GIMP_OPERATION_NORMAL_H__ */

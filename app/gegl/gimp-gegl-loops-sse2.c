@@ -31,7 +31,7 @@
 #include "gimp-gegl-loops-sse2.h"
 
 
-#if COMPILE_SSE2_INTRINISICS
+#if COMPILE_SSE2_INTRINSICS
 
 #include <emmintrin.h>
 
@@ -124,4 +124,4 @@ gimp_gegl_smudge_with_paint_process_sse2 (gfloat       *accum,
     }
 }
 
-#endif /* COMPILE_SSE2_INTRINISICS */
+#endif /* COMPILE_SSE2_INTRINSICS */

@@ -31,7 +31,7 @@
 #include "gimpoperationlayermode-composite.h"
 
 
-#if COMPILE_SSE2_INTRINISICS
+#if COMPILE_SSE2_INTRINSICS
 
 /* SSE2 */
 #include <emmintrin.h>
@@ -102,4 +102,4 @@ gimp_operation_layer_mode_composite_clip_to_backdrop_sse2 (const gfloat *in,
     }
 }
 
-#endif /* COMPILE_SSE2_INTRINISICS */
+#endif /* COMPILE_SSE2_INTRINSICS */

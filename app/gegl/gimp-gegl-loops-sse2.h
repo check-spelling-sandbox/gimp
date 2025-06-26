@@ -22,7 +22,7 @@
 #define __GIMP_GEGL_LOOPS_SSE2_H__
 
 
-#if COMPILE_SSE2_INTRINISICS
+#if COMPILE_SSE2_INTRINSICS
 
 void   gimp_gegl_smudge_with_paint_process_sse2 (gfloat       *accum,
                                                  const gfloat *canvas,
@@ -34,7 +34,7 @@ void   gimp_gegl_smudge_with_paint_process_sse2 (gfloat       *accum,
                                                  gfloat        flow,
                                                  gfloat        rate);
 
-#endif /* COMPILE_SSE2_INTRINISICS */
+#endif /* COMPILE_SSE2_INTRINSICS */
 
 
 #endif /* __GIMP_GEGL_LOOPS_SSE2_H__ */

@@ -229,8 +229,8 @@ endif
 # its own #defines and we want to stay compatible with the autotools build
 conf.set('USE_MMX', cc.has_argument('-mmmx'))
 conf.set('USE_SSE', cc.has_argument('-msse'))
-conf.set10('COMPILE_SSE2_INTRINISICS', cc.has_argument('-msse2'))
-conf.set10('COMPILE_SSE4_1_INTRINISICS', cc.has_argument('-msse4.1'))
+conf.set10('COMPILE_SSE2_INTRINSICS', cc.has_argument('-msse2'))
+conf.set10('COMPILE_SSE4_1_INTRINSICS', cc.has_argument('-msse4.1'))
 
 if host_cpu_family == 'ppc'
   altivec_args = cc.get_supported_arguments([

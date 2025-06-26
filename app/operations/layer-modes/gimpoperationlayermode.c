@@ -206,7 +206,7 @@ gimp_operation_layer_mode_class_init (GimpOperationLayerModeClass *klass)
                                                       G_PARAM_CONSTRUCT));
 
 
-#if COMPILE_SSE2_INTRINISICS
+#if COMPILE_SSE2_INTRINSICS
   if (gimp_cpu_accel_get_support () & GIMP_CPU_ACCEL_X86_SSE2)
     composite_clip_to_backdrop = gimp_operation_layer_mode_composite_clip_to_backdrop_sse2;
 #endif

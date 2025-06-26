@@ -82,7 +82,7 @@ void gimp_operation_layer_mode_composite_intersection_sub      (const gfloat    
                                                                 gfloat              *out,
                                                                 gint                 samples);
 
-#if COMPILE_SSE2_INTRINISICS
+#if COMPILE_SSE2_INTRINSICS
 
 void gimp_operation_layer_mode_composite_clip_to_backdrop_sse2 (const gfloat        *in,
                                                                 const gfloat        *layer,
@@ -92,7 +92,7 @@ void gimp_operation_layer_mode_composite_clip_to_backdrop_sse2 (const gfloat    
                                                                 gfloat              *out,
                                                                 gint                 samples);
 
-#endif /* COMPILE_SSE2_INTRINISICS */
+#endif /* COMPILE_SSE2_INTRINSICS */
 
 
 #endif /* __GIMP_OPERATION_LAYER_MODE_COMPOSITE_H__ */

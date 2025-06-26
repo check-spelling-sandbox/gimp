@@ -632,7 +632,7 @@ gimp_gegl_smudge_with_paint (GeglBuffer          *accum_buffer,
   GeglAccessMode paint_buffer_access_mode = (brush_color ?
                                              GEGL_ACCESS_WRITE :
                                              GEGL_ACCESS_READWRITE);
-#if COMPILE_SSE2_INTRINISICS
+#if COMPILE_SSE2_INTRINSICS
   gboolean       sse2 = (gimp_cpu_accel_get_support () &
                          GIMP_CPU_ACCEL_X86_SSE2);
 #endif
@@ -681,7 +681,7 @@ gimp_gegl_smudge_with_paint (GeglBuffer          *accum_buffer,
           gfloat       *paint  = (gfloat *)       iter->items[2].data;
           gint          count  = iter->length;
 
-#if COMPILE_SSE2_INTRINISICS
+#if COMPILE_SSE2_INTRINSICS
           if (sse2 && ((guintptr) accum                                     |
                        (guintptr) canvas                                    |
                        (guintptr) (brush_color ? brush_color_float : paint) |

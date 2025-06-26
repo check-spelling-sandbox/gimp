@@ -27,7 +27,7 @@
 #include "gimpoperationnormal.h"
 
 
-#if COMPILE_SSE4_1_INTRINISICS
+#if COMPILE_SSE4_1_INTRINSICS
 
 /* SSE4 */
 #include <smmintrin.h>
@@ -257,4 +257,4 @@ gimp_operation_normal_process_sse4 (GeglOperation       *op,
   return TRUE;
 }
 
-#endif /* COMPILE_SSE4_1_INTRINISICS */
+#endif /* COMPILE_SSE4_1_INTRINSICS */

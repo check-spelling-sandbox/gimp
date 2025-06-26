@@ -66,15 +66,15 @@ gimp_operation_normal_class_init (GimpOperationNormalClass *klass)
 
   layer_mode_class->process = gimp_operation_normal_process;
 
-#if COMPILE_SSE2_INTRINISICS
+#if COMPILE_SSE2_INTRINSICS
   if (gimp_cpu_accel_get_support() & GIMP_CPU_ACCEL_X86_SSE2)
     layer_mode_class->process = gimp_operation_normal_process_sse2;
-#endif /* COMPILE_SSE2_INTRINISICS */
+#endif /* COMPILE_SSE2_INTRINSICS */
 
-#if COMPILE_SSE4_1_INTRINISICS
+#if COMPILE_SSE4_1_INTRINSICS
   if (gimp_cpu_accel_get_support() & GIMP_CPU_ACCEL_X86_SSE4_1)
     layer_mode_class->process = gimp_operation_normal_process_sse4;
-#endif /* COMPILE_SSE4_1_INTRINISICS */
+#endif /* COMPILE_SSE4_1_INTRINSICS */
 }
 
 static void
