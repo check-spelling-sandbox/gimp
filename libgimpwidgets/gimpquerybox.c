@@ -302,7 +302,7 @@ gimp_query_string_box (const gchar             *title,
  * @message:      A string which will be shown above the dialog's entry widget.
  * @initial:      The initial value.
  * @lower:        The lower boundary of the range of possible values.
- * @upper:        The upper boundray of the range of possible values.
+ * @upper:        The upper boundary of the range of possible values.
  * @object:       The object this query box is associated with.
  * @signal:       The object's signal which will cause the query box to be closed.
  * @callback:     The function which will be called when the user selects "OK".
@@ -366,7 +366,7 @@ gimp_query_int_box (const gchar          *title,
  * @message:     A string which will be shown above the dialog's entry widget.
  * @initial:     The initial value.
  * @lower:       The lower boundary of the range of possible values.
- * @upper:       The upper boundray of the range of possible values.
+ * @upper:       The upper boundary of the range of possible values.
  * @digits:      The number of decimal digits the #GtkSpinButton will provide.
  * @object:      The object this query box is associated with.
  * @signal:      The object's signal which will cause the query box to be closed.
@@ -432,7 +432,7 @@ gimp_query_double_box (const gchar             *title,
  * @message:      A string which will be shown above the dialog's entry widget.
  * @initial:      The initial value.
  * @lower:        The lower boundary of the range of possible values.
- * @upper:        The upper boundray of the range of possible values.
+ * @upper:        The upper boundary of the range of possible values.
  * @digits:       The number of decimal digits the #GimpSizeEntry provide in
  *                "pixel" mode.
  * @unit:         The unit initially shown by the #GimpUnitMenu.
