@@ -166,7 +166,7 @@ d_line_start (GdkPoint *pnt,
     }
   else
     {
-      /* Contniuation */
+      /* Continuation */
       d_update_line (pnt);
     }
 }

@@ -636,7 +636,7 @@ d_arc_line_start (GdkPoint *pnt,
     }
   else
     {
-      /* Contniuation */
+      /* Continuation */
       d_update_arc_line (pnt);
     }
 }
