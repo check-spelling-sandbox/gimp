@@ -68,7 +68,7 @@
  *     saving and loading INDEXEDA images that use alpha channel values
  *     other than 0 and 255.  Workaround implemented for loading by
  *     promoting the image to RGBA, but saving indexed TGA images with
- *     full alpha information in the coloramp is not supported yet (only
+ *     full alpha information in the colormap is not supported yet (only
  *     one fully transparent color is allowed in INDEXEDA mode).
  */
 
