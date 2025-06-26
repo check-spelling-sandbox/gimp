@@ -201,7 +201,7 @@ GIMP_MAIN (COMPOSE_TYPE)
 DEFINE_STD_SET_I18N
 
 
-/* Decompositions availables.
+/* Decompositions available.
  * All the following values have to be kept in sync with those of decompose.c
  */
 
