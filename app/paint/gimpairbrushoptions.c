@@ -40,7 +40,7 @@ enum
   PROP_RATE,
   PROP_MOTION_ONLY,
   PROP_FLOW,
-  PROP_PRESSURE /*for backwards copatibility of tool options*/
+  PROP_PRESSURE /*for backwards compatibility of tool options*/
 };
 
 
@@ -88,7 +88,7 @@ gimp_airbrush_options_class_init (GimpAirbrushOptionsClass *klass)
                            0.0, 100.0, AIRBRUSH_DEFAULT_FLOW,
                            GIMP_PARAM_STATIC_STRINGS);
 
-  /* backwards-compadibility prop for flow fomerly known as pressure */
+  /* backwards-compatibility prop for flow fomerly known as pressure */
   GIMP_CONFIG_PROP_DOUBLE (object_class, PROP_PRESSURE,
                            "pressure",
                            NULL, NULL,
