@@ -15829,7 +15829,7 @@
 	and "select-to-vectors" (to vectors was crashing anyway).
 
 	* app/actions/select-commands.[ch]: removed
-	select_from_vectors_cmd_callback(). Fixes code dupliction.
+	select_from_vectors_cmd_callback(). Fixes code duplication.
 
 	* menus/image-menu.xml.in
 	* menus/selection-editor-menu.xml: changed accordingly.
