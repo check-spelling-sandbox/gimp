@@ -144,7 +144,7 @@
 
 	* libgimpwidgets/gimpmemsizeentry.c (gimp_memsize_entry_new):
 	seven digits are enough for a memsize entry.
-	
+
 2007-10-18  Sven Neumann  <sven@gimp.org>
 
 	* libgimpwidgets/gimppropwidgets.c (gimp_prop_size_entry_new):
@@ -384,7 +384,7 @@
 
 2007-10-12  Sven Neumann  <sven@gimp.org>
 
-	* app/widgets/gimpcolorselectorpalette.c: 
+	* app/widgets/gimpcolorselectorpalette.c:
 	* plug-ins/twain/twain.c: marked strings for translation (bug #485937).
 
 2007-10-12  Kevin Cozens  <kcozens@cvs.gnome.org>
@@ -500,7 +500,7 @@
 	* app/base/tile.[ch]
 	* app/base/tile-rowhints.[ch]: moved tile row hints code to its
 	own file.
-	
+
 	* app/base/tile-cache.c
 	* app/base/tile-manager.c
 	* app/base/tile-swap.c
@@ -584,7 +584,7 @@
 	* app/display/gimpdisplayshell-render.c: allow to configure the
 	display zoom quality.
 
-	* app/display/gimpdisplayshell-transform.c: formatting. 
+	* app/display/gimpdisplayshell-transform.c: formatting.
 
 2007-10-08  Raphaël Quinet  <raphael@gimp.org>
 
@@ -628,7 +628,7 @@
 
 	* app/core/gimpselection.c (gimp_selection_float): don't pop up a
 	warning dialog if the selection is empty (bug #483896).
-	
+
 	* app/actions/select-commands.c (select_float_cmd_callback): use
 	gimp_message() here in case that gimp_selection_float() fails.
 
@@ -699,7 +699,7 @@
 	* modules/cdisplay_lcms.c
 	* modules/cdisplay_proof.c
 	* modules/colorsel_cmyk_lcms.c
-	* plug-ins/common/lcms.c 
+	* plug-ins/common/lcms.c
 	* plug-ins/jpeg/jpeg-load.c: use cmsFLAGS_BLACKPOINTCOMPENSATION
 	instead of the equivalent cmsFLAGS_WHITEBLACKCOMPENSATION.
 
@@ -1391,7 +1391,7 @@
 2007-09-13  Nils Philippsen  <nphilipp@redhat.com>
 
 	Drop own recently used files code in favour of GtkRecentManager:
-	
+
 	* app/core/gimp-gui.[ch] (gimp_recent_list_add_uri)
 	* app/gui/gui-vtable.c (gui_recent_list_add_uri): add
 	{gimp,gui}_recent_list_add_uri(), gui_recent_list_add_uri()
@@ -1401,7 +1401,7 @@
 	* app/actions/file-commands.c (file_save_cmd_callback)
 	* app/widgets/gimpdnd-xds.c (gimp_dnd_xds_save_image): pass Gimp
 	instance to file_save() calls
-	
+
 	* app/file/file-open.c (file_open_with_proc_and_display)
 	(file_open_layers)
 	* app/file/file-save.[ch] (file_save): pass Gimp instance to
@@ -1577,7 +1577,7 @@
 
 2007-09-11  Sven Neumann  <sven@gimp.org>
 
-	* plug-ins/common/lcms.c: allow to specify rendering intent and 
+	* plug-ins/common/lcms.c: allow to specify rendering intent and
 	black point compensation. Fixes bug #474787.
 
 2007-09-11  Sven Neumann  <sven@gimp.org>
@@ -2037,7 +2037,7 @@
 
 	* app/pdb/selection_cmds.c
 	* libgimp/gimpselection_pdb.c: regenerated.
-	
+
 2007-08-24  Michael Natterer  <mitch@gimp.org>
 
 	* app/display/gimpdisplayshell-draw.c
@@ -2119,7 +2119,7 @@
 
 	* app/display/gimpdisplayshell-render.c: added a static global
 	variable with configuration.
-	(compute_sample): moved common computation of alpha*weight factors 
+	(compute_sample): moved common computation of alpha*weight factors
 	for channel out of loop.
 
 2007-08-23  Øyvind Kolås  <pippin@gimp.org>
@@ -2284,7 +2284,7 @@
 
         * plug-ins/pygimp/pygimp-drawable.c: avoids function call
 	with an invalid drawable id
-	
+
 2007-08-15  Sven Neumann  <sven@gimp.org>
 
 	* plug-ins/print/print-page-layout.c: applied patch from Stefan
@@ -2520,11 +2520,11 @@
 	* plug-ins/common/tiff-load.c
 	* plug-ins/jpeg/jpeg-load.c: made the icc-profile undoable and
 	persistent.
-	
+
 	* devel-docs/parasites.txt: document this.
 
 	* plug-ins/common/lcms.c: made colorspace conversion undoable.
-	
+
 	* app/file/file-open.c: disable undo while doing the colorspace
 	conversion on load.
 
@@ -2839,10 +2839,10 @@
 
 	* app/paint-funcs/Makefile.am
 
-	* app/paint-funcs/sample-funcs.[ch]: renamed to 
+	* app/paint-funcs/sample-funcs.[ch]: renamed to
 	* app/paint-funcs/subsample-region.[ch]
 
-	* app/paint-funcs/scale-funcs.[ch]: renamed to 
+	* app/paint-funcs/scale-funcs.[ch]: renamed to
 	* app/paint-funcs/scale-region.[ch]
 
 	* app/paint-funcs/reduce-region.[ch]: new files based on a patch
@@ -2961,7 +2961,7 @@
 	for the display filter. Assume sRGB if no monitor profile is
 	configured.
 
-	* app/display/gimpdisplayshell.c: 
+	* app/display/gimpdisplayshell.c:
 	* app/display/gimpdisplayshell-filter.[ch]: pass the display as
 	color-managed object to the display filter.
 
@@ -14342,7 +14342,7 @@
 	* app/tools/gimppainttool.c: use the new printf-style status API
 	where possible.
 
-	* app/tools/gimptransformtool.c: accidentially removed
+	* app/tools/gimptransformtool.c: accidentally removed
 	"core/gimp.h", added it back.
 
 2006-09-28  Sven Neumann  <sven@gimp.org>
@@ -25085,7 +25085,7 @@
 2006-03-02  Michael Natterer  <mitch@gimp.org>
 
 	* app/core/gimpimage.c (gimp_image_real_flush): made it a static
-	function (was accidentially non-static).
+	function (was accidentally non-static).
 
 2006-03-02  Michael Natterer  <mitch@gimp.org>
 
@@ -38653,7 +38653,7 @@
 
 	* app/display/gimpdisplayshell-callbacks.c
 	(gimp_display_shell_canvas_tool_events): put back some important
-	code that was accidentially removed when fixing bug #162823. Also
+	code that was accidentally removed when fixing bug #162823. Also
 	moved the calls to gtk_grab_add() and gtk_grab_remove() around a
 	bit.
 

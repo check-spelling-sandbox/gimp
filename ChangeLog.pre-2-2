@@ -163,7 +163,7 @@
 	* app/plug-in/plug-in-message.c (plug_in_handle_temp_proc_return):
 	call plug_in_proc_frame_pop() immediately after
 	plug_in_main_loop_quit() so the proc_frame goes away from the
-	stack and can't be used accidentially if the core is too busy to
+	stack and can't be used accidentally if the core is too busy to
 	return to the main loop before the next command arrives on the
 	wire. Really fixes bug #161114 this time.
 
@@ -10784,7 +10784,7 @@
 
 2004-08-01  Simon Budig  <simon@gimp.org>
 
-	* app/widgets/gimpbrusheditor.c: Fixed oversight that accidentially
+	* app/widgets/gimpbrusheditor.c: Fixed oversight that accidentally
 	reset the number of spikes to 2.
 
 2004-08-01  Simon Budig  <simon@gimp.org>

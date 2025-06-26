@@ -8921,7 +8921,7 @@
 
 	* app/gui/gui-vtable.c: <gdk/gdkx.h> needs #ifdef GDK_WINDOWING_X11.
 
-	* app/gui/gui.c: remove the include i accidentially added here.
+	* app/gui/gui.c: remove the include i accidentally added here.
 
 2008-03-29  Mukund Sivaraman  <muks@mukund.org>
 
