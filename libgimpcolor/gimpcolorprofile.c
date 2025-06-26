@@ -1009,7 +1009,7 @@ gimp_color_profile_new_from_color_profile (GimpColorProfile *profile,
  * @profile: a #GimpColorProfile
  *
  * This function creates a new RGB #GimpColorProfile with a sRGB gamma
- * TRC and @profile's RGB chromacities and whitepoint.
+ * TRC and @profile's RGB chromaticities and whitepoint.
  *
  * Returns: (nullable) (transfer full): the new #GimpColorProfile, or %NULL if
  *               @profile is not an RGB profile or not matrix-based.
@@ -1029,7 +1029,7 @@ gimp_color_profile_new_srgb_trc_from_color_profile (GimpColorProfile *profile)
  * @profile: a #GimpColorProfile
  *
  * This function creates a new RGB #GimpColorProfile with a linear TRC
- * and @profile's RGB chromacities and whitepoint.
+ * and @profile's RGB chromaticities and whitepoint.
  *
  * Returns: (nullable) (transfer full): the new #GimpColorProfile, or %NULL if
  *               @profile is not an RGB profile or not matrix-based.
