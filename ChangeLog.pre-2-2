@@ -1076,7 +1076,7 @@
 
 	* libgimpwidgets/gimpcontroller.[ch]: guarded the whole header
 	with GIMP_ENABLE_CONTROLLER_UNDER_CONSTRUCTION because it's no
-	fixed API yet. Added a "state" property bacause "name" was abused
+	fixed API yet. Added a "state" property because "name" was abused
 	as the controller's state. Added "help_domain" to the controller
 	class.
 
