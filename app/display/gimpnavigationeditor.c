@@ -197,9 +197,9 @@ gimp_navigation_editor_display_changed (GimpContext          *context,
 }
 
 static void
-gimp_navigation_editor_image_chaged (GimpContext          *context,
-                                     GimpImage            *image,
-                                     GimpNavigationEditor *editor)
+gimp_navigation_editor_image_changed (GimpContext          *context,
+                                      GimpImage            *image,
+                                      GimpNavigationEditor *editor)
 {
   GimpDisplay      *display = gimp_context_get_display (context);
   GimpDisplayShell *shell   = NULL;
@@ -223,7 +223,7 @@ gimp_navigation_editor_set_context (GimpDocked  *docked,
                                             gimp_navigation_editor_display_changed,
                                             editor);
       g_signal_handlers_disconnect_by_func (editor->context,
-                                            gimp_navigation_editor_image_chaged,
+                                            gimp_navigation_editor_image_changed,
                                             editor);
     }
 
@@ -239,7 +239,7 @@ gimp_navigation_editor_set_context (GimpDocked  *docked,
        * the editor is properly cleared.
        */
       g_signal_connect (context, "image-changed",
-                        G_CALLBACK (gimp_navigation_editor_image_chaged),
+                        G_CALLBACK (gimp_navigation_editor_image_changed),
                         editor);
 
       display = gimp_context_get_display (context);

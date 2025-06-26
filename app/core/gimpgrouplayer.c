@@ -2076,7 +2076,7 @@ gimp_group_layer_update_size (GimpGroupLayer *group)
       else
         {
           /* when there's no need to reallocate the projection, we call
-           * gimp_projectable_bounds_changed(), rather than structure_chaned(),
+           * gimp_projectable_bounds_changed(), rather than structure_changed(),
            * so that the projection simply copies the old content over to the
            * new buffer with an offset, rather than re-renders the graph.
            */
