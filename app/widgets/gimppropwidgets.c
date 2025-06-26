@@ -1026,7 +1026,7 @@ gimp_prop_number_pair_entry_new (GObject     *config,
                     data);
 
 
-  /* Connect to connfig object signals */
+  /* Connect to config object signals */
 
   connect_notify (config, left_number_property,
                   G_CALLBACK (gimp_prop_number_pair_entry_config_notify),
