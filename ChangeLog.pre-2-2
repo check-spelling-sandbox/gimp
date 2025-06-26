@@ -12714,7 +12714,7 @@
 	* app/core/gimpdrawable.[ch]
 	* app/core/gimpimagemap.[ch]
 	* app/core/gimpprojection.[ch]: implement GimpPickableInterface
-	and removed public get_colot_at() functions.
+	and removed public get_color_at() functions.
 
 	* app/core/gimpimage-pick-color.[ch]: removed typedef
 	GimpImagePickColorFunc and gimp_image_pick_color_by_func(). Use
