@@ -323,7 +323,7 @@ Overview of Changes in GIMP 2.1.3
 
 - Cleanups to the MMX code and the composite subsystem in general
 
-- Cleanups and fixes to Gimpressionst plug-in (bug #148088)
+- Cleanups and fixes to Gimpressionist plug-in (bug #148088)
 
 - Redone light settings GUI for Lighting plug-in.
 
