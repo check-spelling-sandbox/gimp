@@ -37,7 +37,7 @@ struct _GimpXmlParser
 
 static gboolean parse_encoding (const gchar  *text,
                                 gint          text_len,
-                                gchar       **encodind);
+                                gchar       **encoding);
 
 
 /**
