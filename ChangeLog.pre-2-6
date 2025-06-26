@@ -13208,7 +13208,7 @@
 	* app/tools/gimpbrightnesscontrasttool.[ch]: implement
 	get_operation() and return a brightness-contrast node.
 
-	(gimp_briughtness_contrast_tool_map): set the node's properties
+	(gimp_brightness_contrast_tool_map): set the node's properties
 	from the GUI.
 
 2007-12-30  Sven Neumann  <sven@gimp.org>
