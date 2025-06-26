@@ -14067,7 +14067,7 @@
 	items of a GimpContainerTreeView:
 
 	* app/widgets/gimpcontainertreeview.[ch]: added more parameters to
-	GimpContainerTreeView::drop_possible() to specify where ecactly
+	GimpContainerTreeView::drop_possible() to specify where exactly
 	the drop should take place (between or into items) and to support
 	dropping all sorts of things.
 
