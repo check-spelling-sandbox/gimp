@@ -418,7 +418,7 @@ Type: filesandordirs; Name: "{app}\lib\babl-0.1"
 Type: filesandordirs; Name: "{app}\lib\gegl-0.4"
 ;Uneeded Linux appdata shipped in 2.99.18
 Type: filesandordirs; Name: "{app}\share\metainfo"
-;This was bunbled in 3.0 RC1 but not needed since the "Debug" menu is hidden in stable releases
+;This was bundled in 3.0 RC1 but not needed since the "Debug" menu is hidden in stable releases
 #if !Defined(GIMP_UNSTABLE) && Defined(GIMP_RELEASE)
 	Type: files; Name: "{app}\bin\dot.exe"
 #endif
