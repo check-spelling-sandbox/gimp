@@ -38,7 +38,7 @@ SpaceAfterCStyleCast: true
 # higher limit. Then let's put some biggish penalties on breaking on
 # assignment, or parentheses, or other similar cases. Actually with such
 # limits, if clang-format really ends up re-formatting, there might be
-# something better to do code-wise (i.e. we might be in an akwardly
+# something better to do code-wise (i.e. we might be in an awkwardly
 # over-nested block case).
 ColumnLimit: 80
 PenaltyBreakAssignment: 60
