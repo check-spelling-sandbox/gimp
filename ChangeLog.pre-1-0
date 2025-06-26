@@ -2586,7 +2586,7 @@ Mon Nov 17 15:14:14 EST 1997 Adrian Likins <adrian@gimp.org>
 
 	* Finally fixed the scripts that broke with the last
 	  release. This includes crystal-logo.scm, sota-chrome-logo.scm,
-	  and chome-it.scm.
+	  and chrome-it.scm.
 
 Sun Nov 16 20:39:26 1997  Christoph Hoegl  <darkwing@bsddmail.franken.de>
 
