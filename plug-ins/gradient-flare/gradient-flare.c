@@ -2010,7 +2010,7 @@ calc_sample_one_gradient (void)
             }
 
           /*
-           *    Grayfy gradient, if needed
+           *    Grayify gradient, if needed
            */
 
           if (table[i].gray)
