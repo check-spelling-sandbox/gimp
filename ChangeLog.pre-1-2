@@ -1821,7 +1821,7 @@ Wed Aug 30 19:01:28 BST 2000  Adam D. Moss <adam@gimp.org>
 Wed Aug 30 18:49:01 BST 2000  Adam D. Moss <adam@gimp.org>
 
 	* plug-ins/common/animationplay.c: Change default frame duration
-	for consistancy.
+	for consistency.
 
 Wed Aug 30 01:19:03 PDT 2000 Manish Singh <yosh@gimp.org>
 
@@ -26528,7 +26528,7 @@ Tue Sep 15 21:27:10 BST 1998  Adam D. Moss <adam@gimp.org>
 	Quantize option, as that option removes any unused colours
 	from the image.
 
-	Let me know if you find the consistancy/size tradeoff more
+	Let me know if you find the consistency/size tradeoff more
 	annoying than helpful and I can adjust it.  IMHO it is too
 	arcane a feature to present to any user as a runtime option.
 
