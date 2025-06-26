@@ -2242,7 +2242,7 @@ CML_save_to_file_response (GtkWidget           *dialog,
                                     param.function, function_names[param.function]))
         break;
       if (! g_output_stream_printf (output, NULL, NULL, &error,
-                                    "Compostion_type  : %d (%s)\n",
+                                    "Composition_type  : %d (%s)\n",
                                     param.composition, composition_names[param.composition]))
         break;
       if (! g_output_stream_printf (output, NULL, NULL, &error,
