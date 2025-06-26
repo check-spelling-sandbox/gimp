@@ -379,7 +379,7 @@ struct AlgorithmBase
  *
  * A class template implementing a simple dispatch function object, which adds
  * an algorithm to the hierarchy unconditionally.  'AlgorithmTemplate' is the
- * alogithm class template (usually a helper class, rather than an actual
+ * algorithm class template (usually a helper class, rather than an actual
  * algorithm), 'Mask' is the dispatch function mask, as described in
  * 'dispatch()', and 'Dependencies' is a list of (types of) dispatch functions
  * the algorithm depends on.
