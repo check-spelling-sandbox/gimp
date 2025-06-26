@@ -824,7 +824,7 @@ Fri Apr 10 21:59:18 PDT 1998 Manish Singh <yosh@gimp.org>
 	* app/app_procs.c: fixed up idle handler for file open
 	(look like testgtk idle demo)
 
-	* app/colomaps.c: fixup for visual test and use of gdk_color_alloc
+	* app/colormaps.c: fixup for visual test and use of gdk_color_alloc
 	for some fixed colors (from Owen Taylor)
 
 	* app/errors.h
