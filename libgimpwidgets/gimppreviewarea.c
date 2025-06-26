@@ -1987,8 +1987,8 @@ gimp_preview_area_set_color_config (GimpPreviewArea *area,
 /**
  * gimp_preview_area_get_size:
  * @area:   a #GimpPreviewArea widget.
- * @width: (out): The preview areay width
- * @height: (out): The preview areay height
+ * @width: (out): The preview area width
+ * @height: (out): The preview area height
  *
  * Gets the preview area size
  */
