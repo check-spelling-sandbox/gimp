@@ -1359,7 +1359,7 @@ GObject.signal_new("values_changed", DoughnutWidget, GObject.SignalFlags.RUN_LAS
 class SpyroWindow():
 
     class MyScale():
-        """ Combintation of scale and spin that control the same adjuster. """
+        """ Combination of scale and spin that control the same adjuster. """
         def __init__(self, scale, spin):
             self.scale, self.spin = scale, spin
 
