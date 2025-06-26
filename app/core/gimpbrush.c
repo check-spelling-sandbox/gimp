@@ -677,7 +677,7 @@ gimp_brush_transform_mask (GimpBrush *brush,
 #if 0
       /* This code makes sure that brushes using blur for hardness
        * (all of them but generated) are blurred once and no more.
-       * It also makes hardnes dynamics not work for these brushes.
+       * It also makes hardness dynamics not work for these brushes.
        * This is intentional. Confoliving for each stamp is too expensive.*/
       if (! brush->priv->blurred_mask &&
           ! GIMP_IS_BRUSH_GENERATED(brush) &&
