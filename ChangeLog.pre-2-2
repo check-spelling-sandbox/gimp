@@ -13797,7 +13797,7 @@
 	* plug-ins/gimpressionist/Makefile.am
 	* plug-ins/gimpressionist/*.[ch]: applied patch from Shlomi Fish
 	that massively cleans up gimppressionist (touching all files and
-	addding some new ones) and adds a simple PDB interface for
+	adding some new ones) and adds a simple PDB interface for
 	selecting one of the previously created presets.
 	Fixes bugs #145191, #144913 and #144922.
 
