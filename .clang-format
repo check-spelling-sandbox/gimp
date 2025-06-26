@@ -34,7 +34,7 @@ SpaceAfterLogicalNot: true
 SpaceAfterCStyleCast: true
 
 # Our column limit is more around 80 characters but we want to avoid
-# this rule to be over-agressive. So for clang-format, let's use a
+# this rule to be over-aggressive. So for clang-format, let's use a
 # higher limit. Then let's put some biggish penalties on breaking on
 # assignment, or parentheses, or other similar cases. Actually with such
 # limits, if clang-format really ends up re-formatting, there might be
