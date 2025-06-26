@@ -97,7 +97,7 @@ appmodules = [
 
 # Bootstrap modules, i.e. modules we assume exist even though we don't
 # have the code for them
-boostrap_modules = [
+bootstrap_modules = [
     [ "GLib", ["glib.h"] ],
     [ "GTK+", ["gtk/gtk.h"] ],
     [ "GEGL", ["gegl.h"] ],
@@ -182,7 +182,7 @@ class CodeModule(Module):
 
 # Initialize the modules to use for the dependency analysis
 modules = Set()
-for bootstrap_module in boostrap_modules:
+for bootstrap_module in bootstrap_modules:
     modules.add(Module(bootstrap_module[0], 'lightblue', bootstrap_module[1]))
 for module_path in libmodules:
     modules.add(CodeModule(module_path, 'coral1'))
