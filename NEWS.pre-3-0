@@ -273,7 +273,7 @@ Core:
   - Unsupported fonts stderr message is not shown anymore on stable
     builds as it is confusing to people (who see often huge numbers,
     because there are indeed a lot of font types, especially the legacy
-    bitmap fonts whose support got broked by Pango, which are not
+    bitmap fonts whose support got broken by Pango, which are not
     supported by GIMP, at least for now).
   - Drag'n drop color fills now forbidden when "Allow editing on
     non-visible layers" is OFF and the target layer is set invisible.
