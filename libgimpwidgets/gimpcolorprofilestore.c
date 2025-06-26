@@ -119,7 +119,7 @@ gimp_color_profile_store_class_init (GimpColorProfileStoreClass *klass)
                                    PROP_HISTORY,
                                    g_param_spec_object ("history",
                                                         "History",
-                                                        "Filen of the color history used to populate the profile store",
+                                                        "File of the color history used to populate the profile store",
                                                         G_TYPE_FILE,
                                                         G_PARAM_CONSTRUCT_ONLY |
                                                         GIMP_PARAM_READWRITE));
