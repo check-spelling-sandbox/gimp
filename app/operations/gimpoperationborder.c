@@ -533,7 +533,7 @@ gimp_operation_border_process (GeglOperation       *operation,
         }
     }
 
-  /* Since the algorithm considerers `buf[0]' to be 'over' the row
+  /* Since the algorithm considers `buf[0]' to be 'over' the row
    * currently calculated, we must start with `buf[0]' as non-selected
    * if there is no `self->edge_lock. If there is an
    * 'self->edge_lock', initialize the first row to 'selected'. Refer
