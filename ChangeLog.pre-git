@@ -5293,7 +5293,7 @@
 2008-10-11  Michael Natterer  <mitch@gimp.org>
 
 	Fix old bug in the GimpContainer implementation that wasn't
-	visible before the drawable stack completly b0rked when removing
+	visible before the drawable stack completely b0rked when removing
 	the second-last item:
 
 	* app/core/gimpcontainer.c: add default implementations of ::add()
