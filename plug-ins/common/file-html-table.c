@@ -30,7 +30,7 @@
  * of HTML tables I instantly realized that it would be possible, however
  * pointless, to save an image as a, albeit huge, HTML table.
  *
- * One night when I was feeling in an adventourously stupid programming mood
+ * One night when I was feeling in an adventurously stupid programming mood
  * I decided to write a program to do it.
  *
  * At first I just wrote a really ugly hack to do it, which I then planned
