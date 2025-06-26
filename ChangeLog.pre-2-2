@@ -20737,7 +20737,7 @@
 
 	* tools/gimp-remote.c (start_new_gimp): applied a patch from
 	Michael Matz that calls fork() before starting gimp. This is to
-	avoid X server authentification problems (bug #139158).
+	avoid X server authentication problems (bug #139158).
 
 2004-04-07  Henrik Brix Andersen  <brix@gimp.org>
 
