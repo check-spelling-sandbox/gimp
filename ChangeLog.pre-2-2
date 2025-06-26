@@ -14413,7 +14413,7 @@
 
 	* app/tools/gimppainttool.c (gimp_paint_tool_button_press): don't
 	pause/resume but rather stop/start the draw_tool. Fixes straight
-	line preview aretefacts.
+	line preview artefacts.
 
 	(gimp_paint_tool_oper_update): set the brush_core's brush before
 	starting the draw_tool.
