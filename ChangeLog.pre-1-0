@@ -2696,14 +2696,14 @@ Tue Oct 28 22:30:32 1997  Scott Goehring  <scott@poverty.bloomington.in.us>
 	* plug-ins/MapObject/mapobject_main.c (run): removed an
 	inappropriate cast of radius from float to int
 
-Mon Oct 27 07:45:23 EST 1997 Adrian Likins ,adrian@gimp.org
+Mon Oct 27 07:45:23 EST 1997 Adrian Likins  <adrian@gimp.org>
 
 	* updated title-header.scm to not add a layer twice
 
 	* remove t-o-p.scm, it was a duplicate of t-o-p-logo.scm
 	 jsut registered under a different name
 
-Sun Oct 26 22:28:15 EST 1997  Adrian Likins <adrian@gimp.org>
+Sun Oct 26 22:28:15 EST 1997  Adrian Likins  <adrian@gimp.org>
 
         * added Spencer's patch to the brush and patterns dialog. Now
           instead of scrolling the object around to see all of, a small
