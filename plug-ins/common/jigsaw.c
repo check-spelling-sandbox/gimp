@@ -22,7 +22,7 @@
  *
  * Version: 1.0.1
  *
- * tim coppefield [timecop@japan.co.jp]
+ * tim copperfield [timecop@japan.co.jp]
  *
  * Added dynamic preview mode.
  *
