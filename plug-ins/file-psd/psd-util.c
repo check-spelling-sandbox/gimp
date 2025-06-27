@@ -93,8 +93,8 @@ static const LayerModeMapping layer_mode_map[] =
   { "Darken",        "dark", GIMP_LAYER_MODE_DARKEN_ONLY_LEGACY,    TRUE },
 
   /* Lighten (ps3) */
-  { "Ligten",        "lite", GIMP_LAYER_MODE_LIGHTEN_ONLY,          TRUE },
-  { "Ligten",        "lite", GIMP_LAYER_MODE_LIGHTEN_ONLY_LEGACY,   TRUE },
+  { "Lighten",       "lite", GIMP_LAYER_MODE_LIGHTEN_ONLY,          TRUE },
+  { "Lighten",       "lite", GIMP_LAYER_MODE_LIGHTEN_ONLY_LEGACY,   TRUE },
 
   /* Hue (ps3) */
   { "Hue",           "hue ", GIMP_LAYER_MODE_LCH_HUE,               FALSE },
