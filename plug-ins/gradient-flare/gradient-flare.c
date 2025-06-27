@@ -265,7 +265,7 @@ typedef struct
  * What's the difference between (structure) CalcParams and GFlare ?
  * well, radius and lengths are actual length for CalcParams where
  * they are typically 0 to 100 for GFlares, and angles are G_PI based
- * (radian) for CalcParams where they are degree for GFlares. et cetra.
+ * (radian) for CalcParams where they are degree for GFlares. et cetera.
  * This is because convenience for dialog processing and for calculating.
  * these conversion is taken place in calc init routines. see below.
  */
