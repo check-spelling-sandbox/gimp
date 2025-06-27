@@ -243,7 +243,7 @@ typedef         guint32                         GimpTattoo;
 
 /* The following hack is made so that we can reuse the definition
  * the cairo definition of cairo_path_t without having to translate
- * between our own version of a bezier description and cairos version.
+ * between our own version of a bezier description and cairo's version.
  *
  * to avoid having to include <cairo.h> in each and every file
  * including this file we only use the "real" definition when cairo.h
