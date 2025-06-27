@@ -267,7 +267,7 @@ typedef struct
 
 static ValueType VALS =
 {
-  /* function      composition  arra
+  /* function      composition  array
     cyc chng sens  diff cor  n  pow  k    (l,h)   rnd  dist */
   {
     CML_SIN_CURVE, COMP_NONE,   STANDARD,
