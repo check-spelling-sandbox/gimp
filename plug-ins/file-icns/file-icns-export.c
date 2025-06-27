@@ -721,7 +721,7 @@ icns_compress (guint   width,
         {
           if (run_length[i] >= min_run)
             {
-              /* Compressable! Store and skip ahead */
+              /* Compressible! Store and skip ahead */
               out_data[size++] = (run_length[i] - min_run) | 0x80;
               out_data[size++] = rgba[i * 4 + channel];
               i += run_length[i] - 1;
