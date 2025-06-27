@@ -649,7 +649,7 @@ script_fu_arg_append_repr_from_gvalue (SFArg       *arg,
             GFile *file = g_value_get_object (gvalue);
 
             /* Catch: GValue initialized to hold a GFile, but not hold one.
-             * Specificially, GimpProcedureDialog can yield that condition;
+             * Specifically, GimpProcedureDialog can yield that condition;
              * the dialog shows "(None)" meaning user has not chosen a file yet.
              */
             if (G_IS_FILE (file))
