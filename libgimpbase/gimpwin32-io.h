@@ -89,7 +89,7 @@ G_BEGIN_DECLS
         good idea, and it clashes with newest mingw headers, which have a
         ftruncate implementation as an inline function. Thanks to Dominik R.
  */
-/* needs coorection for msvc though ;( */
+/* needs correction for msvc though ;( */
 #ifdef _MSC_VER
 #define ftruncate(f,s) g_win32_ftruncate(f,s)
 #endif
