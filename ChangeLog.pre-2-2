@@ -20744,7 +20744,7 @@
 	* configure.in (ALL_LINGUAS): revert addition of "is" until all
 	.po files are there.
 
-2004-04-07  SamÃºel JÃ³n Gunnarsson  <sammi@techattack.nu>
+2004-04-07  Samúel Jón Gunnarsson  <sammi@techattack.nu>
 
 	* configure.in: Added "is" to ALL_LINGUAS
 
