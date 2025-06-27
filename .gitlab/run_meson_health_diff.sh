@@ -3,7 +3,7 @@
 . .gitlab/search-common-ancestor.sh
 
 
-# CHECK SCRIPTS RUNNED BY MESON (ALL OSes)
+# CHECK SCRIPTS RUN BY MESON (ALL OSes)
 printf "\e[0Ksection_start:`date +%s`:nonunix_test[collapsed=false]\r\e[0KChecking for non-Unix compatibility\n"
 diff=$(git diff -U0 --no-color "${newest_common_ancestor_sha}" -- '*.build' '*.py' | grep -E '^\+[^+]' | sed 's/^+//')
 
