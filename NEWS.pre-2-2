@@ -71,7 +71,7 @@ Overview of Changes in GIMP 2.2-pre2
 
 - Added a Print Size dialog to bring back missing functionality from 2.0.
 
-- Several improvements to the GIMP Python bindins.
+- Several improvements to the GIMP Python bindings.
 
 - Guard the core better against misbehaving scripts and plug-ins.
 
