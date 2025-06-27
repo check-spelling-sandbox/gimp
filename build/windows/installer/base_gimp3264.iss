@@ -416,7 +416,7 @@ Type: files; Name: "{autodesktop}\{reg:HKA\SOFTWARE\Microsoft\Windows\CurrentVer
 ;remove old babl and gegl plugins
 Type: filesandordirs; Name: "{app}\lib\babl-0.1"
 Type: filesandordirs; Name: "{app}\lib\gegl-0.4"
-;Uneeded Linux appdata shipped in 2.99.18
+;Unnecessary Linux appdata shipped in 2.99.18
 Type: filesandordirs; Name: "{app}\share\metainfo"
 ;This was bundled in 3.0 RC1 but not needed since the "Debug" menu is hidden in stable releases
 #if !Defined(GIMP_UNSTABLE) && Defined(GIMP_RELEASE)
@@ -424,7 +424,7 @@ Type: filesandordirs; Name: "{app}\share\metainfo"
 #endif
 ;No need to all these python binaries shipped in 3.0 RC1
 Type: files; Name: "{app}\bin\python3*.exe"
-;Uneeded shipped headers in 3.0 RC3 (we now ship only babl, gegl and gimp)
+;Unnecessary shipped headers in 3.0 RC3 (we now ship only babl, gegl and gimp)
 Type: filesandordirs; Name: "{app}\include\exiv2"
 Type: filesandordirs; Name: "{app}\include\gexiv2"
 
