@@ -64,7 +64,7 @@ gimp_display_shell_scrollbars_update (GimpDisplayShell *shell)
   g_object_thaw_notify (G_OBJECT (shell->hsbdata)); /* emits "changed" */
 
 
-  /* Vertcal scrollbar */
+  /* Vertical scrollbar */
 
   g_object_freeze_notify (G_OBJECT (shell->vsbdata));
 
