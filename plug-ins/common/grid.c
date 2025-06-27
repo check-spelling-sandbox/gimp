@@ -23,7 +23,7 @@
  * help other plug-in developers to adapt their plug-ins to make use
  * of the gimp_size_entry functionality.
  *
- * Note: There is a convenience constructor called gimp_coordinetes_new ()
+ * Note: There is a convenience constructor called gimp_coordinates_new ()
  *       which simplifies the task of setting up a standard X,Y sizeentry.
  *
  * For more info and bugs see libgimp/gimpsizeentry.h and libgimp/gimpwidgets.h
