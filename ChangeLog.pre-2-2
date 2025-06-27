@@ -4694,7 +4694,7 @@
 	actions and callbacks which create items without a dialog,
 	optionally using default values from a passed template. Removed
 	all public utility function that were passed as function pointers
-	to widget construtors. Added tooltips to all actions which are now
+	to widget constructors. Added tooltips to all actions which are now
 	used for dialog buttons.
 
 	* app/widgets/gimpeditor.c (gimp_editor_add_action_button):
@@ -6670,7 +6670,7 @@
 
 2004-09-27  Michael Natterer  <mitch@gimp.org>
 
-	* app/dialogs/dialogs-constrcutors.[ch]: renamed some constructors
+	* app/dialogs/dialogs-constructors.[ch]: renamed some constructors
 	for consistency and added a (useless) template grid.
 
 	* app/dialogs/dialogs.c: make the arrays of GimpDialogFactoryEntries
