@@ -205,7 +205,7 @@ Build:
   - Shell scripts used in the meson build are ported to Python (more
     portable and much faster on some platforms, in particular Windows).
   - Some build scripts were moved around for reorganization.
-  - Depency requirement bumped:
+  - Dependency requirement bumped:
     * babl 0.1.114
     * GEGL 0.4.62
   - New "Inputs" feature for simpler Gitlab pipelines running.
