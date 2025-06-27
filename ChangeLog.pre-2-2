@@ -20348,7 +20348,7 @@
 
 	* app/core/gimppalette-import.[ch]
 	* app/gui/palette-import-dialog.c: added palette import from RIFF
-	palette files based on a patch from ÃRDI GergÃµ (bug #129788).
+	palette files based on a patch from ÉRDI Gergõ (bug #129788).
 
 2004-04-15  Michael Natterer  <mitch@gimp.org>
 
