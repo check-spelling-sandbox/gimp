@@ -3263,7 +3263,7 @@ msgstr "Contrast"
 #~ "This will not save the visible layers."
 
 #~ msgid "Brush Selection"
-#~ msgstr "Brush Selectionc"
+#~ msgstr "Brush Selection"
 
 #~ msgid "Font Selection"
 #~ msgstr "Font Selection"
