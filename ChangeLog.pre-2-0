@@ -25242,7 +25242,7 @@
 
 2003-04-04  Sven Neumann  <sven@gimp.org>
 
-	Applied a patch from Ã?yvind KolÃ¥s that adds supersampling to the
+	Applied a patch from Øyvind Kolås that adds supersampling to the
 	transform operations (bug #109817):
 
 	* app/base/tile-manager-private.h
@@ -25556,7 +25556,7 @@
 
 	* app/core/gimpdrawable-transform-utils.c
 	(gimp_drawable_transform_matrix_perspective): applied patch from
-	Ã?yvind KolÃ¥s that fixes bug #109570.
+	Øyvind Kolås that fixes bug #109570.
 
 2003-03-30  Sven Neumann  <sven@gimp.org>
 

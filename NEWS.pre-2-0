@@ -486,7 +486,7 @@ Other contributors:
 Overview of Changes in GIMP 1.3.14
 ==================================
 
-- Better resampling for the transform tools [OEyvind Kolaas]
+- Better resampling for the transform tools [Øyvind Kolås]
 - Added MNG save plug-in [S. Mukund]
 - Added framework for image templates [Mitch]
 - Vector tool improvements [Simon]
@@ -669,7 +669,7 @@ Overview of Changes in GIMP 1.3.6
 - More stuff not mentioned here (see the ChangeLog)
 
 Other contributors:
-  Zbigniew Chyla, OEyvind Kolaas, Nick Lamb, David Monniaux, Raphaël Quinet,
+  Zbigniew Chyla, Øyvind Kolås, Nick Lamb, David Monniaux, Raphaël Quinet,
   Jakub Steiner, Simon Budig
 
 
