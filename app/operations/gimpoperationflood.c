@@ -950,7 +950,7 @@ gimp_operation_flood_process_distribute (const GimpOperationFloodContext    *ctx
   for (i = 0; i < G_N_ELEMENTS (y_deltas); i++)
     {
       /* The difference between the negihboring row's y-coordinate and the
-       * current row's y-corindate, in the ROI-virtual coordinate system.
+       * current row's y-coordinate, in the ROI-virtual coordinate system.
        */
       gint y_delta = y_deltas[i];
       /* The negihboring row's y-coordinate in the ROI-virtual coordinate

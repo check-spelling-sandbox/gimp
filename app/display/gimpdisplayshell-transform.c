@@ -144,7 +144,7 @@ gimp_display_shell_zoom_xy (GimpDisplayShell *shell,
  * @shell:       a #GimpDisplayShell
  * @x:           x coordinate in display coordinates
  * @y:           y coordinate in display coordinates
- * @nx:          returns x oordinate in image coordinates
+ * @nx:          returns x coordinate in image coordinates
  * @ny:          returns y coordinate in image coordinates
  * @round:       if %TRUE, round the results to the nearest integer;
  *               if %FALSE, simply cast them to @gint.
@@ -370,7 +370,7 @@ gimp_display_shell_rotate_xy (GimpDisplayShell *shell,
  * @shell:       a #GimpDisplayShell
  * @x:           x coordinate in rotated display coordinates
  * @y:           y coordinate in rotated display coordinates
- * @nx:          returns x oordinate in unrotated display coordinates
+ * @nx:          returns x coordinate in unrotated display coordinates
  * @ny:          returns y coordinate in unrotated display coordinates
  *
  * Rotate from rotated display coordinates to unrotated display
@@ -676,7 +676,7 @@ gimp_display_shell_transform_xy (GimpDisplayShell *shell,
  * @shell:       a #GimpDisplayShell
  * @x:           x coordinate in display coordinates
  * @y:           y coordinate in display coordinates
- * @nx:          returns x oordinate in image coordinates
+ * @nx:          returns x coordinate in image coordinates
  * @ny:          returns y coordinate in image coordinates
  * @round:       if %TRUE, round the results to the nearest integer;
  *               if %FALSE, simply cast them to @gint.
