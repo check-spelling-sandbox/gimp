@@ -104,7 +104,7 @@
 ; You can also test with 1 1
 ; !!! Note the size is in two places
 (define (createSmallTestImage)
-  (set! testImage (gimp-image-new 4 4 RGB)) ; base type RBG
+  (set! testImage (gimp-image-new 4 4 RGB)) ; base type RGB
   (set! testLayer
     (gimp-layer-new
             testImage

@@ -513,10 +513,10 @@ marshal_returned_PDB_value (scheme  *sc,
     }
   else if (GIMP_VALUE_HOLDS_COLOR_ARRAY (value))
     {
-      /* unlike RBG_ARRAY, gimp_value_get_color_array (value) is not defined */
+      /* unlike RGB_ARRAY, gimp_value_get_color_array (value) is not defined */
       GimpColorArray color_array = g_value_get_boxed (value);
 
-      /* unlike RBG_ARRAY, array is null-terminated and has method to get length.
+      /* unlike RGB_ARRAY, array is null-terminated and has method to get length.
        * The length was NOT passed in the prior element of gimp_value_array.
        */
       result = marshal_color_array_to_vector (sc, color_array);
