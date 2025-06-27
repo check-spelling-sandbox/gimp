@@ -4923,7 +4923,7 @@
 
 2004-10-14  Sven Neumann  <sven@gimp.org>
 
-	* app/actions/file-commands.c (file_revert_cmd_callback): creata
+	* app/actions/file-commands.c (file_revert_cmd_callback): create
 	an UTF-8 filename from the image URI and display that instead of
 	the URI.
 
