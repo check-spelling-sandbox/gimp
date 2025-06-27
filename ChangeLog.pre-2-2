@@ -20545,7 +20545,7 @@
 
 	* app/pdb/*_cmds.c: regenerated.
 
-2004-04-14  RaphaÃ«l Quinet  <quinet@gamers.org>
+2004-04-14  Raphaël Quinet  <quinet@gamers.org>
 
 	* plug-ins/script-fu/scripts/copy-visible.scm: New version of the
 	script that works on a temporary copy of the image instead of
@@ -20565,7 +20565,7 @@
 
 	* Made 2.0.1 release.
 
-2004-04-13  RaphaÃ«l Quinet  <quinet@gamers.org>
+2004-04-13  Raphaël Quinet  <quinet@gamers.org>
 
 	* plug-ins/common/mng.c (query, run): Workaround for bug #139947:
 	do not register the plug-in for INDEXED* modes and do not declare

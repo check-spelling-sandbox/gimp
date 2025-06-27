@@ -37840,7 +37840,7 @@
 	options for SF-ENUM in the register block which were changed (read
 	broken) when the entry was changed from SF-OPTION.
 
-2005-03-07  RaphaÃ«l Quinet  <raphael@gimp.org>
+2005-03-07  Raphaël Quinet  <raphael@gimp.org>
 
 	* configure.in
 	* plug-ins/Makefile.am (SUBDIRS): Enable build of metadata plug-in.
@@ -38013,7 +38013,7 @@
 	* menus/image-menu.xml.in: reordered stuff to be in guides, grid,
 	sample points order. Some cleanup and indentation.
 
-2005-03-04  RaphaÃ«l Quinet  <raphael@gimp.org>
+2005-03-04  Raphaël Quinet  <raphael@gimp.org>
 
 	* plug-ins/metadata/xmpdump.c: test program that tries to extract
 	XMP metadata from files (image files, AI files, PDF documents...)
@@ -40311,7 +40311,7 @@
 
 	* menus/dockable-menu.xml.in: changed accordingly.
 
-2005-01-26  RaphaÃ«l Quinet  <raphael@gimp.org>
+2005-01-26  Raphaël Quinet  <raphael@gimp.org>
 
 	* app/composite/gimp-composite-generic.c: minor doc fix for
 	formula used by gimp_composite_multiply_any_any_any_generic().
