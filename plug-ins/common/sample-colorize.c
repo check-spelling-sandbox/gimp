@@ -1777,7 +1777,7 @@ print_ppm (const gchar *ppm_name)
   fp = g_fopen (ppm_name, "w");
   if (fp)
     {
-      fprintf (fp, "P3\n# CREATOR: Gimp sample coloros\n256 256\n255\n");
+      fprintf (fp, "P3\n# CREATOR: Gimp sample colors\n256 256\n255\n");
       for (idx = 0; idx < 256; idx++)
         {
           col_ptr = g_lum_tab[idx].col_ptr;
