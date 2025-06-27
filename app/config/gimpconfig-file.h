@@ -1,7 +1,7 @@
 /* GIMP - The GNU Image Manipulation Program
  * Copyright (C) 1995-1997 Spencer Kimball and Peter Mattis
  *
- * File utitility functions for GimpConfig.
+ * File utility functions for GimpConfig.
  * Copyright (C) 2001-2003  Sven Neumann <sven@gimp.org>
  *
  * This program is free software: you can redistribute it and/or modify
