@@ -2978,7 +2978,7 @@ Wed Oct 15 08:52:23 1997  Federico Mena  <federico@bananoid.nuclecu.unam.mx>
 
 	* plug-ins/fp.c plug-ins/engrave.c plug-ins/hot.c
  	plug-ins/magiceye.c plug-ins/universal.c: Changed registered
- 	procedure names to follow the plug-in convetion.
+ 	procedure names to follow the plug-in convention.
 
 	* app/magnify.c: Added "info_window.h" to #includes.
 
