@@ -2341,7 +2341,7 @@ load_sketchbook_layers (TIFF      *tif,
 
   /* Create background layer. Fill it with the hex color from
    * the image-level ALIAS_LAYER_METADATA tag. The hex color
-   * is in AGBR format so we need to reverse it */
+   * is in ABGR format so we need to reverse it */
   image_settings = g_strsplit (alias_layer_info, ", ", 15);
 
   if (image_settings[0] != NULL)
