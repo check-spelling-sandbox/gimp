@@ -613,7 +613,7 @@ gimp_brush_core_interpolate (GimpPaintCore    *paint_core,
       t0 = (n * core->spacing - initial) / dist;
       num_points = 1 + (gint) floor ((1 + EPSILON - t0) / dt);
 
-      /* if we arnt going to paint anything this time and the brush
+      /* if we aren't going to paint anything this time and the brush
        * has only moved on one axis return without updating the brush
        * position, distance etc. so that we can more accurately space
        * brush strokes when curves are supplied to us in single pixel
