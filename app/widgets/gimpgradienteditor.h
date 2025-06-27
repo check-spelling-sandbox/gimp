@@ -1,7 +1,7 @@
 /* GIMP - The GNU Image Manipulation Program
  * Copyright (C) 1995 Spencer Kimball and Peter Mattis
  *
- * Gradient editor module copyight (C) 1996-1997 Federico Mena Quintero
+ * Gradient editor module copyright (C) 1996-1997 Federico Mena Quintero
  * federico@nuclecu.unam.mx
  *
  * This program is free software: you can redistribute it and/or modify
