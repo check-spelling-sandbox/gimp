@@ -55,7 +55,7 @@ struct _GimpPlugIn
   GIOChannel          *his_read;        /*  Plug-in's read and write channels */
   GIOChannel          *his_write;
 
-  guint                input_id;        /*  Id of input proc                  */
+  guint                input_id;        /*  ID of input proc                  */
 
   gchar                write_buffer[WRITE_BUFFER_SIZE]; /* Buffer for writing */
   gint                 write_buffer_index;              /* Buffer index       */
