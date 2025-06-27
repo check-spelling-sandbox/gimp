@@ -3541,7 +3541,7 @@
 
 2008-08-07  Sven Neumann  <sven@gimp.org>
 
-	* app/core/gimpselection.c (gimp_selection_extract): aded a
+	* app/core/gimpselection.c (gimp_selection_extract): added a
 	comment explaining why copy_region_nocow() is being used here.
 
 2008-08-07  Sven Neumann  <sven@gimp.org>
