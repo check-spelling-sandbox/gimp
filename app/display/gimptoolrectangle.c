@@ -2927,7 +2927,7 @@ gimp_tool_rectangle_setup_snap_offsets (GimpToolRectangle *rectangle,
 /**
  * gimp_tool_rectangle_clamp:
  * @rectangle:      A #GimpToolRectangle.
- * @clamped_sides:  Where to put contrainment information.
+ * @clamped_sides:  Where to put constraint information.
  * @constraint:     Constraint to use.
  * @symmetrically:  Whether or not to clamp symmetrically.
  *
@@ -2954,7 +2954,7 @@ gimp_tool_rectangle_clamp (GimpToolRectangle       *rectangle,
 /**
  * gimp_tool_rectangle_clamp_width:
  * @rectangle:      A #GimpToolRectangle.
- * @clamped_sides:  Where to put contrainment information.
+ * @clamped_sides:  Where to put constraint information.
  * @constraint:     Constraint to use.
  * @symmetrically:  Whether or not to clamp symmetrically.
  *
@@ -3019,7 +3019,7 @@ gimp_tool_rectangle_clamp_width (GimpToolRectangle       *rectangle,
 /**
  * gimp_tool_rectangle_clamp_height:
  * @rectangle:      A #GimpToolRectangle.
- * @clamped_sides:  Where to put contrainment information.
+ * @clamped_sides:  Where to put constraint information.
  * @constraint:     Constraint to use.
  * @symmetrically:  Whether or not to clamp symmetrically.
  *
