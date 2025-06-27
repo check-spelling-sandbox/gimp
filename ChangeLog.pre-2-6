@@ -2179,7 +2179,7 @@
 	format string around at any time.
 
 	* app/tools/gimptoolcontrol.[ch]: add a "precision" member and API
-	so tools can configure the precision they need. Defalt to
+	so tools can configure the precision they need. Default to
 	PIXEL_CENTER since that's right for almost all tools.
 
 	* app/display/gimpdisplayshell-callbacks.c: pass the tool's
