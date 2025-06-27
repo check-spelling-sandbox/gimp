@@ -13077,7 +13077,7 @@
 
 	* app/core/Makefile.am
 	* app/core/gimp-gui.[ch]: new files defining a GimpGui vtable
-	struct and contianing all the vtable wrapper functions. Reordered
+	struct and containing all the vtable wrapper functions. Reordered
 	and renamed some functions for consistency.
 
 	* app/core/gimp.[ch]: removed all the vtable code.
