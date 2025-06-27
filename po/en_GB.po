@@ -26730,7 +26730,7 @@ msgstr "Miscellaneous information"
 msgid "Select fields"
 msgstr "Select fields"
 
-#. Tranlators: "N/A" is an abbreviation for "not available"
+#. Translators: "N/A" is an abbreviation for "not available"
 #: app/widgets/gimpdashboard.c:3322
 msgctxt "dashboard-value"
 msgid "N/A"
