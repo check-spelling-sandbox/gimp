@@ -138,7 +138,7 @@ SetupMutex=GIMP-{#GIMP_MUTEX_VERSION}-setup
 DefaultDirName={autopf}\GIMP {#GIMP_MUTEX_VERSION}
 ;Inno uninstaller identifier
 AppID=GIMP-{#GIMP_MUTEX_VERSION}
-;Inno unninstaller identifier logs location
+;Inno uninstaller identifier logs location
 UninstallFilesDir={app}\uninst
 
 ;3.2.2 WINDOWS INTERNAL VERSIONING (used by ITs for deploying GIMP)
@@ -1187,7 +1187,7 @@ begin
 end;
 
 
-//Unistall old version of GIMP (only if needed)
+//Uninstall old version of GIMP (only if needed)
 const
   UNINSTALL_MAX_WAIT_TIME = 10000;
 	UNINSTALL_CHECK_TIME    =   250;

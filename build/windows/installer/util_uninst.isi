@@ -355,7 +355,7 @@ begin
 	case CurStep of
 	usUninstall:
 	begin
-		//Try to make restore point before unninstalling (like before installing, see RestorePoint() on *gimp3264.iss)
+		//Try to make restore point before uninstalling (like before installing, see RestorePoint() on *gimp3264.iss)
 		if IsAdminInstallMode() then begin
 		    RestorePointU();
 			UninstallProgressForm.StatusLabel.Caption := FmtMessage(SetupMessage(msgStatusUninstalling),['GIMP']);

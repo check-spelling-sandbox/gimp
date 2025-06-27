@@ -18,7 +18,7 @@
   </section>
 
   <section name="CustomMessages">
-    <!-- Shown when the user tries to downgrade without unninstalling GIMP -->
+    <!-- Shown when the user tries to downgrade without uninstalling GIMP -->
     <config name="DowngradeError">
       <value>You are trying to directly downgrade from GIMP %1 to %2.%n%nPlease remove GIMP yourself before installing this version.</value>
     </config>
