@@ -268,7 +268,7 @@ svg_extract (GimpProcedure        *procedure,
 
           /* We need to ask explicitly before using the "unlimited" size
            * option (XML_PARSE_HUGE in libxml) because it is considered
-           * unsafe, possibly consumming too much memory with malicious XML
+           * unsafe, possibly consuming too much memory with malicious XML
            * files.
            */
           dialog = gimp_dialog_new (_("Disable safety size limits?"),
