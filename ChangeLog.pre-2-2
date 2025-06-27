@@ -20748,7 +20748,7 @@
 
 	* configure.in: Added "is" to ALL_LINGUAS
 
-2004-04-06  IÃ±aki LarraÃ±aga  <dooteo@euskalgnu.org>
+2004-04-06  Iñaki Larrañaga  <dooteo@euskalgnu.org>
 
 	* configure.in: Added "eu" (Basque) to ALL_LINGUAS.
 
