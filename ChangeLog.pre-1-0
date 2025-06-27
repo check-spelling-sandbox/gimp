@@ -1461,7 +1461,7 @@ Wed Mar 18 16:57:52 EST 1998 Adrian Likins <adrian@gimp.org>
           move.c paintbrush.c pattern_select.c pencil.c
           perspective_tool.c posterize.c rect_select.c scale_tool.c
           threshold.c tips_dialog.c:
-                 appied most of gimp-hpux-980316-0.patch
+                 applied most of gimp-hpux-980316-0.patch
                 from ???? Mostly added static's here and there
 	         and casting stuff.
 
