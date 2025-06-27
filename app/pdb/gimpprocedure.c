@@ -1044,7 +1044,7 @@ gimp_procedure_validate_args (GimpProcedure  *procedure,
             }
           g_clear_object (&old_value);
 
-          /*  UTT-8 validate all strings  */
+          /*  UTF-8 validate all strings  */
           if (G_PARAM_SPEC_TYPE (pspec) == G_TYPE_PARAM_STRING ||
               (G_PARAM_SPEC_TYPE (pspec) == G_TYPE_PARAM_BOXED &&
                G_PARAM_SPEC_VALUE_TYPE (pspec) == G_TYPE_STRV))
