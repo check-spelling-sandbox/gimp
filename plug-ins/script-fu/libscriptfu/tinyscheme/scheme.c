@@ -2573,7 +2573,7 @@ static int hash_fn(const char *key, int table_size)
 
 /*
  * In this implementation, each frame of the environment may be
- * a hash table: a vector of alists hashed by variable name.
+ * a hash table: a vector of lists hashed by variable name.
  * In practice, we use a vector only for the initial frame;
  * subsequent frames are too small and transient for the lookup
  * speed to out-weigh the cost of making a new vector.
