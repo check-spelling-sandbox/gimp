@@ -5321,7 +5321,7 @@
 	(gimp_dock_separator_drag_drop): Get rid of the ugly hack where
 	the role of a given separator was based on its position as a child
 	in its container. Simply decide what role the separator has by
-	loooking at its anchor-member.
+	looking at its anchor-member.
 
 	* app/widgets/gimpdock.c (gimp_dock_init)
 	(gimp_dock_add_book): Give the GimpDockSeparators their
