@@ -31,7 +31,7 @@
  *                                                   -- Rockwalrus
  */
 
-/* The history of this implementation is lonog and varied.  It was
+/* The history of this implementation is long and varied.  It was
  * originally done by Spencer and Peter, and worked fine in the 0.54
  * (motif only) release of GIMP.  Later revisions (0.99.something
  * until about 1.1.4) completely changed the algorithm used, until it
