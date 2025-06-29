@@ -327,7 +327,7 @@ Plug-ins:
   - BMP import overhaul (for more details, see informative commit
     messages in !1932 since this MR got mistakenly squashed into a
     single commit):
-    * 8/16/32 bit-per-channel, int or float, are now imported lossessly
+    * 8/16/32 bit-per-channel, int or float, are now imported losslessly
       into the corresponding precision.
     * New support for 2-bit indexed and ALPHABITFIELDS files.
     * More lenient with regards to file header specs.
