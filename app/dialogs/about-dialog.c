@@ -214,7 +214,7 @@ about_dialog_create (Gimp           *gimp,
 #endif
         }
       else
-        g_warning ("%s: ooops, no box in this container?", G_STRLOC);
+        g_warning ("%s: oops, no box in this container?", G_STRLOC);
 
       g_list_free (children);
     }

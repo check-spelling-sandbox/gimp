@@ -4532,10 +4532,10 @@ gimp_image_set_tattoo_state (GimpImage  *image,
         maxval = ltattoo;
 
       if (gimp_image_get_channel_by_tattoo (image, ltattoo))
-        retval = FALSE; /* Oopps duplicated tattoo in channel */
+        retval = FALSE; /* Oops duplicated tattoo in channel */
 
       if (gimp_image_get_path_by_tattoo (image, ltattoo))
-        retval = FALSE; /* Oopps duplicated tattoo in path */
+        retval = FALSE; /* Oops duplicated tattoo in path */
     }
 
   g_list_free (all_items);
@@ -4552,7 +4552,7 @@ gimp_image_set_tattoo_state (GimpImage  *image,
         maxval = ctattoo;
 
       if (gimp_image_get_path_by_tattoo (image, ctattoo))
-        retval = FALSE; /* Oopps duplicated tattoo in path */
+        retval = FALSE; /* Oops duplicated tattoo in path */
     }
 
   g_list_free (all_items);
