@@ -8420,7 +8420,7 @@
 2004-09-07  Michael Natterer  <mitch@gimp.org>
 
 	* app/gui/dialogs.c (toplevel_entries): added a foreign entry
-	"gimp-file-open-loaction-dialog".
+	"gimp-file-open-location-dialog".
 
 	* app/gui/file-open-location-dialog.c: register the dialog
 	with the toplevel dialog factory so it remembers its position.
