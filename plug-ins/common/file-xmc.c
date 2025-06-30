@@ -1295,7 +1295,7 @@ export_image (GFile         *file,
      We leave it NULL here. */
 
   /*
-   *  Now we start to convert each layer to a XcurosrImage one by one.
+   *  Now we start to convert each layer to a XcursorImage one by one.
    */
   for (list = layers, orig_list = orig_layers, i = 0;
        list && orig_list;
