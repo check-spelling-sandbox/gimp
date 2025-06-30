@@ -167,7 +167,7 @@ GimpContext * gimp_context_get_parent        (GimpContext         *context);
 void          gimp_context_set_parent        (GimpContext         *context,
                                               GimpContext         *parent);
 
-/*  define / undefinine context properties
+/*  define / undefine context properties
  *
  *  the value of an undefined property will be taken from the parent context.
  */

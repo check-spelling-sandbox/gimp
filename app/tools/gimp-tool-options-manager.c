@@ -298,7 +298,7 @@ tool_options_manager_global_notify (GimpCoreConfig         *config,
                                       disabled_global_props,
                                       TRUE);
 
-      /*  undefining the newly enabled ones copies the value from the
+      /*  undefine the newly enabled ones copies the value from the
        *  parent user context
        */
       gimp_context_define_properties (GIMP_CONTEXT (tool_info->tool_options),

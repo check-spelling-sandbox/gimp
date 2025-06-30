@@ -1548,7 +1548,7 @@ gimp_context_set_parent (GimpContext *context,
 }
 
 
-/*  define / undefinine context properties  */
+/*  define / undefine context properties  */
 
 void
 gimp_context_define_property (GimpContext         *context,
