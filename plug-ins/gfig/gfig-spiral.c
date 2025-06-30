@@ -86,7 +86,7 @@ d_draw_spiral (GfigObject *obj,
   draw_sqr (&center_pnt->pnt, obj == gfig_context->selected_obj, cr);
 
   /* Next point defines the radius */
-  radius_pnt = center_pnt->next; /* this defines the vetices */
+  radius_pnt = center_pnt->next; /* this defines the vertices */
 
   if (!radius_pnt)
     {
@@ -181,7 +181,7 @@ d_paint_spiral (GfigObject *obj)
 
   /* Go around all the points drawing a line from one to the next */
 
-  radius_pnt = center_pnt->next; /* this defines the vetices */
+  radius_pnt = center_pnt->next; /* this defines the vertices */
 
   /* Have center and radius - get lines */
   shift_x = radius_pnt->pnt.x - center_pnt->pnt.x;

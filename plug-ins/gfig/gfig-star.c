@@ -206,7 +206,7 @@ d_paint_star (GfigObject *obj)
 
   /* Go around all the points drawing a line from one to the next */
   /* Next point defines the radius */
-  outer_radius_pnt = center_pnt->next; /* this defines the vetices */
+  outer_radius_pnt = center_pnt->next; /* this defines the vertices */
 
   if (!outer_radius_pnt)
     {
@@ -218,7 +218,7 @@ d_paint_star (GfigObject *obj)
       return;
     }
 
-  inner_radius_pnt = outer_radius_pnt->next; /* this defines the vetices */
+  inner_radius_pnt = outer_radius_pnt->next; /* this defines the vertices */
 
   if (!inner_radius_pnt)
     {

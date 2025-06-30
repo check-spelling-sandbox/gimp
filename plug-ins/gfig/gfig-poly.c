@@ -178,7 +178,7 @@ d_paint_poly (GfigObject *obj)
 
   /* Go around all the points drawing a line from one to the next */
 
-  radius_pnt = center_pnt->next; /* this defines the vetices */
+  radius_pnt = center_pnt->next; /* this defines the vertices */
 
   /* Have center and radius - get lines */
   shift_x = radius_pnt->pnt.x - center_pnt->pnt.x;
@@ -385,7 +385,7 @@ d_star2lines (GfigObject *obj)
 
   /* Go around all the points creating line points */
   /* Next point defines the radius */
-  outer_radius_pnt = center_pnt->next; /* this defines the vetices */
+  outer_radius_pnt = center_pnt->next; /* this defines the vertices */
 
   if (!outer_radius_pnt)
     {
@@ -395,7 +395,7 @@ d_star2lines (GfigObject *obj)
       return;
     }
 
-  inner_radius_pnt = outer_radius_pnt->next; /* this defines the vetices */
+  inner_radius_pnt = outer_radius_pnt->next; /* this defines the vertices */
 
   if (!inner_radius_pnt)
     {
