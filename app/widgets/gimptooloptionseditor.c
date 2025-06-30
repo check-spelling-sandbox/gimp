@@ -336,7 +336,7 @@ gimp_tool_options_editor_get_title (GimpDocked *docked)
 static gboolean
 gimp_tool_options_editor_get_prefer_icon (GimpDocked *docked)
 {
-  /* We support get_preview() for tab tyles, but we prefer to show our
+  /* We support get_preview() for tab types, but we prefer to show our
    * icon
    */
   return TRUE;
