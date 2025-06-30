@@ -8021,7 +8021,7 @@
 
 	* app/tools/gimppolygonselecttool.c
 	(gimp_polygon_select_tool_button_release): simplify and fix logic
-	to do the "right" thing. Hard to describe, try youself ;)
+	to do the "right" thing. Hard to describe, try yourself ;)
 
 2008-04-14  Sven Neumann  <sven@gimp.org>
 
