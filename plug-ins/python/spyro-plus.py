@@ -760,7 +760,7 @@ class PatternParameters:
 
 # Handle shelving of plugin parameters
 
-def unshelf_parameters():
+def unshelve_parameters():
     # TODO: we'd usually use Gimp.PDB.set_data() but this won't work on
     # introspection bindings. We will need to work on this.
     #if shelf.has_key("p"):
@@ -771,7 +771,7 @@ def unshelf_parameters():
 
 
 def shelf_parameters(pp):
-    # TODO: see unshelf_parameters() which explains why we can't use
+    # TODO: see unshelve_parameters() which explains why we can't use
     # Gimp.PDB.get_data().
     pass
     #shelf["p"] = pp
@@ -1828,7 +1828,7 @@ class SpyroWindow():
         # Remember active layer, so we can restore it when the plugin is done.
         self.active_layer = layer
 
-        self.p = unshelf_parameters()  # Model
+        self.p = unshelve_parameters()  # Model
 
         self.engine = DrawingEngine(img, self.p)
 
@@ -2365,7 +2365,7 @@ class SpyrogimpPlusPlugin(Gimp.PlugIn):
             Gtk.main()
 
         elif run_mode == Gimp.RunMode.WITH_LAST_VALS:
-            pp = unshelf_parameters()
+            pp = unshelve_parameters()
             engine = DrawingEngine(image, pp)
             engine.draw_full(layers[0])
 
