@@ -349,7 +349,7 @@ gui_unique_quartz_init (Gimp *gimp)
   /* Using the event handler is a hack, it is necessary because
    * gtkosx_application will drop the file open events if any
    * event processing is done before gtkosx_application_ready is
-   * called, which we unfortuantly can't avoid doing right now.
+   * called, which we unfortunately can't avoid doing right now.
    */
   event_handler = [[GimpAppleEventHandler alloc] init];
 
