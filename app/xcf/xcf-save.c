@@ -2386,7 +2386,7 @@ xcf_save_level (XcfInfo     *info,
       switch_out_data   = g_malloc (out_data_max_size * XCF_TILE_SAVE_BATCH_SIZE);
 
       /* The free function passed to the queue and thread pool will likely never
-       * be used. It would mean the thread pool is unfinidhed or the result
+       * be used. It would mean the thread pool is unfinished or the result
        * queue still has data which would mean we had to interrupt the save,
        * i.e. there is a bug in our code.
        */
