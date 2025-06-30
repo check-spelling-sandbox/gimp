@@ -1782,7 +1782,7 @@ begin
 	end;
 end;//PrepareGimpEnvironment
 
-//Unistaller info
+//Uninstaller info
 procedure SaveToUninstInf(const pText: AnsiString); forward;
 
 procedure SaveToUninstInf(const pText: AnsiString);
