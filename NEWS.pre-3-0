@@ -2551,7 +2551,7 @@ Plug-ins:
     * Compression slider is disabled for lossless.
   - Screenshot:
     * Remove KDE and GNOME screenshot portal in favor of Freedesktop
-      portal. Security restrictions make them more and more unsuable on
+      portal. Security restrictions make them more and more unusable on
       recent KDE and GNOME versions.
     * Set the "interactive" option to TRUE for the Freedesktop API, so
       that the screenshot options are presented immediately (instead of
