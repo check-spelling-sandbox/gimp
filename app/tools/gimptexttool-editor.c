@@ -1090,9 +1090,9 @@ is_not_whitespace (gunichar ch,
 }
 
 static gboolean
-find_whitepace_region (const GtkTextIter *center,
-                       GtkTextIter       *start,
-                       GtkTextIter       *end)
+find_whitespace_region (const GtkTextIter *center,
+                        GtkTextIter       *start,
+                        GtkTextIter       *end)
 {
   *start = *center;
   *end   = *center;
@@ -1187,7 +1187,7 @@ gimp_text_tool_delete_from_cursor (GimpTextTool  *text_tool,
       break;
 
     case GTK_DELETE_WHITESPACE:
-      find_whitepace_region (&cursor, &cursor, &end);
+      find_whitespace_region (&cursor, &cursor, &end);
       break;
     }
 
