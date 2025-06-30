@@ -35,7 +35,7 @@
 	* app/tools/gimpcurvestool.c: Kill some nonsensical code that
 	tried to set control points in a free form curve based on the
 	image coordinates (huh?). Update the Graph after adding a point.
-	Untabbified.
+	Untabified.
 
 2004-12-17  Sven Neumann  <sven@gimp.org>
 
@@ -2328,7 +2328,7 @@
 
 	* app/core/gimpimage-merge.c: Return the active layer instead of
 	the bottom layer when just merging down a floating selection.
-	Untabbified.
+	Untabified.
 
 	Fixes bug #158130.
 
@@ -4022,7 +4022,7 @@
 2004-10-25  Simon Budig  <simon@gimp.org>
 
 	* app/tools/gimpvectortool.c: Switch to design mode when
-	Escape gets pressed. Untabbified.
+	Escape gets pressed. Untabified.
 
 2004-10-25  Michael Natterer  <mitch@gimp.org>
 
@@ -5527,9 +5527,9 @@
 2004-10-07  Simon Budig  <simon@gimp.org>
 
 	* app/actions/view-commands.c: fill in the formula...  :-)
-	untabbified.
+	untabified.
 
-	* app/display/gimpdisplayshell-scale.c: Micro-Cleanup, untabbified.
+	* app/display/gimpdisplayshell-scale.c: Micro-Cleanup, untabified.
 
 2004-10-07  Michael Natterer  <mitch@gimp.org>
 
@@ -7690,7 +7690,7 @@
 
 	* libgimpwidgets/gimpcolorhexentry.c: Removed check for len % 3 == 0,
 	so that the entry accepts hex colors starting with "#" again.
-	Untabbified.
+	Untabified.
 
 2004-09-18  Manish Singh  <yosh@gimp.org>
 
