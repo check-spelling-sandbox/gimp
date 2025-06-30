@@ -5691,7 +5691,7 @@
 	Bug 555362 – gimp-remote is not working properly
 
 	* app/widgets/gimptoolbox-dnd.c (gimp_toolbox_dnd_init): add the
-	window itself as drop traget again so gimp-remote works.
+	window itself as drop target again so gimp-remote works.
 
 2008-10-07  Michael Natterer  <mitch@gimp.org>
 
