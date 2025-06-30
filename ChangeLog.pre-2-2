@@ -18342,7 +18342,7 @@
 	gimp_plugin_menu_register(). Matches the internal action system
 	better and makes translating the menu paths much easier.
 
-	(Of yourse it's still possible to use the old syntax for backward
+	(Of course it's still possible to use the old syntax for backward
 	compatibility).
 
 	* app/plug-in/plug-in-proc.[ch]: added "gchar *menu_label".
