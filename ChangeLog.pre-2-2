@@ -6245,7 +6245,7 @@
 
 	* plug-ins/pygimp/plug-ins/gimpplugin.py
 	* plug-ins/pygimp/plug-ins/gimpshelf.py
-	* plug-ins/pygimp/plug-ins/gimpui.py: Untabbify.
+	* plug-ins/pygimp/plug-ins/gimpui.py: Untabify.
 
 2004-09-29  Manish Singh  <yosh@gimp.org>
 
@@ -6259,7 +6259,7 @@
 	* plug-ins/pygimp/plug-ins/pdbbrowse.py
 	* plug-ins/pygimp/plug-ins/shadow_bevel.py
 	* plug-ins/pygimp/plug-ins/sphere.py
-	* plug-ins/pygimp/plug-ins/whirlpinch.py: Untabbify.
+	* plug-ins/pygimp/plug-ins/whirlpinch.py: Untabify.
 
 2004-09-29  Sven Neumann  <sven@gimp.org>
 
