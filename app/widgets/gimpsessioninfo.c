@@ -627,7 +627,7 @@ gimp_session_info_restore (GimpSessionInfo   *info,
    * callback.
    */
 
-  /* Objects are unreffed again in the callback */
+  /* Objects are unrefed again in the callback */
   data = g_slice_new0 (GimpRestoreDocksData);
   data->info    = g_object_ref (info);
   data->factory = g_object_ref (factory);

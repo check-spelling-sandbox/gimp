@@ -764,7 +764,7 @@ gfig_style_set_style_from_context (Style *style)
   /* FIXME: issues of ownership.
    * A resource is a pointer to an object.
    * We own each resource object returned by gimp_context_get_<resource> and should unref it.
-   * Here this is possibly overwriting a reference that should be unreffed.
+   * Here this is possibly overwriting a reference that should be unrefed.
    * Also, this is copying a reference, so we should ref the object.
    *
    * For now, its just a plugin, we don't care much about leaks.

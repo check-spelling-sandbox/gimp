@@ -580,7 +580,7 @@ script_fu_script_param_init (SFScript             *script,
 
       g_value_init (&value, pspec->value_type);
       g_object_get_property (G_OBJECT (config), pspec->name, &value);
-      /* When value is object, must be unreffed. */
+      /* When value is object, must be unrefed. */
 
       switch (type)
         {

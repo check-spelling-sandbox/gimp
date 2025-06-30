@@ -367,7 +367,7 @@ gimp_file_proc_view_selection_changed (GtkTreeSelection *selection,
  *
  * Creates a #GtkFileFilter of @file_proc and adds the extensions to
  * the @all filter.
- * The returned #GtkFileFilter has a normal ref and must be unreffed
+ * The returned #GtkFileFilter has a normal ref and must be unrefed
  * when used.
  **/
 static GtkFileFilter *

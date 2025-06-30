@@ -148,7 +148,7 @@ public class Goat : Gimp.PlugIn {
       var buffer = drawable.get_buffer();
       var shadow_buffer = drawable.get_shadow_buffer();
       Gegl.render_op(buffer, shadow_buffer, "gegl:invert", null);
-      // We don't need this line, since shadow_buffer is unreffed
+      // We don't need this line, since shadow_buffer is unrefed
       // at the end of this block.
       // No block? Then you still need to uncomment the following line
       // shadow_buffer.flush();
