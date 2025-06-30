@@ -1679,7 +1679,7 @@ gimp_display_shell_start_scrolling (GimpDisplayShell *shell,
   if (mod_action == GIMP_MODIFIER_ACTION_NONE && shell->space_release_pending)
     {
       /* XXX The space actions are still hard-coded (instead of
-       * customizable throguh GimpModifiersManager). It might be
+       * customizable through GimpModifiersManager). It might be
        * interesting to make them customizable later.
        */
       GdkModifierType state = 0;
