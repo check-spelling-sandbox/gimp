@@ -79,7 +79,7 @@ gimp_drawable_get_by_id (gint32 drawable_id)
  * @height:   the requested thumbnail height (<= 1024 pixels)
  * @actual_width: (out): the resulting thumbnail's actual width
  * @actual_height: (out): the resulting thumbnail's actual height
- * @bpp: (out): the bytes per pixel of the returned thubmnail data
+ * @bpp: (out): the bytes per pixel of the returned thumbnail data
  *
  * Retrieves thumbnail data for the drawable identified by @drawable.
  * The thumbnail will be not larger than the requested size.

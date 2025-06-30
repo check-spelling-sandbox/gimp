@@ -71,7 +71,7 @@ typedef struct _GimpPalette              GimpPalette;
  * @GIMP_PIXBUF_SMALL_CHECKS: Show transparency as small checks
  * @GIMP_PIXBUF_LARGE_CHECKS: Show transparency as large checks
  *
- * How to deal with transparency when creating thubnail pixbufs from
+ * How to deal with transparency when creating thumbnail pixbufs from
  * images and drawables.
  **/
 typedef enum

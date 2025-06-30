@@ -1192,7 +1192,7 @@ register_drawable_procs (GimpPDB *pdb)
   gimp_procedure_set_static_help (procedure,
                                   "Returns the drawable's thumbnail Babl format",
                                   "This procedure returns the drawable's thumbnail Babl format.\n"
-                                  "Thumbnails are always 8-bit images, see 'gimp-drawable-thumbnail' and 'gimp-drawable-sub-thmbnail'.",
+                                  "Thumbnails are always 8-bit images, see 'gimp-drawable-thumbnail' and 'gimp-drawable-sub-thumbnail'.",
                                   NULL);
   gimp_procedure_set_static_attribution (procedure,
                                          "Michael Natterer <mitch@gimp.org>",

@@ -612,7 +612,7 @@ sub drawable_get_thumbnail_format {
 This procedure returns the drawable's thumbnail Babl format.
 
 Thumbnails are always 8-bit images, see gimp_drawable_thumbnail() and
-gimp_drawable_sub_thmbnail().
+gimp_drawable_sub_thumbnail().
 HELP
 
     &mitch_pdb_misc('2019', '2.10.14');

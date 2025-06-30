@@ -84,7 +84,7 @@ _gimp_drawable_get_format (GimpDrawable *drawable)
  *
  * This procedure returns the drawable's thumbnail Babl format.
  * Thumbnails are always 8-bit images, see gimp_drawable_thumbnail()
- * and gimp_drawable_sub_thmbnail().
+ * and gimp_drawable_sub_thumbnail().
  *
  * Returns: (transfer full): The drawable's thumbnail Babl format.
  *          The returned value must be freed with g_free().
