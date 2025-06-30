@@ -217,7 +217,7 @@ parasites. This file will be rewritten every time you quit GIMP.
 
 @manpage_gimpdir@/sessionrc - This file takes session-specific info
 (that is info, you want to keep between two GIMP sessions). You are
-not supposed to edit it manually, but of course you can do. This file
+not supposed to edit it manually, but of course you can. This file
 will be entirely rewritten every time you quit GIMP. If this file
 isn't found, defaults are used.
 
@@ -233,7 +233,7 @@ used.
 
 @manpage_gimpdir@/unitrc - This file contains your user unit
 database. You can modify this list with the unit editor. You are not
-supposed to edit it manually, but of course you can do.  This file
+supposed to edit it manually, but of course you can.  This file
 will be entirely rewritten every time you quit GIMP.
 
 @manpage_gimpdir@/plug-ins - location of user installed plug-ins.

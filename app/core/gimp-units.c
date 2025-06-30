@@ -216,7 +216,7 @@ gimp_unitrc_save (Gimp *gimp)
                                       "This file contains the user unit database. "
                                       "You can edit this list with the unit "
                                       "editor. You are not supposed to edit it "
-                                      "manually, but of course you can do.\n"
+                                      "manually, but of course you can.\n"
                                       "This file will be entirely rewritten each "
                                       "time you exit.",
                                       NULL);

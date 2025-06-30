@@ -153,7 +153,7 @@ modifiers_save (Gimp     *gimp,
                                  "GIMP modifiersrc\n\n"
                                  "This file stores modifiers configuration. "
                                  "You are not supposed to edit it manually, "
-                                 "but of course you can do. The modifiersrc "
+                                 "but of course you can. The modifiersrc "
                                  "will be entirely rewritten every time you "
                                  "quit GIMP. If this file isn't found, "
                                  "defaults are used.",
