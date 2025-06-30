@@ -13236,7 +13236,7 @@
 	* app/widgets/gimpfontselect.[ch]: ...and added here as a
 	hierarchy of widgets.
 
-	* app/widgets/gimpdatafactoryview.h: removed typdef
+	* app/widgets/gimpdatafactoryview.h: removed typedef
 	GimpDataEditFunc, it's in widgets-types.h now.
 
 	* app/gui/convert-dialog.c: changed accordingly.
