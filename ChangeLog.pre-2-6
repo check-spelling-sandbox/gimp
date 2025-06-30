@@ -5265,7 +5265,7 @@
 
 2008-06-20  Michael Natterer  <mitch@gimp.org>
 
-	Latest GTK+ trunk deprecations showed some uglyness in gimp:
+	Latest GTK+ trunk deprecations showed some ugliness in gimp:
 
 	* app/tools/gimpeditselectiontool.h: we were still using GTK_CHECK
 	macros here, use proper G_TYPE type checking instead.

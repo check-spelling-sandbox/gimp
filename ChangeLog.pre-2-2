@@ -4425,7 +4425,7 @@
 	dialog. The actions have no menu entries but can be called via
 	shortcuts. Fixes bug #135746.
 
-	(Disclaimer: the uglyness of the callbacks shows the need for a
+	(Disclaimer: the ugliness of the callbacks shows the need for a
 	stroke API overhaul).
 
 2004-10-20  Michael Natterer  <mitch@gimp.org>
@@ -6860,7 +6860,7 @@
 	* app/widgets/gimpselectioneditor.[ch]: removed redundant "gimage"
 	parameters from public constructors. They are all GimpImageEditor
 	widgets which get their image via gimp_docked_set_context() and
-	gimp_image_editor_set_image() later anyway. Fixes uglyness as well
+	gimp_image_editor_set_image() later anyway. Fixes ugliness as well
 	as problems where the editors had an image but no context, causing
 	strange behavior in their foo_actions_update() functions.
 
@@ -19405,7 +19405,7 @@
 	plug_in_menus_create2().
 
 	* app/gui/gui-vtable.c (gui_menus_create_entry)
-	(gui_menus_delete_entry): added some uglyness which maps old <Prefix>
+	(gui_menus_delete_entry): added some ugliness which maps old <Prefix>
 	menu identifiers to new-style UI manager plus ui_path tuples and
 	call plug_in_menus_add,remove_proc() accordingly.
 
