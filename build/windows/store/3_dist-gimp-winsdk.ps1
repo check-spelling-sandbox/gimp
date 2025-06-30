@@ -285,7 +285,7 @@ foreach ($bundle in $supported_archs)
             Add-Content "$vfs\share\gimp\*\gimp-release" 'check-update=false'
           }
 
-        ## Remove uneeded files (to match the Inno Windows Installer artifact)
+        ## Remove unneeded files (to match the Inno Windows Installer artifact)
         Get-ChildItem "$vfs" -Recurse -Include (".gitignore", "gimp.cmd") | Remove-Item -Recurse
 
 
