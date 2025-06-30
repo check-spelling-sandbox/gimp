@@ -318,7 +318,7 @@ Overview of Changes in GIMP 1.3.21
 - Stroke paths using libart [Simon, Bolsh, Mitch, Sven, Ville]
 - Better looking and more accessible dockables [Mitch, Sven]
 - Fixes for right-to-left rendering [Sven, Mitch]
-- Rewritten webbroswer plug-in [Brix]
+- Rewritten webbrowser plug-in [Brix]
 - Much improved path tool [Simon, Mitch]
 - Export GIMP paths to SVG [Sven, Simon]
 - Import SVG paths as GIMP paths [Sven, Simon]
