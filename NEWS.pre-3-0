@@ -620,7 +620,7 @@ Plug-ins:
     window (even across process).
   - file-raw-data can now be run interactively.
   - The lua binding is now marked experimental because of the too many
-    unstabilities we experienced.
+    instabilities we experienced.
   - Script-fu:
     * resource argument defaults are set as a string which is
       the name of a resource, or the empty string or "from context" to
