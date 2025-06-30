@@ -9952,7 +9952,7 @@
 2008-03-21  Michael Natterer  <mitch@gimp.org>
 
 	* app/widgets/gimpdock.h (struct GimpDock): added member "ID"
-	for themeing.
+	for theming.
 
 	* app/widgets/gimpdock.c (gimp_dock_init): assign unique IDs
 	and set unique widget names based on the ID.
