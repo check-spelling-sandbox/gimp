@@ -2244,7 +2244,7 @@ Fri Jan  9 01:15:51 PST 1998 Manish Singh <yosh@gimp.org>
 	* plug-ins/refract/refmain.c: fixed megawidget reference
 
 	* plug-ins/xpm/xpm.c: made our own case-insenstive strcmp
-	for checking for transperancy
+	for checking for transparency
 
 Tue Jan  6 14:17:02 PST 1998 Manish Singh <yosh@gimp.org>
 
@@ -2510,7 +2510,7 @@ Sun Dec  7 17:05:32 PST 1997  Manish Singh <yosh@gimp.org>
 
 	* added Sven Neumann's patch to the scale and resize dialogs for		ratio input fields (app/resize.h, app/resize.c)
 
-	* added Raph Levien's patch for the transperancy blur problem
+	* added Raph Levien's patch for the transparency blur problem
 	(app/convolve.c, app/gimage.h, app/gimage.c, paint_core.h,
 	paint_core.c, paint_funcs.h, paint_funcs.c)
 

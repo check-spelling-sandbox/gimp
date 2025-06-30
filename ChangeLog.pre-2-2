@@ -8620,7 +8620,7 @@
 	* libgimpbase/gimpprotocol.c (_gp_config_read,write): changed
 	accordingly to pass the new stuff over the wire.
 
-	* app/plug-in/plug-in-run.c: ditto. Pass the transpareny values
+	* app/plug-in/plug-in-run.c: ditto. Pass the transparency values
 	from GimpDisplayConfig to plug-ins.
 
 	* libgimp/gimp.[ch] (gimp_config): remember the new config values.
