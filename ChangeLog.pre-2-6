@@ -6032,7 +6032,7 @@
 	specific ones.
 
 	(gimp_free_select_tool_delegate_button_press): New helper function
-	to decide wether to delgate operation to the selection tool.
+	to decide whether to delgate operation to the selection tool.
 
 	(gimp_free_select_tool_button_press): Handle delegation to the
 	selection tool.

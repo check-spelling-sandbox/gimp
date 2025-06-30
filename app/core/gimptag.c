@@ -285,7 +285,7 @@ gimp_tag_compare_with_string (GimpTag     *tag,
  * gimp_tag_compare_with_string(), but does not work on the collate key
  * because that can't be matched partially.
  *
- * Returns: wheher #tag starts with @prefix_string.
+ * Returns: whether #tag starts with @prefix_string.
  **/
 gboolean
 gimp_tag_has_prefix (GimpTag     *tag,
