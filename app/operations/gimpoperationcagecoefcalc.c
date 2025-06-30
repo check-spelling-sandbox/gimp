@@ -267,7 +267,7 @@ gimp_operation_cage_coef_calc_process (GeglOperation       *operation,
                       coef[j + n_cage_vertices] = 0.0;
                     }
 
-                  /* vertice coef */
+                  /* vertex coef */
                   if (!gimp_operation_cage_coef_calc_is_on_straight (&v1, &v2, &p))
                     {
                       coef[j] += (BA / (2.0 * G_PI)) * (L10 /(2.0*Q) - A10 * (2.0 + R / Q));

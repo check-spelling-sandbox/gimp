@@ -86,7 +86,7 @@ d_draw_poly (GfigObject *obj,
   if (!radius_pnt)
     {
 #ifdef DEBUG
-      g_warning ("Internal error in polygon - no vertice point \n");
+      g_warning ("Internal error in polygon - no vertex point \n");
 #endif /* DEBUG */
       return;
     }
@@ -390,7 +390,7 @@ d_star2lines (GfigObject *obj)
   if (!outer_radius_pnt)
     {
 #ifdef DEBUG
-      g_warning ("Internal error in star - no outer vertice point \n");
+      g_warning ("Internal error in star - no outer vertex point \n");
 #endif /* DEBUG */
       return;
     }
@@ -400,7 +400,7 @@ d_star2lines (GfigObject *obj)
   if (!inner_radius_pnt)
     {
 #ifdef DEBUG
-      g_warning ("Internal error in star - no inner vertice point \n");
+      g_warning ("Internal error in star - no inner vertex point \n");
 #endif /* DEBUG */
       return;
     }

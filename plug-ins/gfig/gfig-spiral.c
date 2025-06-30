@@ -91,7 +91,7 @@ d_draw_spiral (GfigObject *obj,
   if (!radius_pnt)
     {
 #ifdef DEBUG
-      g_warning ("Internal error in spiral - no vertice point \n");
+      g_warning ("Internal error in spiral - no vertex point \n");
 #endif /* DEBUG */
       return;
     }

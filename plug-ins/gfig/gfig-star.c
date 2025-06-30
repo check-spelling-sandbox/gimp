@@ -211,7 +211,7 @@ d_paint_star (GfigObject *obj)
   if (!outer_radius_pnt)
     {
 #ifdef DEBUG
-      g_warning ("Internal error in star - no outer vertice point \n");
+      g_warning ("Internal error in star - no outer vertex point \n");
 #endif /* DEBUG */
       g_free (line_pnts);
       g_free (min_max);
@@ -223,7 +223,7 @@ d_paint_star (GfigObject *obj)
   if (!inner_radius_pnt)
     {
 #ifdef DEBUG
-      g_warning ("Internal error in star - no inner vertice point \n");
+      g_warning ("Internal error in star - no inner vertex point \n");
 #endif /* DEBUG */
       g_free (line_pnts);
       g_free (min_max);
