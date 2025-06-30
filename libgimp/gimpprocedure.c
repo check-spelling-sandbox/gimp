@@ -806,7 +806,7 @@ gimp_procedure_get_image_types (GimpProcedure *procedure)
  *
  * Note that it will be used by the core to determine whether to show a
  * procedure as sensitive (hence forbid running it otherwise), yet it
- * will not forbid thid-party plug-ins for instance to run manually your
+ * will not forbid third-party plug-ins for instance to run manually your
  * registered procedure. Therefore you should still handle non-supported
  * cases appropriately by returning with %GIMP_PDB_EXECUTION_ERROR and a
  * suitable error message.
