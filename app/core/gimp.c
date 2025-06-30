@@ -830,7 +830,7 @@ gimp_initialize (Gimp               *gimp,
 /**
  * gimp_restore:
  * @gimp: a #Gimp object
- * @error: a #GError for uncessful loading.
+ * @error: a #GError for failed loading.
  *
  * This function always succeeds. If present, @error may be filled for
  * possible feedback on data which failed to load. It doesn't imply any
