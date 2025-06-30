@@ -51,7 +51,7 @@ struct _Selection
 
   guint             index;            /*  index of current stipple pattern  */
   gint              paused;           /*  count of pause requests           */
-  gboolean          shell_visible;    /*  visility of the display shell     */
+  gboolean          shell_visible;    /*  visibility of the display shell     */
   gboolean          show_selection;   /*  is the selection visible?         */
   guint             timeout;          /*  timer for successive draws        */
   cairo_pattern_t  *segs_in_mask;     /*  cache for rendered segments       */
