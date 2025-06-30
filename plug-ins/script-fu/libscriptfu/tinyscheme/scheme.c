@@ -89,7 +89,7 @@ ts_is_output_redirected (void)
  * When called when the script did not return an error flag,
  * returns "Unknown error"
  *
- * Returned string is transfered, owned by the caller and must be freed.
+ * Returned string is transferred, owned by the caller and must be freed.
  */
 const gchar*
 ts_get_error_string (scheme *sc)

@@ -587,7 +587,7 @@ server_start (const gchar *listen_ip,
  * Returns whether the script had an error.
  *
  * Also creates a GString at the handle script_stdout.
- * Ownership is transfered, and caller must free.
+ * Ownership is transferred, and caller must free.
  *
  * The returned script_stdout is either:
  *  - when no error, what the script writes to stdout
