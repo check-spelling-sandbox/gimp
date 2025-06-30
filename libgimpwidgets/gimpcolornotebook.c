@@ -65,9 +65,10 @@ struct _GimpColorNotebook
 
 static void   gimp_color_notebook_style_updated   (GtkWidget         *widget);
 
-static void   gimp_color_notebook_togg_visible    (GimpColorSelector *selector,
+static void   gimp_color_notebook_toggle_visible  (GimpColorSelector *selector,
                                                    gboolean           visible);
-static void   gimp_color_notebook_togg_sensitive  (GimpColorSelector *selector,
+static void   gimp_color_notebook_toggle_sensitive
+                                                  (GimpColorSelector *selector,
                                                    gboolean           sensitive);
 static void   gimp_color_notebook_set_show_alpha  (GimpColorSelector *selector,
                                                    gboolean           show_alpha);
@@ -122,8 +123,8 @@ gimp_color_notebook_class_init (GimpColorNotebookClass *klass)
 
   selector_class->name                  = "Notebook";
   selector_class->help_id               = "gimp-colorselector-notebook";
-  selector_class->set_toggles_visible   = gimp_color_notebook_togg_visible;
-  selector_class->set_toggles_sensitive = gimp_color_notebook_togg_sensitive;
+  selector_class->set_toggles_visible   = gimp_color_notebook_toggle_visible;
+  selector_class->set_toggles_sensitive = gimp_color_notebook_toggle_sensitive;
   selector_class->set_show_alpha        = gimp_color_notebook_set_show_alpha;
   selector_class->set_color             = gimp_color_notebook_set_color;
   selector_class->set_channel           = gimp_color_notebook_set_channel;
@@ -216,8 +217,8 @@ gimp_color_notebook_style_updated (GtkWidget *widget)
 }
 
 static void
-gimp_color_notebook_togg_visible (GimpColorSelector *selector,
-                                  gboolean           visible)
+gimp_color_notebook_toggle_visible (GimpColorSelector *selector,
+                                    gboolean           visible)
 {
   GimpColorNotebook *notebook = GIMP_COLOR_NOTEBOOK (selector);
   GList             *list;
@@ -231,8 +232,8 @@ gimp_color_notebook_togg_visible (GimpColorSelector *selector,
 }
 
 static void
-gimp_color_notebook_togg_sensitive (GimpColorSelector *selector,
-                                    gboolean           sensitive)
+gimp_color_notebook_toggle_sensitive (GimpColorSelector *selector,
+                                      gboolean           sensitive)
 {
   GimpColorNotebook *notebook = GIMP_COLOR_NOTEBOOK (selector);
   GList             *list;
