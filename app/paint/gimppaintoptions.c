@@ -476,7 +476,7 @@ gimp_paint_options_class_init (GimpPaintOptionsClass *klass)
                            _("Weight"),
                            _("Gravity of the pen"),
                            /* Max velocity is set to 3; allowing for
-                            * smoothing factor to be less than velcoty
+                            * smoothing factor to be less than velocity
                             * results in numeric instablility
                             */
                            3.0, 1000.0, DEFAULT_SMOOTHING_FACTOR,
