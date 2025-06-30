@@ -6241,7 +6241,7 @@
 
 	* plug-ins/pygimp/plug-ins/gimpfu.py: applied slightly tweaked patch
 	from Joao S. O. Bueno, which adds a mutliline text field (PF_TEXT) and
-	untabbifies things. Closes bug #153921.
+	untabifies things. Closes bug #153921.
 
 	* plug-ins/pygimp/plug-ins/gimpplugin.py
 	* plug-ins/pygimp/plug-ins/gimpshelf.py
