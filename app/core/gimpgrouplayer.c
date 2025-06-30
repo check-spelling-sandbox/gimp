@@ -1231,7 +1231,7 @@ gimp_group_layer_get_bounding_box (GimpLayer *layer)
    * of the source-node's bounding box, since we don't update the bounding box
    * on all events that may affect the latter, and since it includes the
    * bounding box of the backdrop.  this means we can't attach filters that may
-   * affect the bounding box to a pass-through group (since their effect weon't
+   * affect the bounding box to a pass-through group (since their effect won't
    * be reflected by the group's bounding box), but attaching filters to pass-
    * through groups makes little sense anyway.
    */
