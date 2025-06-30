@@ -143,7 +143,7 @@ static void       simplify_subdivide  (const GimpBoundSeg  *segs,
  * @num_segs:  number of returned #GimpBoundSeg's
  *
  * This function returns an array of #GimpBoundSeg's which describe all
- * outlines along pixel value @threahold, optionally within specified
+ * outlines along pixel value @threshold, optionally within specified
  * bounds instead of the whole region.
  *
  * The @maskPR parameter can be any PixelRegion.  If the region has
